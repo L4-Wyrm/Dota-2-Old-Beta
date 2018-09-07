@@ -119,6 +119,7 @@ workshop/*
 *.tmp
 *.unused
 *.vmf
+materials/models/*.tga
 
 # Files
 desktop.ini
