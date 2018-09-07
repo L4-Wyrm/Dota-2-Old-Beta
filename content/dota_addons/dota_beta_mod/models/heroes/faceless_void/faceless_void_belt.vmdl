@@ -1,0 +1,421 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CVModel"
+	m_meshList =
+	{
+		_class = "CVmeshList"
+		m_meshList =
+		[
+			{
+				_class = "CVmesh"
+				m_meshName = "faceless_void_belt_reference"
+				m_meshFile = "models/heroes/faceless_void/src_belt/faceless_void_belt_reference.smd"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bExpensiveVertices = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+		]
+	}
+	m_clothProxyMeshList =
+	{
+		_class = "CVClothProxyMeshList"
+		m_flClothEnableThreshold = 0.050000
+		m_bCreateStaticBone = false
+		m_nMaxBonesPerVertex = 4
+		m_bRemoveUnusedBonesEnabled = false
+		m_bDriveMeshesWithBacksolvedJointsOnly = true
+		m_flMatchProxiesToMeshes = 1.000000
+		m_flReservedFloat = 0.000000
+		m_nReservedInt = 0
+		m_bReservedBool1 = false
+		m_bReservedBool2 = false
+		m_bReservedBool3 = false
+		m_bReservedBool4 = false
+		m_clothProxyMeshList =
+		[
+		]
+	}
+	m_physicsMeshList =
+	{
+		_class = "CVphysicsMeshList"
+		m_meshList =
+		[
+		]
+	}
+	m_pModelInfo = null
+	m_pBoneFlagList =
+	{
+		_class = "CVBoneFlagListReference"
+		m_pObject = null
+	}
+	m_pHitBoxSetLists =
+	[
+		{
+			_class = "CVhitBoxSetListReference"
+			m_pObject =
+			{
+				_class = "CVhitBoxSetList"
+				m_HitBoxSets =
+				[
+					{
+						_class = "CVhitBoxSet"
+						m_name = "default"
+						m_HitBoxes =
+						[
+							{
+								_class = "CVhitBox"
+								m_name = "Root_0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Root_0"
+								m_vMinBounds =
+								[
+									-17.284397,
+									-25.970469,
+									-29.546886,
+								]
+								m_vMaxBounds =
+								[
+									20.271122,
+									26.276827,
+									12.281326,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+							{
+								_class = "CVhitBox"
+								m_name = "Cloth_R0C0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Cloth_R0C0"
+								m_vMinBounds =
+								[
+									-1.735153,
+									-8.203587,
+									-2.127197,
+								]
+								m_vMaxBounds =
+								[
+									15.533394,
+									0.000005,
+									0.000003,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+							{
+								_class = "CVhitBox"
+								m_name = "Cloth_R1C0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Cloth_R1C0"
+								m_vMinBounds =
+								[
+									9.216888,
+									-7.925457,
+									-26.165997,
+								]
+								m_vMaxBounds =
+								[
+									18.061653,
+									13.266508,
+									0.372469,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+							{
+								_class = "CVhitBox"
+								m_name = "quadThigh_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "quadThigh_R"
+								m_vMinBounds =
+								[
+									-22.672997,
+									-12.108070,
+									-13.163660,
+								]
+								m_vMaxBounds =
+								[
+									6.870773,
+									36.126751,
+									12.224888,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+							{
+								_class = "CVhitBox"
+								m_name = "quadThigh_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "quadThigh_L"
+								m_vMinBounds =
+								[
+									-6.870750,
+									-35.947758,
+									-11.938797,
+								]
+								m_vMaxBounds =
+								[
+									28.096313,
+									12.108074,
+									13.289764,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+							{
+								_class = "CVhitBox"
+								m_name = "Cloth_R2C0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Cloth_R2C0"
+								m_vMinBounds =
+								[
+									4.857628,
+									-7.688305,
+									-25.744604,
+								]
+								m_vMaxBounds =
+								[
+									13.919716,
+									13.266506,
+									2.222210,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+							{
+								_class = "CVhitBox"
+								m_name = "Spine_0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Spine_0"
+								m_vMinBounds =
+								[
+									-19.155571,
+									-13.822991,
+									-13.580149,
+								]
+								m_vMaxBounds =
+								[
+									-1.794121,
+									13.823003,
+									-5.475817,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+							{
+								_class = "CVhitBox"
+								m_name = "quadKnee_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "quadKnee_R"
+								m_vMinBounds =
+								[
+									-26.614822,
+									-19.782598,
+									-45.252075,
+								]
+								m_vMaxBounds =
+								[
+									-9.968680,
+									-6.298883,
+									-27.054840,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+							{
+								_class = "CVhitBox"
+								m_name = "Cloth_R3C0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Cloth_R3C0"
+								m_vMinBounds =
+								[
+									4.727207,
+									-6.675342,
+									-2.232404,
+								]
+								m_vMaxBounds =
+								[
+									14.001591,
+									9.738185,
+									1.312586,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+							{
+								_class = "CVhitBox"
+								m_name = "quadKnee_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "quadKnee_L"
+								m_vMinBounds =
+								[
+									9.710224,
+									5.258717,
+									27.189487,
+								]
+								m_vMaxBounds =
+								[
+									23.832996,
+									19.227882,
+									45.267262,
+								]
+								m_bTranslationOnly = false
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists =
+	[
+	]
+	m_pAnimGroup =
+	{
+		_class = "CVanimGroupReference"
+		m_pObject = null
+	}
+	m_pMaterialGroupList =
+	{
+		_class = "CVNodeMaterialGroupListReference"
+		m_pObject = null
+	}
+	m_pMeshGroupList =
+	{
+		_class = "CVMeshGroupListReference"
+		m_pObject = null
+	}
+	m_pLodGroupList =
+	{
+		_class = "CVLODGroupListReference"
+		m_pObject = null
+	}
+	m_pPropBreakableList =
+	{
+		_class = "CVpropBreakableListReference"
+		m_pObject = null
+	}
+	m_pPropDataList =
+	{
+		_class = "CVpropDataListReference"
+		m_pObject = null
+	}
+	m_pConstraintLists =
+	[
+	]
+	m_collision = ""
+	m_softbody = ""
+	m_sMDLFilename = ""
+	m_sOffsetHitboxSets =
+	[
+	]
+	m_vHitboxSetOffset =
+	[
+		0.000000,
+		0.000000,
+		0.000000,
+	]
+	m_scriptFiles =
+	[
+	]
+	m_pMaterialRemapList = null
+	m_flFbxScale = 1.000000
+	m_flQCScale = 1.000000
+	m_vOrigin =
+	[
+		0.000000,
+		0.000000,
+		0.000000,
+	]
+	m_pPsfList = null
+	m_keyValueText = ""
+	m_bStaticProp = false
+	m_bEnableClothProcessing = true
+	m_flClothEnableThreshold = 0.050000
+	m_nMaxClothVertsPerMesh = 2048
+	m_bBuildClothBoneHierarchy = false
+	m_nNavType = "AUTH_NAV_MESH"
+	m_bMakeUniqueVMeshes = true
+	m_bMakeImplicitBindPoseSequence = false
+	m_bAdjustSkeletonFromBoneFlags = false
+	m_pAnimGroups =
+	[
+	]
+}

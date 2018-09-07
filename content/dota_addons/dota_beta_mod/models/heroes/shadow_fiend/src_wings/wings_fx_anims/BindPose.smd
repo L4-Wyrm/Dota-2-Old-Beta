@@ -1,0 +1,9 @@
+// Created by Crowbar 0.33.0.0
+version 1
+nodes
+  0 "Root0_JNT" -1
+end
+skeleton
+  time 0
+    0 0.000000 -7.207031 93.875000 1.570784 -1.352340 -4.712374
+end

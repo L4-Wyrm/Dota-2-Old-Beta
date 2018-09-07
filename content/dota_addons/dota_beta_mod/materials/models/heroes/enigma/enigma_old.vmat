@@ -1,0 +1,133 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "hero.vfx"
+
+	//---- Detail ----
+	F_DETAIL 2 // Add Self Illum
+
+	//---- Effect Proxies ----
+	F_USE_STATUS_EFFECTS_PROXY 1
+
+	//---- Masks ----
+	F_MASKS_1 1
+	F_MASKS_2 1
+
+	//---- Morph ----
+	F_MORPH_SUPPORTED 1
+
+	//---- Specular ----
+	F_SPECULAR_CUBE_MAP 1
+
+	//---- Blend To Full ----
+	g_flDetailBlendToFull "0.000"
+	g_flEnvMapBlendToFull "0.000"
+	g_flMetalnessBlendToFull "0.000"
+	g_flReflectionsTintByBaseBlendToNone "0.000"
+	g_flSelfIllumBlendToFull "0.000"
+	g_flSpecularBlendToFull "0.000"
+	g_flSpecularExponentBlendToFull "0.000"
+
+	//---- Cloak ----
+	g_flCloakBlurAmount "0.005"
+	g_flCloakIntensity "0.850"
+	g_flCloakRefractAmount "0.100"
+	g_flMaterialCloakFactor "0.000"
+	g_vCloakColorTint "[1.000 1.000 1.000]"
+
+	//---- Color ----
+	g_flDiffuseModulationAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/models/heroes/enigma/src/enigma_color.tga"
+
+	//---- Detail 1 ----
+	g_flDetailBlendFactor "1.000"
+	g_flDetailTexCoordRotation "0.000"
+	g_vDetail1ColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vDetailTexCoordOffset "[0.000 0.000]"
+	g_vDetailTexCoordScale "[1.000 1.000]"
+	TextureDetail "materials/models/heroes/enigma/src/enigma_motion.tga"
+
+	//---- Detail 2 ----
+	g_flDetail2BlendFactor "0.000"
+	TextureDetail2 "materials/default/default_detail2.tga"
+
+	//---- Fresnel ----
+	g_flFresnelModulatesAlpha "0.000"
+	TextureFresnelWarpColor "materials/models/heroes/enigma/src/enigma_fresnelranges.tga"
+	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
+	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
+
+	//---- Lighting ----
+	g_flAmbientScale "1.000"
+	g_flBloomScale "0.000"
+	g_flBloomShift "0.000"
+	g_vBloomColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Mask 1 ----
+	TextureDetailMask "materials/models/heroes/enigma/src/enigma_detailmask.tga"
+	TextureDiffuseWarpMask "materials/models/heroes/enigma/src/enigma_diffusemask.tga"
+	TextureMetalnessMask "materials/models/heroes/enigma/src/enigma_metalnessmask.tga"
+	TextureSelfIllumMask "materials/models/heroes/enigma/src/enigma_selfillummask.tga"
+
+	//---- Mask 2 ----
+	TextureRimMask "materials/models/heroes/enigma/src/enigma_rimmask.tga"
+	TextureSpecularExponent "materials/models/heroes/enigma/src/enigma_specexp.tga"
+	TextureSpecularMask "materials/models/heroes/enigma/src/enigma_specmask.tga"
+	TextureTintByBaseMask "materials/models/heroes/enigma/src/enigma_basetintmask.tga"
+
+	//---- Normal Map ----
+	TextureNormal "materials/models/heroes/enigma/src/enigma_normals.tga"
+
+	//---- Rim ----
+	g_flRimLightScale "42.000"
+	g_vRimLightColor "[0.737255 0.423529 1.000000 0.000000]"
+
+	//---- Specular ----
+	g_flCubeMapScalar "5.000"
+	g_flSpecularExponent "5.000"
+	g_flSpecularScale "2.000"
+	g_vSpecularColor "[0.000000 0.701961 1.000000 0.000000]"
+	TextureCubeMap "materials/models/cubemaps/crimson_pique_glass_cube.psd"
+
+	DynamicParams
+	{
+		g_flDetailBlendFactor "5.0 + sin( time() * 4 ) * float2( 5.0, 1.0 )"
+		g_vDetailTexCoordOffset "frac( float2( 00.068, -0.188 ) * time() )"
+	}
+
+	"legacy_import"
+	{
+		"CustomHero"
+		{
+			"$baseTexture"		"models/heroes/enigma/enigma_color"
+			"$detail1"		"models/heroes/enigma/enigma_motion"
+			"$normalmap"		"models/heroes/enigma/enigma_normals"
+			"$maskmap1"		"models/heroes/enigma/enigma_masks1"
+			"$maskmap2"		"models/heroes/enigma/enigma_masks2"
+			"$SPECULAREXPONENT"		"5"
+			"$SPECULARSCALE"		"2"
+			"$SPECULARCOLOR"		"[0 .2 1]"
+			"$DETAIL1BLENDMODE"		"2"
+			"$DETAIL1SCALE"		"1"
+			"$DETAIL1BLENDTOFULL"		"0"
+			"$RIMLIGHTSCALE"		"21"
+			"$RIMLIGHTCOLOR"		"[1 .3 2]"
+			"$SPECULAR_BLOOM_SCALE"		"0"
+			"$FRESNELWARP"		"models/heroes/enigma/enigma_fresnelranges"
+			"$cloakPassEnabled"		"1"
+			"Proxies"
+			{
+				"TextureScroll"
+				{
+					"texturescrollvar"		"$DETAIL1TEXTURETRANSFORM"
+					"texturescrollrate"		"-0.200000"
+					"texturescrollangle"		"70"
+				}
+			}
+		}
+	}
+}

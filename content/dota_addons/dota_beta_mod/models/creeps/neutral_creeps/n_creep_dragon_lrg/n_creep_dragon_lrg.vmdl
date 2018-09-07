@@ -1,0 +1,795 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_meshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "n_creep_dragon_lrg_model"
+				m_meshFile = "models/creeps/neutral_creeps/n_creep_dragon_lrg/src_n_creep_dragon_lrg_model/n_creep_dragon_lrg_model.smd"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+		]
+	}
+	m_clothProxyMeshList = 
+	{
+		_class = "CVClothProxyMeshList"
+		m_flClothEnableThreshold = 0.05
+		m_bCreateStaticBone = false
+		m_nMaxBonesPerVertex = 4
+		m_bRemoveUnusedBonesEnabled = false
+		m_bDriveMeshesWithBacksolvedJointsOnly = true
+		m_flMatchProxiesToMeshes = 1.0
+		m_flFallbackEnvelope = 1.0
+		m_nReservedInt = 0
+		m_bSoftSkinAnimation = false
+		m_bReservedBool2 = false
+		m_bReservedBool3 = false
+		m_bReservedBool4 = false
+		m_clothProxyMeshList = [  ]
+	}
+	m_physicsMeshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "n_creep_dragon_lrg_model"
+				m_meshFile = "models/creeps/neutral_creeps/n_creep_dragon_lrg/src_n_creep_dragon_lrg_model/n_creep_dragon_lrg_model.smd"
+				m_bOneConvexPiece = true
+				m_flMaxError = 0.0
+				m_bUseExactGeometry = false
+				m_bAutoMass = true
+				m_flMassOverride = 100.0
+				m_bConcavePerJoint = false
+				m_bSelfCollisions = false
+				m_bForceKinematic = false
+				m_bIgnoreScale = false
+				m_bIgnoreSkeleton = false
+			},
+		]
+	}
+	m_pModelInfo = null
+	m_pBoneFlagList = 
+	{
+		m_pObject = null
+	}
+	m_pHitBoxSetLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_HitBoxSets = 
+				[
+					{
+						m_name = "default"
+						m_HitBoxes = 
+						[
+							{
+								m_name = "root"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "root"
+								m_vMinBounds = [ -88.568962, -34.104572, -50.76152 ]
+								m_vMaxBounds = [ 48.135597, 50.586933, 97.084869 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "spine1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "spine1"
+								m_vMinBounds = [ -42.809677, -34.104572, -39.723206 ]
+								m_vMaxBounds = [ 66.284302, 50.586933, 37.828079 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "spine2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "spine2"
+								m_vMinBounds = [ -43.535141, -34.104576, -15.20715 ]
+								m_vMaxBounds = [ 31.795746, 50.586929, 50.943386 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "spine3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "spine3"
+								m_vMinBounds = [ -89.389236, -94.208939, -38.658447 ]
+								m_vMaxBounds = [ 53.97963, 85.273514, 110.67453 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "tail0_0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "tail0_0"
+								m_vMinBounds = [ -118.087891, -14.765034, -24.770905 ]
+								m_vMaxBounds = [ -0.051476, 17.476196, 36.253174 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "clavicle_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "clavicle_L"
+								m_vMinBounds = [ -51.840614, -29.094696, -57.54142 ]
+								m_vMaxBounds = [ 40.992805, 40.327301, 28.342203 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "clavicle_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "clavicle_R"
+								m_vMinBounds = [ -44.567741, -40.327332, -28.342213 ]
+								m_vMaxBounds = [ 50.860542, 29.09465, 57.541416 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "neck1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "neck1"
+								m_vMinBounds = [ -0.358429, -23.291355, -2.286697 ]
+								m_vMaxBounds = [ 80.333176, 20.527142, 55.141891 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "thigh_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "thigh_L"
+								m_vMinBounds = [ -9.726013, -44.479607, -27.735512 ]
+								m_vMaxBounds = [ 97.896729, 19.135826, 15.973389 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "thigh_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "thigh_R"
+								m_vMinBounds = [ -54.245338, -20.640129, -16.488646 ]
+								m_vMaxBounds = [ 5.757355, 3.25252, 26.916021 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wing0_0_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wing0_0_L"
+								m_vMinBounds = [ 2.920197, -170.533966, -93.847794 ]
+								m_vMaxBounds = [ 276.244934, 6.799072, 113.421402 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wing1_0_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wing1_0_R"
+								m_vMinBounds = [ -285.160919, -25.026077, -114.015854 ]
+								m_vMaxBounds = [ -6.143372, 170.534058, 93.253387 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "bicep_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "bicep_L"
+								m_vMinBounds = [ -37.886002, -22.749847, -44.45808 ]
+								m_vMaxBounds = [ 22.412182, 116.808105, 15.599567 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "bicep_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "bicep_R"
+								m_vMinBounds = [ -24.188324, -116.79213, -14.674515 ]
+								m_vMaxBounds = [ 38.123886, 22.749847, 50.124237 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "neck2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "neck2"
+								m_vMinBounds = [ -40.946426, -23.291363, -54.951813 ]
+								m_vMaxBounds = [ 86.72464, 20.527134, 26.840485 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "tail0_1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "tail0_1"
+								m_vMinBounds = [ -49.105682, -21.644054, -118.817352 ]
+								m_vMaxBounds = [ 63.780174, 34.818546, 10.147308 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "elbow_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "elbow_L"
+								m_vMinBounds = [ -27.577339, -28.929214, -47.435364 ]
+								m_vMaxBounds = [ 11.24044, 94.357742, 19.87162 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "elbow_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "elbow_R"
+								m_vMinBounds = [ -14.255321, -94.341705, -18.094414 ]
+								m_vMaxBounds = [ 28.970226, 28.929276, 49.856018 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "neck3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "neck3"
+								m_vMinBounds = [ -12.457001, -11.005741, -43.604523 ]
+								m_vMaxBounds = [ 34.522461, 12.350559, 13.077164 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wing0_1_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wing0_1_L"
+								m_vMinBounds = [ -69.407692, -89.311951, -112.899353 ]
+								m_vMaxBounds = [ 194.239655, 88.021088, 96.744415 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wing1_1_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wing1_1_R"
+								m_vMinBounds = [ -203.097198, -106.248154, -97.925308 ]
+								m_vMaxBounds = [ 60.550819, 89.311981, 111.718521 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "knee_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "knee_L"
+								m_vMinBounds = [ -37.31424, -18.48893, -11.973557 ]
+								m_vMaxBounds = [ 56.908325, 5.857811, 37.033401 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "knee_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "knee_R"
+								m_vMinBounds = [ -133.715759, -8.355076, -53.837357 ]
+								m_vMaxBounds = [ 40.850891, 35.375053, 11.458296 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "tail0_2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "tail0_2"
+								m_vMinBounds = [ -9.156647, -21.644135, -88.842987 ]
+								m_vMaxBounds = [ 63.796455, 34.818478, 38.81041 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wrist_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wrist_L"
+								m_vMinBounds = [ -101.952286, -149.622162, -94.362839 ]
+								m_vMaxBounds = [ 56.125534, 19.555847, 17.537262 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wrist_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wrist_R"
+								m_vMinBounds = [ -55.910233, -18.616394, -24.109303 ]
+								m_vMaxBounds = [ 102.257065, 19.83786, 27.825977 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "head"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "head"
+								m_vMinBounds = [ -68.139618, -29.586637, -24.7146 ]
+								m_vMaxBounds = [ 38.206284, 37.083862, 14.068695 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wing0_2_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wing0_2_L"
+								m_vMinBounds = [ -85.260635, -47.88446, -137.029327 ]
+								m_vMaxBounds = [ 119.897919, 77.284576, 72.614426 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wing1_2_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wing1_2_R"
+								m_vMinBounds = [ -128.755478, -77.284637, -73.795349 ]
+								m_vMaxBounds = [ 79.673615, 47.88446, 135.84848 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "ankle_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "ankle_L"
+								m_vMinBounds = [ -21.897057, -16.553398, -28.183838 ]
+								m_vMaxBounds = [ 30.100544, 7.593555, 32.077072 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "ankle_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "ankle_R"
+								m_vMinBounds = [ -57.199944, -10.090824, -24.646194 ]
+								m_vMaxBounds = [ 20.178925, 33.639305, 100.672066 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "tail0_3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "tail0_3"
+								m_vMinBounds = [ -16.399872, -21.644119, -45.91687 ]
+								m_vMaxBounds = [ 56.55323, 34.818497, 49.724915 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_name = ""
+				m_attachments = 
+				[
+					{
+						m_name = "attach_attack1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "head"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_hitloc"
+						m_influences = 
+						[
+							{
+								m_influenceName = "spine2"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+				]
+			}
+		},
+	]
+	m_pAnimGroup = 
+	{
+		m_pObject = 
+		{
+			m_Name = ""
+			m_pReferenceSkeleton = 
+			{
+				m_pObject = null
+			}
+			m_pBoneFlagList = 
+			{
+				m_pObject = null
+			}
+			m_pSeqGroup = 
+			{
+				m_pObject = null
+			}
+			m_pAnimGroups = [  ]
+			m_Vanim = 
+			[
+				{
+					m_Animationname = "BindPose"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_dragon_lrg/src_n_creep_dragon_lrg_model/n_creep_dragon_lrg_anims/BindPose.smd"
+					m_nStartframe = 0
+					m_nEndframe = 0
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "run"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_dragon_lrg/src_n_creep_dragon_lrg_model/n_creep_dragon_lrg_anims/run.smd"
+					m_nStartframe = 0
+					m_nEndframe = 29
+					m_flFps = 24.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_RUN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "idle"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_dragon_lrg/src_n_creep_dragon_lrg_model/n_creep_dragon_lrg_anims/idle.smd"
+					m_nStartframe = 0
+					m_nEndframe = 47
+					m_flFps = 24.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "attack"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_dragon_lrg/src_n_creep_dragon_lrg_model/n_creep_dragon_lrg_anims/attack.smd"
+					m_nStartframe = 0
+					m_nEndframe = 29
+					m_flFps = 24.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "death"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_dragon_lrg/src_n_creep_dragon_lrg_model/n_creep_dragon_lrg_anims/death.smd"
+					m_nStartframe = 0
+					m_nEndframe = 21
+					m_flFps = 24.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DIE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+			]
+			m_sScripts = [  ]
+			m_folderNames = [  ]
+			m_sCompileScripts = [  ]
+		}
+	}
+	m_pMaterialGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pMeshGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pLodGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pPropBreakableList = 
+	{
+		m_pObject = null
+	}
+	m_pPropDataList = 
+	{
+		m_pObject = null
+	}
+	m_pConstraintLists = [  ]
+	m_collision = ""
+	m_softbody = ""
+	m_sMDLFilename = ""
+	m_sOffsetHitboxSets = [  ]
+	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
+	m_scriptFiles = [  ]
+	m_pMaterialRemapList = 
+	{
+		m_vMaterialRemapList = 
+		[
+			{
+				m_sSearchMaterial = "temp_neutral_creeps.vmat"
+				m_sReplaceMaterial = "materials/models/creeps/neutral_creeps/temp_neutral_creeps.vmat"
+			},
+		]
+	}
+	m_flFbxScale = 1.0
+	m_flQCScale = 1.0
+	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_pPsfList = null
+	m_keyValueText = ""
+	m_bStaticProp = false
+	m_bEnableClothProcessing = true
+	m_flClothEnableThreshold = 0.05
+	m_nMaxClothVertsPerMesh = 2048
+	m_bBuildClothBoneHierarchy = false
+	m_nNavType = "AUTH_NAV_MESH"
+	m_bMakeUniqueVMeshes = true
+	m_bMakeImplicitBindPoseSequence = false
+	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
+	m_pAnimGroups = [  ]
+}

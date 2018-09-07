@@ -1,0 +1,1240 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_meshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "viper_reference"
+				m_meshFile = "models/heroes/viper/src/src_old_viper_model/viper_reference.dmx"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = 
+				{
+					m_bDisable = false
+					m_bBundleSpeed = true
+					m_bBundleWrinkle = true
+					m_nLookupType = 1
+					m_nEncodingType = 0
+					m_nWidthTarget = 64
+					m_nHeightTarget = 64
+					m_bFloatAtlas = false
+					m_bWriteAtlas = false
+					m_bBestFitAtlas = true
+					m_nCutMin = 32
+					m_nCutMax = 512
+				}
+			},
+			{
+				m_meshName = "viper_body0_model0_lod1"
+				m_meshFile = "models/heroes/viper/src/src_old_viper_model/viper_body0_model0_lod1.dmx"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+		]
+	}
+	m_clothProxyMeshList = 
+	{
+		_class = "CVClothProxyMeshList"
+		m_flClothEnableThreshold = 0.05
+		m_bCreateStaticBone = false
+		m_nMaxBonesPerVertex = 4
+		m_bRemoveUnusedBonesEnabled = false
+		m_bDriveMeshesWithBacksolvedJointsOnly = true
+		m_flMatchProxiesToMeshes = 1.0
+		m_flFallbackEnvelope = 1.0
+		m_nReservedInt = 0
+		m_bReservedBool1 = false
+		m_bReservedBool2 = false
+		m_bReservedBool3 = false
+		m_bReservedBool4 = false
+		m_clothProxyMeshList = [  ]
+	}
+	m_physicsMeshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "viper_reference"
+				m_meshFile = "models/heroes/viper/src/src_old_viper_model/viper_reference.smd"
+				m_bOneConvexPiece = true
+				m_flMaxError = 0.0
+				m_bUseExactGeometry = false
+				m_bAutoMass = true
+				m_flMassOverride = 100.0
+				m_bConcavePerJoint = false
+				m_bSelfCollisions = false
+				m_bForceKinematic = false
+				m_bIgnoreScale = false
+				m_bIgnoreSkeleton = false
+			},
+		]
+	}
+	m_pModelInfo = null
+	m_pBoneFlagList = 
+	{
+		m_pObject = null
+	}
+	m_pHitBoxSetLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_HitBoxSets = 
+				[
+					{
+						m_name = "default"
+						m_HitBoxes = 
+						[
+							{
+								m_name = "root"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "root"
+								m_vMinBounds = [ -64.846184, -59.084312, -18.577881 ]
+								m_vMaxBounds = [ 11.901283, 46.814606, 28.701843 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "spine1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "spine1"
+								m_vMinBounds = [ -36.520172, -22.93745, -22.117249 ]
+								m_vMaxBounds = [ 35.982849, 22.937489, 21.385803 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "spine2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "spine2"
+								m_vMinBounds = [ -28.460415, -63.190048, -21.958054 ]
+								m_vMaxBounds = [ 48.704937, 63.190094, 17.207703 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Tail0_0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Tail0_0"
+								m_vMinBounds = [ -12.892685, -33.079819, -17.703079 ]
+								m_vMaxBounds = [ 49.187042, 33.079865, 16.7966 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm1_0_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm1_0_R"
+								m_vMinBounds = [ -64.253204, -26.877579, -20.355782 ]
+								m_vMaxBounds = [ 15.48925, 13.819275, 36.637169 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm0_0_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm0_0_L"
+								m_vMinBounds = [ -15.489243, -13.309952, -36.637177 ]
+								m_vMaxBounds = [ 65.001343, 26.877594, 20.355736 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "neck1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "neck1"
+								m_vMinBounds = [ -16.692509, -29.931765, -17.782104 ]
+								m_vMaxBounds = [ 36.10199, 29.931787, 16.340729 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm1_1_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm1_1_R"
+								m_vMinBounds = [ -31.580017, -14.658279, -24.962612 ]
+								m_vMaxBounds = [ 47.697716, 8.599319, 53.046909 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "head"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "head"
+								m_vMinBounds = [ -6.997215, -27.990101, -13.307648 ]
+								m_vMaxBounds = [ 30.163582, 27.99012, 16.377274 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm0_1_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm0_1_L"
+								m_vMinBounds = [ -47.697701, -8.599335, -53.046936 ]
+								m_vMaxBounds = [ 31.580048, 14.658234, 24.962517 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Tail0_1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Tail0_1"
+								m_vMinBounds = [ -16.353516, -29.787718, -10.778168 ]
+								m_vMaxBounds = [ 67.766899, 29.787748, 16.085114 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm1_2_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm1_2_R"
+								m_vMinBounds = [ -58.636986, -11.929825, -10.050827 ]
+								m_vMaxBounds = [ 25.076759, 9.264618, 29.91581 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "jaw1_0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "jaw1_0"
+								m_vMinBounds = [ -16.12326, -19.322588, -8.243423 ]
+								m_vMaxBounds = [ 23.248878, 18.019361, 6.349091 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm0_2_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm0_2_L"
+								m_vMinBounds = [ -25.076647, -9.264603, -29.92897 ]
+								m_vMaxBounds = [ 58.637054, 11.929871, 10.050858 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Tail0_2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Tail0_2"
+								m_vMinBounds = [ -14.447075, -19.109241, -11.77832 ]
+								m_vMaxBounds = [ 64.015381, 19.109264, 12.252228 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm1_3_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm1_3_R"
+								m_vMinBounds = [ -54.51577, -28.320221, -25.936554 ]
+								m_vMaxBounds = [ 15.945976, 6.3349, 23.101036 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Wiskers4_0_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Wiskers4_0_R"
+								m_vMinBounds = [ -18.384916, 0.285583, -4.911522 ]
+								m_vMaxBounds = [ 1.429722, 5.816452, 3.293556 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Wiskers4_0_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Wiskers4_0_L"
+								m_vMinBounds = [ -1.326748, -6.214508, -4.81778 ]
+								m_vMaxBounds = [ 20.736164, -0.285583, 3.034386 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm0_3_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm0_3_L"
+								m_vMinBounds = [ -15.945892, -6.3349, -23.100929 ]
+								m_vMaxBounds = [ 54.515831, 28.320328, 25.936646 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Tail0_3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Tail0_3"
+								m_vMinBounds = [ -38.062424, -15.32998, -9.854889 ]
+								m_vMaxBounds = [ 62.953629, 15.330022, 11.03598 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "outer_arm5_0_B_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "outer_arm5_0_B_R"
+								m_vMinBounds = [ -46.15918, -32.407547, -4.288116 ]
+								m_vMaxBounds = [ 18.626585, 9.934875, 20.187057 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Wiskers4_1_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Wiskers4_1_R"
+								m_vMinBounds = [ -14.199865, 2.204315, -3.65271 ]
+								m_vMaxBounds = [ 3.191315, 4.762436, 2.960953 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Wiskers4_1_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Wiskers4_1_L"
+								m_vMinBounds = [ -4.979965, -4.820862, -3.095055 ]
+								m_vMaxBounds = [ 10.178345, -2.20433, 2.186775 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "outer_arm4_0_B_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "outer_arm4_0_B_L"
+								m_vMinBounds = [ -18.626476, -33.161934, -4.288177 ]
+								m_vMaxBounds = [ 46.159306, 9.934921, 20.187027 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Tail0_4"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Tail0_4"
+								m_vMinBounds = [ -19.987488, -15.692125, -7.527023 ]
+								m_vMaxBounds = [ 48.034798, 15.692163, 10.488907 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "arm_flap7_0_C_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "arm_flap7_0_C_R"
+								m_vMinBounds = [ -91.738327, -30.82732, -17.455215 ]
+								m_vMaxBounds = [ 31.906858, 24.937679, 24.264648 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "inner_arm3_0_A_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "inner_arm3_0_A_R"
+								m_vMinBounds = [ -31.745728, -33.713013, -21.605972 ]
+								m_vMaxBounds = [ 35.834145, 22.806179, 12.282837 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm1_4_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm1_4_R"
+								m_vMinBounds = [ -28.729282, -6.656418, -7.200577 ]
+								m_vMaxBounds = [ 23.166622, 7.634781, 49.142586 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "outer_arm5_1_B_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "outer_arm5_1_B_R"
+								m_vMinBounds = [ -17.886703, -10.578751, -4.288162 ]
+								m_vMaxBounds = [ 15.756721, 7.516266, 2.938858 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Wiskers4_2_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Wiskers4_2_R"
+								m_vMinBounds = [ -10.334194, 2.236618, -4.434944 ]
+								m_vMaxBounds = [ 5.706314, 4.133759, 4.930611 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Wiskers4_2_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Wiskers4_2_L"
+								m_vMinBounds = [ -4.147831, -4.133728, -4.930595 ]
+								m_vMaxBounds = [ 10.334194, -2.250351, 2.419624 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "arm_flap6_0_C_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "arm_flap6_0_C_L"
+								m_vMinBounds = [ -25.552296, -19.106087, -17.4552 ]
+								m_vMaxBounds = [ 31.906841, 30.827419, 22.358505 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "inner_arm2_0_A_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "inner_arm2_0_A_L"
+								m_vMinBounds = [ -31.745678, -22.806129, -21.605972 ]
+								m_vMaxBounds = [ 35.83424, 33.713074, 12.282791 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Arm0_4_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Arm0_4_L"
+								m_vMinBounds = [ -23.166527, -7.634613, -49.14257 ]
+								m_vMaxBounds = [ 28.729347, 6.656525, 7.200592 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "outer_arm4_1_B_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "outer_arm4_1_B_L"
+								m_vMinBounds = [ -15.756577, -10.57872, -4.288223 ]
+								m_vMaxBounds = [ 17.886829, 7.516296, 2.938812 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Tail0_5"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Tail0_5"
+								m_vMinBounds = [ -41.369278, -15.329983, -6.141891 ]
+								m_vMaxBounds = [ 25.135117, 15.330019, 10.437988 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_name = ""
+				m_attachments = 
+				[
+					{
+						m_name = "attach_wing_barb_3"
+						m_influences = 
+						[
+							{
+								m_influenceName = "inner_arm3_0_A_R"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_wing_barb_1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "outer_arm5_1_B_R"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, -90.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "head"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_hitloc"
+						m_influences = 
+						[
+							{
+								m_influenceName = "spine2"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_wing_barb_2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "outer_arm4_1_B_L"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, -90.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_wing_barb_4"
+						m_influences = 
+						[
+							{
+								m_influenceName = "inner_arm2_0_A_L"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "Tail0_5"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+				]
+			}
+		},
+	]
+	m_pAnimGroup = 
+	{
+		m_pObject = 
+		{
+			m_Name = ""
+			m_pReferenceSkeleton = 
+			{
+				m_pObject = null
+			}
+			m_pBoneFlagList = 
+			{
+				m_pObject = null
+			}
+			m_pSeqGroup = 
+			{
+				m_pObject = null
+			}
+			m_pAnimGroups = 
+			[
+				{
+					m_pObject = 
+					{
+						m_Name = "new_anims"
+						m_pReferenceSkeleton = 
+						{
+							m_pObject = null
+						}
+						m_pBoneFlagList = 
+						{
+							m_pObject = null
+						}
+						m_pSeqGroup = 
+						{
+							m_pObject = null
+						}
+						m_pAnimGroups = [  ]
+						m_Vanim = 
+						[
+							{
+								m_Animationname = "viper_idle_new"
+								m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/viper_idle_new.SMD"
+								m_nStartframe = 0
+								m_nEndframe = 30
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = true
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_IDLE"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "viper_run_new"
+								m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/viper_run_new.SMD"
+								m_nStartframe = 0
+								m_nEndframe = 30
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = true
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_RUN"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = 
+								[
+									{
+										m_nFrame = 0
+										m_bExtractTX = true
+										m_bExtractTY = true
+										m_bExtractTZ = false
+										m_bExtractRX = false
+										m_bExtractRY = false
+										m_bExtractRZ = false
+										m_bDiscardTX = false
+										m_bDiscardTY = false
+										m_bDiscardTZ = false
+										m_bDiscardRX = false
+										m_bDiscardRY = false
+										m_bDiscardRZ = false
+									},
+								]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "viper_attack_new"
+								m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/viper_attack_new.SMD"
+								m_nStartframe = 0
+								m_nEndframe = 30
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_ATTACK"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = 
+								[
+									{
+										m_Event = "AE_DOTA_PLAY_SOUND_ATTACK"
+										m_nFrame = 9
+										m_DataString = ""
+									},
+								]
+								m_MotionFrames = 
+								[
+									{
+										m_nFrame = 0
+										m_bExtractTX = true
+										m_bExtractTY = true
+										m_bExtractTZ = false
+										m_bExtractRX = false
+										m_bExtractRY = false
+										m_bExtractRZ = false
+										m_bDiscardTX = false
+										m_bDiscardTY = false
+										m_bDiscardTZ = false
+										m_bDiscardRX = false
+										m_bDiscardRY = false
+										m_bDiscardRZ = false
+									},
+								]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "viper_strike_new"
+								m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/viper_strike_new.SMD"
+								m_nStartframe = 0
+								m_nEndframe = 30
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_CAST_ABILITY_4"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = 
+								[
+									{
+										m_Event = "AE_DOTA_PLAY_SOUND_ATTACK"
+										m_nFrame = 10
+										m_DataString = ""
+									},
+								]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "poison_attack_new"
+								m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/poison_attack_new.SMD"
+								m_nStartframe = 0
+								m_nEndframe = 30
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_CAST_ABILITY_1"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = 
+								[
+									{
+										m_Event = "AE_DOTA_PLAY_SOUND_ATTACK"
+										m_nFrame = 10
+										m_DataString = ""
+									},
+								]
+								m_MotionFrames = 
+								[
+									{
+										m_nFrame = 0
+										m_bExtractTX = true
+										m_bExtractTY = true
+										m_bExtractTZ = false
+										m_bExtractRX = false
+										m_bExtractRY = false
+										m_bExtractRZ = false
+										m_bDiscardTX = false
+										m_bDiscardTY = false
+										m_bDiscardTZ = false
+										m_bDiscardRX = false
+										m_bDiscardRY = false
+										m_bDiscardRZ = false
+									},
+								]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "viper_versus_new"
+								m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/viper_strike_new.SMD"
+								m_nStartframe = 12
+								m_nEndframe = 30
+								m_flFps = 0.5
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_VERSUS"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "stun_new"
+								m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/stun_new.SMD"
+								m_nStartframe = 0
+								m_nEndframe = 30
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = true
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_DISABLED"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+						]
+						m_sScripts = [  ]
+						m_folderNames = [  ]
+						m_sCompileScripts = [  ]
+					}
+				},
+			]
+			m_Vanim = 
+			[
+				{
+					m_Animationname = "BindPose"
+					m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/BindPose.smd"
+					m_nStartframe = 0
+					m_nEndframe = 0
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "viper_death"
+					m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/viper_death.smd"
+					m_nStartframe = 0
+					m_nEndframe = 30
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DIE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "portrait"
+					m_Filepath = "models/heroes/viper/src/src_old_viper_model/viper_anims/portrait.smd"
+					m_nStartframe = 0
+					m_nEndframe = 30
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAPTURE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+			]
+			m_sScripts = [  ]
+			m_folderNames = [  ]
+			m_sCompileScripts = [  ]
+		}
+	}
+	m_pMaterialGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pMeshGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pLodGroupList = 
+	{
+		m_pObject = 
+		{
+			m_lodGroups = 
+			[
+				{
+					m_flSwitchDistance = 0
+					m_meshList = 
+					[
+						"models/heroes/viper/viper_reference_eeb2ccfa.vmesh",
+					]
+				},
+				{
+					m_flSwitchDistance = 1
+					m_meshList = 
+					[
+						"models/heroes/viper/viper_body0_model0_lod1_eeb2ccfa.vmesh",
+					]
+				},
+			]
+		}
+	}
+	m_pPropBreakableList = 
+	{
+		m_pObject = null
+	}
+	m_pPropDataList = 
+	{
+		m_pObject = null
+	}
+	m_pConstraintLists = [  ]
+	m_collision = ""
+	m_softbody = ""
+	m_sMDLFilename = ""
+	m_sOffsetHitboxSets = [  ]
+	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
+	m_scriptFiles = [  ]
+	m_pMaterialRemapList = 
+	{
+		m_vMaterialRemapList = 
+		[
+			{
+				m_sSearchMaterial = "models/heroes/viper/viper_color.vmat"
+				m_sReplaceMaterial = "materials/models/heroes/viper/viper_color.vmat"
+			},
+		]
+	}
+	m_flFbxScale = 1.0
+	m_flQCScale = 1.0
+	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_pPsfList = null
+	m_keyValueText = ""
+	m_bStaticProp = false
+	m_bEnableClothProcessing = true
+	m_flClothEnableThreshold = 0.05
+	m_nMaxClothVertsPerMesh = 2048
+	m_bBuildClothBoneHierarchy = false
+	m_nNavType = "AUTH_NAV_MESH"
+	m_bMakeUniqueVMeshes = true
+	m_bMakeImplicitBindPoseSequence = false
+	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
+	m_pAnimGroups = [  ]
+}

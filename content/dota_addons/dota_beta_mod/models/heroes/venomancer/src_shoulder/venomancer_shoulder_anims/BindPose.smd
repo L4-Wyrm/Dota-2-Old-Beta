@@ -1,0 +1,35 @@
+// Created by Crowbar 0.33.0.0
+version 1
+nodes
+  0 "root" -1
+  1 "spine1_2" 0
+  2 "spine1_4" 1
+  3 "clavicle_A_L" 2
+  4 "clavicle_A_R" 2
+  5 "snake7_0_C_R" 2
+  6 "bicep_A_L" 3
+  7 "elbow_A_L" 6
+  8 "wrist_A_L" 7
+  9 "Index1_0_A_L" 8
+  10 "bicep_A_R" 4
+  11 "elbow_A_R" 10
+  12 "wrist_A_R" 11
+  13 "Index1_0_A_R" 12
+end
+skeleton
+  time 0
+    0 0.000001 -16.640625 39.937500 0.000000 0.000000 -1.570796   # pos: raw   rot: raw64 (0, 0, 0, 1)
+    1 -30.858513 0.000000 35.417225 3.141593 -0.912361 3.141593   # pos: desc_bone   rot: desc_bone
+    2 40.887764 0.000000 -14.740368 -3.141593 1.395171 3.141592   # pos: desc_bone   rot: desc_bone
+    3 2.938990 17.105677 -16.846756 1.570796 -0.256757 1.747197   # pos: desc_bone   rot: desc_bone
+    4 2.938986 -17.105684 -16.846733 -1.570796 0.256758 1.394396   # pos: desc_bone   rot: desc_bone
+    5 17.814051 31.206917 8.468384 -1.652361 -1.159402 1.645582   # pos: desc_bone   rot: desc_bone
+    6 12.833397 -0.000015 0.000004 -2.180059 0.632851 -0.725110   # pos: desc_bone   rot: desc_bone
+    7 33.559170 0.000015 -0.000008 -3.141592 1.008943 -3.141592   # pos: desc_bone   rot: desc_bone
+    8 49.538879 0.000000 0.000008 -1.668234 -1.022221 1.313282   # pos: desc_bone   rot: desc_bone
+    9 14.443615 6.370630 5.193586 -3.041335 -0.499027 0.375835   # pos: desc_bone   rot: desc_bone
+    10 -12.833393 0.000015 -0.000008 -2.180059 0.632851 -0.725110   # pos: desc_bone   rot: desc_bone
+    11 -33.559189 -0.000008 0.000008 -3.141592 1.008943 -3.141592   # pos: desc_bone   rot: desc_bone
+    12 -49.538872 -0.000023 0.000000 -1.668234 -1.022220 1.313281   # pos: desc_bone   rot: desc_bone
+    13 -14.443626 -6.370644 -5.193571 -3.041335 -0.499027 0.375835   # pos: desc_bone   rot: desc_bone
+end

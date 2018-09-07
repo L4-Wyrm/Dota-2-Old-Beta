@@ -1,0 +1,4576 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_meshList = 
+	{
+		m_meshList = 
+		[
+			{
+				m_meshName = "pudge_reference"
+				m_meshFile = "models/heroes/pudge/src_model_old/pudge_reference.dmx"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+			{
+				m_meshName = "pudge_model_lod1"
+				m_meshFile = "models/heroes/pudge/src_model/pudge_model_lod1.smd"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+			{
+				m_meshName = "leftweapon"
+				m_meshFile = "models/heroes/pudge/src_model_old/leftweapon.smd"
+				m_materialSearchPath = ""
+				m_bSkinParentedObjects = true
+				m_bLegacySkinParentedTransforms = false
+				m_bExpensiveTangents = false
+				m_bHighPrecisionTexCoords = false
+				m_bPerVertexCurvature = false
+				m_bBentNormals = false
+				m_bIgnoreCloth = false
+				m_bGetSkinningFromLod0 = false
+				m_pMorphInfo = null
+			},
+		]
+	}
+	m_clothProxyMeshList = 
+	{
+		_class = "CVClothProxyMeshList"
+		m_flClothEnableThreshold = 0.05
+		m_bCreateStaticBone = false
+		m_nMaxBonesPerVertex = 4
+		m_bRemoveUnusedBonesEnabled = false
+		m_bDriveMeshesWithBacksolvedJointsOnly = true
+		m_flMatchProxiesToMeshes = 1.0
+		m_flFallbackEnvelope = 1.0
+		m_nReservedInt = 0
+		m_bSoftSkinAnimation = false
+		m_bReservedBool2 = false
+		m_bReservedBool3 = false
+		m_bReservedBool4 = false
+		m_clothProxyMeshList = [  ]
+	}
+	m_physicsMeshList = 
+	{
+		m_meshList = [  ]
+	}
+	m_pModelInfo = null
+	m_pBoneFlagList = 
+	{
+		m_pObject = null
+	}
+	m_pHitBoxSetLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_HitBoxSets = 
+				[
+					{
+						m_name = "default"
+						m_HitBoxes = 
+						[
+							{
+								m_name = "root"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "root"
+								m_vMinBounds = [ -41.560753, -52.230698, -42.55146 ]
+								m_vMaxBounds = [ 55.926537, 63.793488, 42.30632 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "spine1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "spine1"
+								m_vMinBounds = [ -41.008465, -49.467239, -42.519768 ]
+								m_vMaxBounds = [ 57.994129, 52.155182, 41.137566 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "spine2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "spine2"
+								m_vMinBounds = [ -2.477036, -45.79335, -52.402351 ]
+								m_vMaxBounds = [ 38.241074, 45.198547, 41.008461 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "spine3"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "spine3"
+								m_vMinBounds = [ -36.53389, -38.843739, -29.77578 ]
+								m_vMaxBounds = [ 50.868546, 38.875034, 41.349564 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "clavicle_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "clavicle_R"
+								m_vMinBounds = [ -43.832924, -17.43486, -23.905373 ]
+								m_vMaxBounds = [ 32.717201, 29.760986, 21.95443 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "clavicle_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "clavicle_L"
+								m_vMinBounds = [ -26.355881, -27.949722, -17.103317 ]
+								m_vMaxBounds = [ 47.458603, 18.362137, 22.94207 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "bicep_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "bicep_R"
+								m_vMinBounds = [ -52.659576, -25.217392, -18.976746 ]
+								m_vMaxBounds = [ 30.256075, 17.663391, 27.524818 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "elbow_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "elbow_R"
+								m_vMinBounds = [ -35.89595, -23.624054, -15.865177 ]
+								m_vMaxBounds = [ 10.743973, 17.663368, 17.132298 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "bicep_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "bicep_L"
+								m_vMinBounds = [ -23.106459, -18.785133, -20.580696 ]
+								m_vMaxBounds = [ 56.556656, 25.036461, 20.397415 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wrist_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wrist_R"
+								m_vMinBounds = [ -24.42054, -14.377914, -16.642582 ]
+								m_vMaxBounds = [ 10.070278, 4.47094, 13.6506 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "elbow_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "elbow_L"
+								m_vMinBounds = [ -9.77285, -11.456642, -14.028258 ]
+								m_vMaxBounds = [ 34.094078, 22.902969, 14.789897 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "apron_R0C1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "apron_R0C1"
+								m_vMinBounds = [ -3.465096, -4.448156, -11.399637 ]
+								m_vMaxBounds = [ 7.306095, 2.410049, 7.413435 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "thigh_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "thigh_L"
+								m_vMinBounds = [ -29.650896, -29.870914, -35.365845 ]
+								m_vMaxBounds = [ 48.990555, 22.125454, 34.056839 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "thigh_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "thigh_R"
+								m_vMinBounds = [ -55.246841, -24.157459, -29.793941 ]
+								m_vMaxBounds = [ 27.980804, 29.894703, 35.987499 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "apron_R0C0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "apron_R0C0"
+								m_vMinBounds = [ -4.464027, -1.815552, -9.193073 ]
+								m_vMaxBounds = [ 7.231152, 1.759178, 16.711971 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "thumb_0_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "thumb_0_R"
+								m_vMinBounds = [ -12.810928, -18.928354, -4.562347 ]
+								m_vMaxBounds = [ 0.965363, 4.019239, 13.036896 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "wrist_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "wrist_L"
+								m_vMinBounds = [ -7.650058, -7.47953, -14.710667 ]
+								m_vMaxBounds = [ 24.731289, 16.005363, 14.093655 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "apron_tie_0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "apron_tie_0"
+								m_vMinBounds = [ -5.01115, -15.080305, -7.30365 ]
+								m_vMaxBounds = [ 2.407646, 13.355391, 26.435474 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "apron_R1C1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "apron_R1C1"
+								m_vMinBounds = [ 1.734554, -1.942444, -12.210707 ]
+								m_vMaxBounds = [ 19.711765, 2.582848, 8.263475 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "neck1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "neck1"
+								m_vMinBounds = [ -1.779282, -23.316582, -23.270187 ]
+								m_vMaxBounds = [ 17.260956, 28.388123, 18.606697 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mid_0_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mid_0_R"
+								m_vMinBounds = [ -10.956856, -5.988163, -2.568348 ]
+								m_vMaxBounds = [ -1.264862, 5.922882, 3.254559 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "index_0_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "index_0_R"
+								m_vMinBounds = [ -10.987488, -6.813309, -3.188065 ]
+								m_vMaxBounds = [ -0.13118, 8.161953, 14.12093 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "thumb_1_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "thumb_1_R"
+								m_vMinBounds = [ -9.539658, -2.666878, -4.56236 ]
+								m_vMaxBounds = [ 3.638435, 4.019241, 3.806762 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "thumb_0_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "thumb_0_L"
+								m_vMinBounds = [ -2.656181, -2.952862, -13.516701 ]
+								m_vMaxBounds = [ 8.584419, 14.370049, 2.913449 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "knee_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "knee_L"
+								m_vMinBounds = [ -19.582127, -21.330925, -19.053467 ]
+								m_vMaxBounds = [ 30.799957, 19.215504, 28.087193 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "knee_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "knee_R"
+								m_vMinBounds = [ -29.842865, -17.606758, -24.668282 ]
+								m_vMaxBounds = [ 20.212292, 20.374207, 18.117962 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "apron_R1C0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "apron_R1C0"
+								m_vMinBounds = [ -5.098892, -12.885363, -7.882969 ]
+								m_vMaxBounds = [ 18.319954, 5.066322, 16.815441 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Knife_A"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Knife_A"
+								m_vMinBounds = [ -4.167257, -3.369934, -47.119804 ]
+								m_vMaxBounds = [ 10.522148, 16.063759, 2.729645 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Knife_B"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Knife_B"
+								m_vMinBounds = [ -8.472649, -3.26968, -49.174603 ]
+								m_vMaxBounds = [ 3.26235, 15.263645, 3.494041 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "Knife_C"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "Knife_C"
+								m_vMinBounds = [ -20.63768, -3.901871, -52.539185 ]
+								m_vMaxBounds = [ 3.918503, 17.97765, 2.633804 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "apron_R2C1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "apron_R2C1"
+								m_vMinBounds = [ -0.048347, -3.556536, -10.169932 ]
+								m_vMaxBounds = [ 15.906715, 2.614021, 10.018226 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "stomach1_0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "stomach1_0"
+								m_vMinBounds = [ -29.118206, -46.384544, -36.209114 ]
+								m_vMaxBounds = [ 13.125801, 48.460762, 32.378014 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "upper_ring1_0_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "upper_ring1_0_R"
+								m_vMinBounds = [ -14.580702, -13.820524, -10.493317 ]
+								m_vMaxBounds = [ 13.331553, 10.926943, 10.105515 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "booby_lf"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "booby_lf"
+								m_vMinBounds = [ -26.140959, -8.103073, -26.797203 ]
+								m_vMaxBounds = [ 0.715214, 24.818359, 20.001137 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "lower_ring2_0_A_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "lower_ring2_0_A_L"
+								m_vMinBounds = [ -11.395042, -8.250673, -14.398361 ]
+								m_vMaxBounds = [ 3.073933, 10.768734, 1.621353 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "booby_rt"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "booby_rt"
+								m_vMinBounds = [ -1.022844, -6.177788, -32.16856 ]
+								m_vMaxBounds = [ 26.659683, 33.342003, 23.729015 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "lower_ring3_0_A_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "lower_ring3_0_A_R"
+								m_vMinBounds = [ -12.246288, -9.09935, -14.107605 ]
+								m_vMaxBounds = [ 2.222694, 9.92004, 1.902313 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "upper_ring0_0_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "upper_ring0_0_L"
+								m_vMinBounds = [ -15.086361, -9.192043, -10.323013 ]
+								m_vMaxBounds = [ 15.874523, 19.408421, 11.455795 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "thumb_2_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "thumb_2_R"
+								m_vMinBounds = [ -5.039642, -7.326675, -2.889455 ]
+								m_vMaxBounds = [ 2.223495, 2.929943, 4.589889 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "mid_1_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "mid_1_R"
+								m_vMinBounds = [ -10.698576, -5.988155, -2.753143 ]
+								m_vMaxBounds = [ 2.584259, 5.922909, 5.211739 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "index_1_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "index_1_R"
+								m_vMinBounds = [ -12.630417, -5.335815, -4.406197 ]
+								m_vMaxBounds = [ 2.34668, 7.75436, 5.674526 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "head"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "head"
+								m_vMinBounds = [ -26.935387, -32.81377, -21.847725 ]
+								m_vMaxBounds = [ 25.544159, 42.735294, 24.306122 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "weapon_lf_2"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "weapon_lf_2"
+								m_vMinBounds = [ -6.499092, -89.401291, -24.769257 ]
+								m_vMaxBounds = [ 5.231384, 36.015137, 28.444855 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "index_0_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "index_0_L"
+								m_vMinBounds = [ -0.491333, -7.947102, -14.089622 ]
+								m_vMaxBounds = [ 13.4865, 18.235088, 2.643822 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "thumb_1_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "thumb_1_L"
+								m_vMinBounds = [ 0.544365, -4.149799, -4.16275 ]
+								m_vMaxBounds = [ 13.357025, 6.547794, 5.151838 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "ankle_L"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "ankle_L"
+								m_vMinBounds = [ -19.668955, -14.061966, -18.19733 ]
+								m_vMaxBounds = [ 31.180704, 17.250866, 22.655769 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "apron_tie_1"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "apron_tie_1"
+								m_vMinBounds = [ 3.541809, -2.774596, -3.139641 ]
+								m_vMaxBounds = [ 26.076653, 2.110201, 2.917141 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "ankle_R"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "ankle_R"
+								m_vMinBounds = [ -31.180796, -17.491932, -22.655598 ]
+								m_vMaxBounds = [ 17.717672, 13.329552, 18.19746 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+							{
+								m_name = "apron_R2C0"
+								m_sSurfaceProperty = ""
+								m_nGroupId = 0
+								m_sBoneName = "apron_R2C0"
+								m_vMinBounds = [ -8.077221, -1.129967, -7.944602 ]
+								m_vMaxBounds = [ 14.046928, 8.038937, 25.687294 ]
+								m_bTranslationOnly = false
+								m_cRenderColor = [ 0, 0, 0, 0 ]
+							},
+						]
+					},
+				]
+				m_AutoCreateSetName = ""
+			}
+		},
+	]
+	m_pAttachmentLists = 
+	[
+		{
+			m_pObject = 
+			{
+				m_name = ""
+				m_attachments = 
+				[
+					{
+						m_name = "attach_attack1"
+						m_influences = 
+						[
+							{
+								m_influenceName = "weapon_rt_1"
+								m_vTranslationOffset = [ -0.1, 56.18, -0.04 ]
+								m_vRotationOffset = [ -0.14, 0.1, -0.04 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_weapon_chain_rt"
+						m_influences = 
+						[
+							{
+								m_influenceName = "weapon_rt_1"
+								m_vTranslationOffset = [ 0.02, -21.950001, 0.21 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_arm_chain_rt"
+						m_influences = 
+						[
+							{
+								m_influenceName = "bicep_R"
+								m_vTranslationOffset = [ -11.36, 1.42, -12.05 ]
+								m_vRotationOffset = [ 17.120001, 146.039993, -134.860001 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_attack2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "weapon_lf_2"
+								m_vTranslationOffset = [ 0.0, -54.82, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_weapon_chain_lf"
+						m_influences = 
+						[
+							{
+								m_influenceName = "weapon_lf_2"
+								m_vTranslationOffset = [ -0.07, 21.450001, 0.3 ]
+								m_vRotationOffset = [ -0.14, 0.14, 179.839996 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_arm_chain_lf"
+						m_influences = 
+						[
+							{
+								m_influenceName = "bicep_L"
+								m_vTranslationOffset = [ 10.09, 0.13, 13.64 ]
+								m_vRotationOffset = [ -15.57, -29.700001, 124.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_hitloc"
+						m_influences = 
+						[
+							{
+								m_influenceName = "spine3"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 90.0, 129.190002 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "ArbitraryChain2_plc2"
+						m_influences = 
+						[
+							{
+								m_influenceName = "Knife_A"
+								m_vTranslationOffset = [ 0.0, 148.839996, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "ArbitraryChain3_plc3"
+						m_influences = 
+						[
+							{
+								m_influenceName = "Knife_B"
+								m_vTranslationOffset = [ 0.0, 148.839996, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "ArbitraryChain4_plc4"
+						m_influences = 
+						[
+							{
+								m_influenceName = "Knife_C"
+								m_vTranslationOffset = [ 0.0, 148.839996, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "ArbitraryChain6_plc6"
+						m_influences = 
+						[
+							{
+								m_influenceName = "apron_tie_1"
+								m_vTranslationOffset = [ 74.790001, 0.0, 0.0 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "Thumb_plc0_L"
+						m_influences = 
+						[
+							{
+								m_influenceName = "apron_R2C0"
+								m_vTranslationOffset = [ 15.72, 0.0, 0.0 ]
+								m_vRotationOffset = [ -90.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "Index_plc0_L"
+						m_influences = 
+						[
+							{
+								m_influenceName = "apron_R2C1"
+								m_vTranslationOffset = [ 15.72, 0.0, 0.0 ]
+								m_vRotationOffset = [ -90.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "attach_portrait"
+						m_influences = 
+						[
+							{
+								m_influenceName = "root"
+								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
+								m_vRotationOffset = [ 90.0, 90.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+					{
+						m_name = "ArbitraryChain5_plc5"
+						m_influences = 
+						[
+							{
+								m_influenceName = "root"
+								m_vTranslationOffset = [ 5.1, 197.169998, 6.86 ]
+								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
+								m_flWeight = 1.0
+								m_bRoot = false
+							},
+						]
+					},
+				]
+			}
+		},
+	]
+	m_pAnimGroup = 
+	{
+		m_pObject = 
+		{
+			m_Name = ""
+			m_pReferenceSkeleton = 
+			{
+				m_pObject = null
+			}
+			m_pBoneFlagList = 
+			{
+				m_pObject = null
+			}
+			m_pSeqGroup = 
+			{
+				m_pObject = null
+			}
+			m_pAnimGroups = 
+			[
+				{
+					m_pObject = 
+					{
+						m_Name = "turns"
+						m_pReferenceSkeleton = 
+						{
+							m_pObject = null
+						}
+						m_pBoneFlagList = 
+						{
+							m_pObject = null
+						}
+						m_pSeqGroup = 
+						{
+							m_pObject = null
+						}
+						m_pAnimGroups = [  ]
+						m_Vanim = 
+						[
+							{
+								m_Animationname = "@turns"
+								m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/turns.smd"
+								m_nStartframe = 0
+								m_nEndframe = 2
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = true
+								m_bDisable = false
+								m_Activities = [  ]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+						]
+						m_sScripts = 
+						[
+							"animation\\heroes\\pudge\\pudge.lua",
+						]
+						m_folderNames = [  ]
+						m_sCompileScripts = [  ]
+					}
+				},
+				{
+					m_pObject = 
+					{
+						m_Name = "pudge_anims_new"
+						m_pReferenceSkeleton = 
+						{
+							m_pObject = null
+						}
+						m_pBoneFlagList = 
+						{
+							m_pObject = null
+						}
+						m_pSeqGroup = 
+						{
+							m_pObject = null
+						}
+						m_pAnimGroups = [  ]
+						m_Vanim = 
+						[
+							{
+								m_Animationname = "pudge_loadout_facial"
+								m_Filepath = "models/heroes/pudge/src_model/pudge_anims_new/pudge_loadout_facial.dmx"
+								m_nStartframe = 0
+								m_nEndframe = 60
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = true
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_LOADOUT"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ -0.15, 0.19, 1.47 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "pudge_loadout_rare_facial"
+								m_Filepath = "models/heroes/pudge/src_model/pudge_anims_new/pudge_loadout_rare_facial.dmx"
+								m_nStartframe = 0
+								m_nEndframe = 60
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_LOADOUT_RARE"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ -0.15, 0.19, 1.47 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "ftp_dendi_loadout_stomp_facial"
+								m_Filepath = "models/heroes/pudge/src_model/pudge_anims_new/ftp_dendi_loadout_stomp_facial.dmx"
+								m_nStartframe = 0
+								m_nEndframe = 480
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = true
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_LOADOUT"
+										m_nWeight = 1
+									},
+									{
+										m_Name = "ftp_dendi_back"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ -0.15, 0.19, 1.47 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "loadout_whalehook_facial"
+								m_Filepath = "models/heroes/pudge/src_model/pudge_anims_new/loadout_whalehook_facial.dmx"
+								m_nStartframe = 0
+								m_nEndframe = 60
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = true
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_LOADOUT"
+										m_nWeight = 1
+									},
+									{
+										m_Name = "whalehook"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ -0.15, 0.19, 1.47 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "portrait_facial"
+								m_Filepath = "models/heroes/pudge/src_model/pudge_anims_new/portrait_facial.dmx"
+								m_nStartframe = 0
+								m_nEndframe = 210
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = true
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_CAPTURE"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ -0.15, 0.19, 1.47 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "ftp_dendi_portrait_look_facial"
+								m_Filepath = "models/heroes/pudge/src_model/pudge_anims_new/ftp_dendi_portrait_look_facial.dmx"
+								m_nStartframe = 0
+								m_nEndframe = 630
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = true
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = false
+								m_bDisable = false
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_CAPTURE"
+										m_nWeight = 1
+									},
+									{
+										m_Name = "ftp_dendi_back"
+										m_nWeight = 1
+									},
+								]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ -0.15, 0.19, 1.47 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+						]
+						m_sScripts = [  ]
+						m_folderNames = [  ]
+						m_sCompileScripts = [  ]
+					}
+				},
+			]
+			m_Vanim = 
+			[
+				{
+					m_Animationname = "BindPose"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/BindPose.smd"
+					m_nStartframe = 0
+					m_nEndframe = 0
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "portrait"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/portrait.smd"
+					m_nStartframe = 0
+					m_nEndframe = 210
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = true
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAPTURE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_attack1"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_attack1.smd"
+					m_nStartframe = 0
+					m_nEndframe = 30
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_attack2"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_attack2.smd"
+					m_nStartframe = 0
+					m_nEndframe = 37
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_death"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_death.smd"
+					m_nStartframe = 0
+					m_nEndframe = 45
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DIE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_CL_CREATE_PARTICLE_EFFECT"
+							m_nFrame = 23
+							m_DataString = "particles/units/heroes/hero_pudge/pudge_death_dust.vpcf start_at_attachment attach_hitloc"
+						},
+					]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_dismember_mid"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_dismember_mid.smd"
+					m_nStartframe = 0
+					m_nEndframe = 80
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CHANNEL_ABILITY_4"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_CL_CREATE_PARTICLE_EFFECT"
+							m_nFrame = 0
+							m_DataString = "particles/units/heroes/hero_pudge/pudge_dismember.vpcf  follow_attachment attach_attack1"
+						},
+						{
+							m_Event = "AE_CL_CREATE_PARTICLE_EFFECT"
+							m_nFrame = 0
+							m_DataString = "particles/units/heroes/hero_pudge/pudge_dismember.vpcf follow_attachment attach_attack2"
+						},
+						{
+							m_Event = "AE_CL_CREATE_PARTICLE_EFFECT"
+							m_nFrame = 15
+							m_DataString = "particles/units/heroes/hero_pudge/pudge_dismember.vpcf follow_attachment attach_attack2"
+						},
+						{
+							m_Event = "AE_CL_CREATE_PARTICLE_EFFECT"
+							m_nFrame = 31
+							m_DataString = "particles/units/heroes/hero_pudge/pudge_dismember.vpcf follow_attachment attach_attack2"
+						},
+						{
+							m_Event = "AE_CL_CREATE_PARTICLE_EFFECT"
+							m_nFrame = 38
+							m_DataString = "particles/units/heroes/hero_pudge/pudge_dismember.vpcf follow_attachment attach_attack1"
+						},
+						{
+							m_Event = "AE_CL_CREATE_PARTICLE_EFFECT"
+							m_nFrame = 64
+							m_DataString = "particles/units/heroes/hero_pudge/pudge_dismember.vpcf follow_attachment attach_attack1"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 0
+							m_DataString = "Hero_Pudge.DismemberSwings"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 15
+							m_DataString = "Hero_Pudge.DismemberSwings"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 31
+							m_DataString = "Hero_Pudge.DismemberSwings"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 64
+							m_DataString = "Hero_Pudge.DismemberSwings"
+						},
+					]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_dismember_start"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_dismember_start.smd"
+					m_nStartframe = 0
+					m_nEndframe = 9
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAST_ABILITY_4"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_flail"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_flail.smd"
+					m_nStartframe = 0
+					m_nEndframe = 48
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FLAIL"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_idle"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_idle.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE"
+							m_nWeight = 20
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_idle_alt"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_idle_alt.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE_RARE"
+							m_nWeight = 10
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_meathook_end"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_meathook_end.smd"
+					m_nStartframe = 0
+					m_nEndframe = 18
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CHANNEL_ABILITY_1"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_meathook_start"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_meathook_start.smd"
+					m_nStartframe = 0
+					m_nEndframe = 86
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_OVERRIDE_ABILITY_1"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "@pudge_rot"
+					m_Filepath = "models/heroes/pudge/src_model_old/pudge_anims/pudge_rot.smd"
+					m_nStartframe = 0
+					m_nEndframe = 30
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = true
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 100.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_stun"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_stun.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_DISABLED"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_hook_end"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_hook_end.smd"
+					m_nStartframe = 0
+					m_nEndframe = 18
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CHANNEL_ABILITY_1"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_hook_pose"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_hook_pose.smd"
+					m_nStartframe = 0
+					m_nEndframe = 0
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_PUDGE_HOOK_POSE"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_hook_start"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_hook_start.smd"
+					m_nStartframe = 0
+					m_nEndframe = 86
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_OVERRIDE_ABILITY_1"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_idle_look"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_idle_look.smd"
+					m_nStartframe = 0
+					m_nEndframe = 210
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE_RARE"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_idle_stomp"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_idle_stomp.smd"
+					m_nStartframe = 0
+					m_nEndframe = 62
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_IDLE_RARE"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_loadout_stomp"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_loadout_stomp.smd"
+					m_nStartframe = 0
+					m_nEndframe = 480
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = true
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_LOADOUT"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_portrait_look"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_portrait_look.smd"
+					m_nStartframe = 0
+					m_nEndframe = 630
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = true
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CAPTURE"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_spawn"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_spawn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 27
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_SPAWN"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_teleport"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_teleport.smd"
+					m_nStartframe = 0
+					m_nEndframe = 24
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_TELEPORT"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_teleport_end"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_teleport_end.smd"
+					m_nStartframe = 0
+					m_nEndframe = 27
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_TELEPORT_END"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "ftp_dendi_victory"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/ftp_dendi_victory.smd"
+					m_nStartframe = 0
+					m_nEndframe = 24
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_VICTORY"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "ftp_dendi_back"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "loadout_whalehook"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/loadout_whalehook.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = true
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_LOADOUT"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "whalehook"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_meathook_whalehook_end"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/pudge_meathook_whalehook_end.smd"
+					m_nStartframe = 0
+					m_nEndframe = 18
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CHANNEL_ABILITY_1"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "whalehook"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_meathook_whalehook_start"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/pudge_meathook_whalehook_start.smd"
+					m_nStartframe = 0
+					m_nEndframe = 86
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_OVERRIDE_ABILITY_1"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "whalehook"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_rot_statue"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/pudge_rot_statue.smd"
+					m_nStartframe = 0
+					m_nEndframe = 30
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_STATUE_SEQUENCE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_run_haste"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/pudge_run_haste.smd"
+					m_nStartframe = 0
+					m_nEndframe = 24
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_RUN"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "haste"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 1
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 15
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 5
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 22
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+					]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "loadout_spawn"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/loadout_spawn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 33
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_SPAWN"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "loadout"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_spawn"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/pudge_spawn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 40
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_SPAWN"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_taunt_money_maker"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/pudge_taunt_money_maker.smd"
+					m_nStartframe = 0
+					m_nEndframe = 208
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_TAUNT"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "shake_moneymaker"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 20
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 27
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 34
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 40
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 48
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 54
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 86
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 94
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 104
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 113
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 162
+							m_DataString = "Hero_Pudge.Death"
+						},
+						{
+							m_Event = "AE_CL_CREATE_PARTICLE_EFFECT"
+							m_nFrame = 187
+							m_DataString = "particles/units/heroes/hero_pudge/pudge_t_foot_stomp.vpcf follow_origin"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 78
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 81
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 136
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 139
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+					]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_teleport_end"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/pudge_teleport_end.smd"
+					m_nStartframe = 0
+					m_nEndframe = 27
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_TELEPORT_END"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "spawn_whalehook"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/spawn_whalehook.smd"
+					m_nStartframe = 0
+					m_nEndframe = 40
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_SPAWN"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "whalehook"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "teleport"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/teleport.smd"
+					m_nStartframe = 0
+					m_nEndframe = 88
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_TELEPORT"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "teleport_end_whalehook"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/teleport_end_whalehook.smd"
+					m_nStartframe = 0
+					m_nEndframe = 40
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_TELEPORT_END"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "whalehook"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "trapper_attack01"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/trapper_attack01.smd"
+					m_nStartframe = 0
+					m_nEndframe = 40
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "trapper"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_DOTA_PLAY_SOUND_ATTACK"
+							m_nFrame = 15
+							m_DataString = ""
+						},
+					]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "trapper_attack02"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/trapper_attack02.smd"
+					m_nStartframe = 0
+					m_nEndframe = 40
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_ATTACK"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "trapper"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_DOTA_PLAY_SOUND_ATTACK"
+							m_nFrame = 15
+							m_DataString = ""
+						},
+					]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "trapper_hook_end"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/trapper_hook_end.smd"
+					m_nStartframe = 0
+					m_nEndframe = 18
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_CHANNEL_ABILITY_1"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "trapper"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "trapper_hook_pose"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/trapper_hook_pose.smd"
+					m_nStartframe = 0
+					m_nEndframe = 1
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_PUDGE_HOOK_POSE"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "trapper"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_hook_pose"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/pudge_hook_pose.smd"
+					m_nStartframe = 0
+					m_nEndframe = 0
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_PUDGE_HOOK_POSE"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "trapper_hook_start"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/trapper_hook_start.smd"
+					m_nStartframe = 0
+					m_nEndframe = 86
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_OVERRIDE_ABILITY_1"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "trapper"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "trapper_spawn"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/trapper_spawn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 40
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_SPAWN"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "trapper"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "trapper_teleport_end"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/trapper_teleport_end.smd"
+					m_nStartframe = 0
+					m_nEndframe = 40
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_TELEPORT_END"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "trapper"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "trapper_victory_animation"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/trapper_victory_animation.smd"
+					m_nStartframe = 0
+					m_nEndframe = 76
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_VICTORY"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "trapper"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "trapper_walk"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/trapper_walk.smd"
+					m_nStartframe = 0
+					m_nEndframe = 30
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_RUN"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "trapper"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 1
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 17
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 5
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 24
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+					]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_00"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_00.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_01"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_01.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_02"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_02.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_03"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_03.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_04"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_04.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_05"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_05.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_06"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_06.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_07"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_07.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_08"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_08.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "workshop_anim_09"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/workshop_anim_09.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "victory"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/teleport.smd"
+					m_nStartframe = 0
+					m_nEndframe = 88
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_VICTORY"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "loadout_rare"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_idle_alt.smd"
+					m_nStartframe = 0
+					m_nEndframe = 60
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = true
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_LOADOUT_RARE"
+							m_nWeight = 10
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_forcestaff_enemy"
+					m_Filepath = "models/heroes/pudge/src_model/pudge_anims/pudge_flail.smd"
+					m_nStartframe = 0
+					m_nEndframe = 48
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FLAIL"
+							m_nWeight = 1
+						},
+						{
+							m_Name = "forcestaff_enemy"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_forcestaff_end"
+					m_Filepath = "models/heroes/pudge/src_model_current/pudge_anims/pudge_teleport_end.smd"
+					m_nStartframe = 0
+					m_nEndframe = 27
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FORCESTAFF_END"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "pudge_versus"
+					m_Filepath = "models/heroes/pudge/src_model_old/pudge_anims/pudge_rot.smd"
+					m_nStartframe = 12
+					m_nEndframe = 22
+					m_flFps = 0.5
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_VERSUS"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, -50.0 ]
+						m_rotation = [ 0.0, 100.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "@pudge_walkN"
+					m_Filepath = "models/heroes/pudge/src_model_old/pudge_anims/pudge_walkn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 30
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = true
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 1
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 17
+							m_DataString = "Hero_Pudge.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 5
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 24
+							m_DataString = "Hero_Pudge.ChainFoley"
+						},
+					]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+			]
+			m_sScripts = [  ]
+			m_folderNames = [  ]
+			m_sCompileScripts = [  ]
+		}
+	}
+	m_pMaterialGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pMeshGroupList = 
+	{
+		m_pObject = null
+	}
+	m_pLodGroupList = 
+	{
+		m_pObject = 
+		{
+			m_lodGroups = 
+			[
+				{
+					m_flSwitchDistance = 0
+					m_meshList = 
+					[
+						"models/heroes/pudge/pudge_reference_c4093b3c.vmesh",
+						"models/heroes/pudge/leftweapon_c4093b3c.vmesh",
+					]
+				},
+				{
+					m_flSwitchDistance = 1
+					m_meshList = 
+					[
+						"models/heroes/pudge/pudge_model_lod1_c4093b3c.vmesh",
+						"models/heroes/pudge/leftweapon_c4093b3c.vmesh",
+					]
+				},
+			]
+		}
+	}
+	m_pPropBreakableList = 
+	{
+		m_pObject = null
+	}
+	m_pPropDataList = 
+	{
+		m_pObject = null
+	}
+	m_pConstraintLists = [  ]
+	m_collision = "models\\heroes\\pudge\\pudge.collision"
+	m_softbody = ""
+	m_sMDLFilename = ""
+	m_sOffsetHitboxSets = [  ]
+	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
+	m_scriptFiles = [  ]
+	m_pMaterialRemapList = 
+	{
+		m_vMaterialRemapList = 
+		[
+			{
+				m_sSearchMaterial = "models/heroes/pudge/models/heroes/pudge/pudge_color.vmat"
+				m_sReplaceMaterial = "materials/models/heroes/pudge/pudge_color.vmat"
+			},
+			{
+				m_sSearchMaterial = "pudge_cleaver_color.vmat"
+				m_sReplaceMaterial = "materials/models/heroes/pudge/pudge_cleaver/pudge_cleaver_color.vmat"
+			},
+			{
+				m_sSearchMaterial = "models/heroes/pudge/models/heroes/pudge/pudge_cleaver_color.vmat"
+				m_sReplaceMaterial = "materials/models/heroes/pudge/pudge_cleaver/pudge_cleaver_color.vmat"
+			},
+		]
+	}
+	m_flFbxScale = 1.0
+	m_flQCScale = 1.0
+	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_pPsfList = null
+	m_keyValueText = ""
+	m_bStaticProp = false
+	m_bEnableClothProcessing = true
+	m_flClothEnableThreshold = 0.05
+	m_nMaxClothVertsPerMesh = 2048
+	m_bBuildClothBoneHierarchy = false
+	m_nNavType = "AUTH_NAV_MESH"
+	m_bMakeUniqueVMeshes = true
+	m_bMakeImplicitBindPoseSequence = false
+	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
+	m_pAnimGroups = [  ]
+}

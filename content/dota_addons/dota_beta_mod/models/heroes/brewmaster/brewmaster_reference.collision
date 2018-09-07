@@ -1,0 +1,608 @@
+<!-- schema text {7e125a45-3d83-4043-b292-9e24f8ef27b4} generic {198980d8-3a93-4919-b4c6-dd1fb07a3a4b} -->
+CAuthPhysModel CAuthPhysModel_0
+{
+	CAuthPhysCollisionAttributes m_CollisionAttributes = CAuthPhysCollisionAttributes
+	{
+		string m_CollisionGroup = "default"
+		string[] m_InteractAs = 
+		[
+			
+		]
+		string[] m_InteractWith = 
+		[
+			
+		]
+		string[] m_InteractExclude = 
+		[
+			
+		]
+	}
+	string m_DMXReference = ""
+	string m_embeddedKeyvalues = ""
+	CAuthPhysBody[] m_Bodies = 
+	[
+		
+	]
+	CAuthPhysJoint[] m_Joints = 
+	[
+		
+	]
+	CAuthPhysFx m_Fx = CAuthPhysFx
+	{
+		CAuthPhysFx::CQuad[] m_Quads = 
+		[
+			
+		]
+		CAuthPhysFx::CRod[] m_Rods = 
+		[
+			CAuthPhysFx::CRod
+			{
+				uint[] m_nNodes = 
+				[
+					0,
+					2
+				]
+				float[] m_flMotionBias = 
+				[
+					1.000000,
+					1.000000
+				]
+				float m_flRelaxationFactor = 1.000000
+				bool m_bExplicitLength = false
+				float m_flLength = 0.000000
+				float m_flContractionFactor = 0.050000
+			},
+			CAuthPhysFx::CRod
+			{
+				uint[] m_nNodes = 
+				[
+					1,
+					3
+				]
+				float[] m_flMotionBias = 
+				[
+					1.000000,
+					1.000000
+				]
+				float m_flRelaxationFactor = 1.000000
+				bool m_bExplicitLength = false
+				float m_flLength = 0.000000
+				float m_flContractionFactor = 0.050000
+			},
+			CAuthPhysFx::CRod
+			{
+				uint[] m_nNodes = 
+				[
+					2,
+					3
+				]
+				float[] m_flMotionBias = 
+				[
+					1.000000,
+					1.000000
+				]
+				float m_flRelaxationFactor = 1.000000
+				bool m_bExplicitLength = false
+				float m_flLength = 0.000000
+				float m_flContractionFactor = 0.050000
+			},
+			CAuthPhysFx::CRod
+			{
+				uint[] m_nNodes = 
+				[
+					2,
+					4
+				]
+				float[] m_flMotionBias = 
+				[
+					1.000000,
+					1.000000
+				]
+				float m_flRelaxationFactor = 1.000000
+				bool m_bExplicitLength = false
+				float m_flLength = 0.000000
+				float m_flContractionFactor = 0.050000
+			},
+			CAuthPhysFx::CRod
+			{
+				uint[] m_nNodes = 
+				[
+					3,
+					5
+				]
+				float[] m_flMotionBias = 
+				[
+					1.000000,
+					1.000000
+				]
+				float m_flRelaxationFactor = 1.000000
+				bool m_bExplicitLength = false
+				float m_flLength = 0.000000
+				float m_flContractionFactor = 0.050000
+			},
+			CAuthPhysFx::CRod
+			{
+				uint[] m_nNodes = 
+				[
+					4,
+					5
+				]
+				float[] m_flMotionBias = 
+				[
+					1.000000,
+					1.000000
+				]
+				float m_flRelaxationFactor = 1.000000
+				bool m_bExplicitLength = false
+				float m_flLength = 0.000000
+				float m_flContractionFactor = 0.050000
+			},
+			CAuthPhysFx::CRod
+			{
+				uint[] m_nNodes = 
+				[
+					4,
+					6
+				]
+				float[] m_flMotionBias = 
+				[
+					1.000000,
+					1.000000
+				]
+				float m_flRelaxationFactor = 1.000000
+				bool m_bExplicitLength = false
+				float m_flLength = 0.000000
+				float m_flContractionFactor = 0.050000
+			},
+			CAuthPhysFx::CRod
+			{
+				uint[] m_nNodes = 
+				[
+					5,
+					7
+				]
+				float[] m_flMotionBias = 
+				[
+					1.000000,
+					1.000000
+				]
+				float m_flRelaxationFactor = 1.000000
+				bool m_bExplicitLength = false
+				float m_flLength = 0.000000
+				float m_flContractionFactor = 0.050000
+			},
+			CAuthPhysFx::CRod
+			{
+				uint[] m_nNodes = 
+				[
+					6,
+					7
+				]
+				float[] m_flMotionBias = 
+				[
+					1.000000,
+					1.000000
+				]
+				float m_flRelaxationFactor = 1.000000
+				bool m_bExplicitLength = false
+				float m_flLength = 0.000000
+				float m_flContractionFactor = 0.050000
+			}
+		]
+		CAuthPhysFx::CSpring[] m_Springs = 
+		[
+			
+		]
+		CAuthPhysFx::CConstraint[] m_Constraints = 
+		[
+			
+		]
+		CAuthPhysFx::CCapsule[] m_Capsules = 
+		[
+			
+		]
+		CAuthPhysFx::CBone[] m_Nodes = 
+		[
+			CAuthPhysFx::CBone
+			{
+				bool m_bSimulated = false
+				bool m_bForceSimulated = false
+				bool m_bFreeRotation = false
+				bool m_bAnimRotation = false
+				bool m_bVirtual = false
+				bool m_bNeedNodeBase = false
+				bool m_bNeedsWorldCollision = false
+				bool m_bOsOffset = false
+				bool m_bSuspenders = false
+				float m_flWorldFriction = 0.200000
+				float m_flGroundFriction = 0.000000
+				float m_flLegacyStretchForce = 1.000000
+				float m_flMass = 1.000000
+				float m_flMassBias = 0.000000
+				int m_nFollowParent = -1
+				float m_flFollowWeight = 0.000000
+				float m_flCollisionRadius = 0.000000
+				FeNodeIntegrator_t m_Integrator = FeNodeIntegrator_t
+				{
+					float flPointDamping = 3.000000
+					float flAnimationForceAttraction = 0.000000
+					float flAnimationVertexAttraction = 0.000000
+					float flGravity = 600.000000
+				}
+				bool m_bHasMassOverride = false
+				uint m_nCollisionMask = 65535
+				int m_nParent = -1
+				string m_Name = "flail_r0c0"
+				float(8) m_Transform = ( 148.679901, 2.204071, -76.560143, 0.000000, 0.759819, 0.150672, -0.284304, 0.564928 )
+				bool m_bUseRods = false
+				float m_flMakeRods = 0.000000
+				float m_flLocalForce = 1.000000
+				float m_flLocalRotation = 0.000000
+			},
+			CAuthPhysFx::CBone
+			{
+				bool m_bSimulated = false
+				bool m_bForceSimulated = false
+				bool m_bFreeRotation = false
+				bool m_bAnimRotation = false
+				bool m_bVirtual = true
+				bool m_bNeedNodeBase = false
+				bool m_bNeedsWorldCollision = false
+				bool m_bOsOffset = true
+				bool m_bSuspenders = false
+				float m_flWorldFriction = 0.200000
+				float m_flGroundFriction = 0.000000
+				float m_flLegacyStretchForce = 1.000000
+				float m_flMass = 1.000000
+				float m_flMassBias = 0.000000
+				int m_nFollowParent = -1
+				float m_flFollowWeight = 0.000000
+				float m_flCollisionRadius = 0.000000
+				FeNodeIntegrator_t m_Integrator = FeNodeIntegrator_t
+				{
+					float flPointDamping = 3.000000
+					float flAnimationForceAttraction = 0.000000
+					float flAnimationVertexAttraction = 0.000000
+					float flGravity = 600.000000
+				}
+				bool m_bHasMassOverride = false
+				uint m_nCollisionMask = 65535
+				int m_nParent = 0
+				string m_Name = "flail_r0c1"
+				float(8) m_Transform = ( 148.679901, -17.795929, -76.560143, 0.000000, 0.759819, 0.150672, -0.284304, 0.564928 )
+				bool m_bUseRods = false
+				float m_flMakeRods = 0.000000
+				float m_flLocalForce = 1.000000
+				float m_flLocalRotation = 0.000000
+			},
+			CAuthPhysFx::CBone
+			{
+				bool m_bSimulated = true
+				bool m_bForceSimulated = false
+				bool m_bFreeRotation = false
+				bool m_bAnimRotation = false
+				bool m_bVirtual = false
+				bool m_bNeedNodeBase = false
+				bool m_bNeedsWorldCollision = false
+				bool m_bOsOffset = false
+				bool m_bSuspenders = false
+				float m_flWorldFriction = 0.200000
+				float m_flGroundFriction = 0.000000
+				float m_flLegacyStretchForce = 1.000000
+				float m_flMass = 2.000000
+				float m_flMassBias = 0.000000
+				int m_nFollowParent = 0
+				float m_flFollowWeight = 0.050000
+				float m_flCollisionRadius = 0.000000
+				FeNodeIntegrator_t m_Integrator = FeNodeIntegrator_t
+				{
+					float flPointDamping = 0.100000
+					float flAnimationForceAttraction = 0.000000
+					float flAnimationVertexAttraction = 0.000000
+					float flGravity = 600.000000
+				}
+				bool m_bHasMassOverride = true
+				uint m_nCollisionMask = 65535
+				int m_nParent = 0
+				string m_Name = "flail_r1c0"
+				float(8) m_Transform = ( 157.845367, 1.137695, -83.521637, 0.000000, 0.759820, 0.150669, -0.284303, 0.564929 )
+				bool m_bUseRods = false
+				float m_flMakeRods = 0.000000
+				float m_flLocalForce = 1.000000
+				float m_flLocalRotation = 0.000000
+			},
+			CAuthPhysFx::CBone
+			{
+				bool m_bSimulated = true
+				bool m_bForceSimulated = false
+				bool m_bFreeRotation = false
+				bool m_bAnimRotation = false
+				bool m_bVirtual = true
+				bool m_bNeedNodeBase = false
+				bool m_bNeedsWorldCollision = false
+				bool m_bOsOffset = true
+				bool m_bSuspenders = false
+				float m_flWorldFriction = 0.200000
+				float m_flGroundFriction = 0.000000
+				float m_flLegacyStretchForce = 1.000000
+				float m_flMass = 2.000000
+				float m_flMassBias = 0.000000
+				int m_nFollowParent = 0
+				float m_flFollowWeight = 0.050000
+				float m_flCollisionRadius = 0.000000
+				FeNodeIntegrator_t m_Integrator = FeNodeIntegrator_t
+				{
+					float flPointDamping = 0.100000
+					float flAnimationForceAttraction = 0.000000
+					float flAnimationVertexAttraction = 0.000000
+					float flGravity = 600.000000
+				}
+				bool m_bHasMassOverride = true
+				uint m_nCollisionMask = 65535
+				int m_nParent = 2
+				string m_Name = "flail_r1c1"
+				float(8) m_Transform = ( 157.845367, -18.862305, -83.521637, 0.000000, 0.759820, 0.150669, -0.284303, 0.564929 )
+				bool m_bUseRods = false
+				float m_flMakeRods = 0.000000
+				float m_flLocalForce = 1.000000
+				float m_flLocalRotation = 0.000000
+			},
+			CAuthPhysFx::CBone
+			{
+				bool m_bSimulated = true
+				bool m_bForceSimulated = false
+				bool m_bFreeRotation = false
+				bool m_bAnimRotation = false
+				bool m_bVirtual = false
+				bool m_bNeedNodeBase = false
+				bool m_bNeedsWorldCollision = false
+				bool m_bOsOffset = false
+				bool m_bSuspenders = false
+				float m_flWorldFriction = 0.200000
+				float m_flGroundFriction = 0.000000
+				float m_flLegacyStretchForce = 1.000000
+				float m_flMass = 2.000000
+				float m_flMassBias = 0.000000
+				int m_nFollowParent = 0
+				float m_flFollowWeight = 0.050000
+				float m_flCollisionRadius = 0.000000
+				FeNodeIntegrator_t m_Integrator = FeNodeIntegrator_t
+				{
+					float flPointDamping = 0.100000
+					float flAnimationForceAttraction = 0.000000
+					float flAnimationVertexAttraction = 0.000000
+					float flGravity = 600.000000
+				}
+				bool m_bHasMassOverride = true
+				uint m_nCollisionMask = 65535
+				int m_nParent = 2
+				string m_Name = "flail_r2c0"
+				float(8) m_Transform = ( 167.926682, -0.035263, -91.178696, 0.000000, 0.759820, 0.150670, -0.284304, 0.564928 )
+				bool m_bUseRods = false
+				float m_flMakeRods = 0.000000
+				float m_flLocalForce = 1.000000
+				float m_flLocalRotation = 0.000000
+			},
+			CAuthPhysFx::CBone
+			{
+				bool m_bSimulated = true
+				bool m_bForceSimulated = false
+				bool m_bFreeRotation = false
+				bool m_bAnimRotation = false
+				bool m_bVirtual = true
+				bool m_bNeedNodeBase = false
+				bool m_bNeedsWorldCollision = false
+				bool m_bOsOffset = true
+				bool m_bSuspenders = false
+				float m_flWorldFriction = 0.200000
+				float m_flGroundFriction = 0.000000
+				float m_flLegacyStretchForce = 1.000000
+				float m_flMass = 2.000000
+				float m_flMassBias = 0.000000
+				int m_nFollowParent = 0
+				float m_flFollowWeight = 0.050000
+				float m_flCollisionRadius = 0.000000
+				FeNodeIntegrator_t m_Integrator = FeNodeIntegrator_t
+				{
+					float flPointDamping = 0.100000
+					float flAnimationForceAttraction = 0.000000
+					float flAnimationVertexAttraction = 0.000000
+					float flGravity = 600.000000
+				}
+				bool m_bHasMassOverride = true
+				uint m_nCollisionMask = 65535
+				int m_nParent = 4
+				string m_Name = "flail_r2c1"
+				float(8) m_Transform = ( 167.926682, -20.035263, -91.178696, 0.000000, 0.759820, 0.150670, -0.284304, 0.564928 )
+				bool m_bUseRods = false
+				float m_flMakeRods = 0.000000
+				float m_flLocalForce = 1.000000
+				float m_flLocalRotation = 0.000000
+			},
+			CAuthPhysFx::CBone
+			{
+				bool m_bSimulated = true
+				bool m_bForceSimulated = false
+				bool m_bFreeRotation = false
+				bool m_bAnimRotation = false
+				bool m_bVirtual = false
+				bool m_bNeedNodeBase = false
+				bool m_bNeedsWorldCollision = true
+				bool m_bOsOffset = false
+				bool m_bSuspenders = false
+				float m_flWorldFriction = 0.200000
+				float m_flGroundFriction = 0.000000
+				float m_flLegacyStretchForce = 1.000000
+				float m_flMass = 2.000000
+				float m_flMassBias = 0.000000
+				int m_nFollowParent = 0
+				float m_flFollowWeight = 0.050000
+				float m_flCollisionRadius = 0.000000
+				FeNodeIntegrator_t m_Integrator = FeNodeIntegrator_t
+				{
+					float flPointDamping = 0.100000
+					float flAnimationForceAttraction = 0.000000
+					float flAnimationVertexAttraction = 0.000000
+					float flGravity = 600.000000
+				}
+				bool m_bHasMassOverride = true
+				uint m_nCollisionMask = 65535
+				int m_nParent = 4
+				string m_Name = "flail_r3c0"
+				float(8) m_Transform = ( 176.454330, -1.027451, -97.655746, 0.000000, 0.759820, 0.150669, -0.284303, 0.564929 )
+				bool m_bUseRods = false
+				float m_flMakeRods = 0.000000
+				float m_flLocalForce = 1.000000
+				float m_flLocalRotation = 0.000000
+			},
+			CAuthPhysFx::CBone
+			{
+				bool m_bSimulated = true
+				bool m_bForceSimulated = false
+				bool m_bFreeRotation = false
+				bool m_bAnimRotation = false
+				bool m_bVirtual = true
+				bool m_bNeedNodeBase = false
+				bool m_bNeedsWorldCollision = true
+				bool m_bOsOffset = true
+				bool m_bSuspenders = false
+				float m_flWorldFriction = 0.200000
+				float m_flGroundFriction = 0.000000
+				float m_flLegacyStretchForce = 1.000000
+				float m_flMass = 2.000000
+				float m_flMassBias = 0.000000
+				int m_nFollowParent = 0
+				float m_flFollowWeight = 0.050000
+				float m_flCollisionRadius = 0.000000
+				FeNodeIntegrator_t m_Integrator = FeNodeIntegrator_t
+				{
+					float flPointDamping = 0.100000
+					float flAnimationForceAttraction = 0.000000
+					float flAnimationVertexAttraction = 0.000000
+					float flGravity = 600.000000
+				}
+				bool m_bHasMassOverride = true
+				uint m_nCollisionMask = 65535
+				int m_nParent = 6
+				string m_Name = "flail_r3c1"
+				float(8) m_Transform = ( 176.454330, -21.027451, -97.655746, 0.000000, 0.759820, 0.150669, -0.284303, 0.564929 )
+				bool m_bUseRods = false
+				float m_flMakeRods = 0.000000
+				float m_flLocalForce = 1.000000
+				float m_flLocalRotation = 0.000000
+			}
+		]
+		CAuthPhysFx::CCollisionSphere[] m_CollisionSpheres = 
+		[
+			
+		]
+		CAuthPhysFx::CCollisionPlane[] m_CollisionPlanes = 
+		[
+			
+		]
+		FeNodeBase_t[] m_PresetNodeBases = 
+		[
+			FeNodeBase_t
+			{
+				uint nNode = 2
+				uint[] nDummy = 
+				[
+					0,
+					0,
+					0
+				]
+				uint nNodeX0 = 2
+				uint nNodeX1 = 3
+				uint nNodeY0 = 0
+				uint nNodeY1 = 4
+				float(4) qAdjust = ( 0.500000, 0.500000, -0.500000, -0.500000 )
+			},
+			FeNodeBase_t
+			{
+				uint nNode = 4
+				uint[] nDummy = 
+				[
+					0,
+					0,
+					0
+				]
+				uint nNodeX0 = 4
+				uint nNodeX1 = 5
+				uint nNodeY0 = 2
+				uint nNodeY1 = 6
+				float(4) qAdjust = ( 0.500000, 0.500000, -0.500000, -0.500000 )
+			},
+			FeNodeBase_t
+			{
+				uint nNode = 6
+				uint[] nDummy = 
+				[
+					0,
+					0,
+					0
+				]
+				uint nNodeX0 = 6
+				uint nNodeX1 = 7
+				uint nNodeY0 = 4
+				uint nNodeY1 = 6
+				float(4) qAdjust = ( 0.500000, 0.500000, -0.500000, -0.500000 )
+			}
+		]
+		FeTaperedCapsuleStretch_t[] m_TaperedCapsuleStretches = 
+		[
+			
+		]
+		FeTaperedCapsuleRigid_t[] m_TaperedCapsuleRigids = 
+		[
+			
+		]
+		FeSphereRigid_t[] m_SphereRigids = 
+		[
+			
+		]
+		CAuthPhysFx::CCtrlOffset[] m_CtrlOffsets = 
+		[
+			
+		]
+		FeFitInfluence_t[] m_FitInfluences = 
+		[
+			
+		]
+		float m_flDefaultSurfaceStretch = 0.000000
+		float m_flDefaultThreadStretch = 0.000000
+		float m_flDefaultGravityScale = 1.000000
+		float m_flDefaultVelAirDrag = 0.000000
+		float m_flDefaultExpAirDrag = 0.000000
+		float m_flDefaultVelQuadAirDrag = 0.000000
+		float m_flDefaultExpQuadAirDrag = 0.000000
+		float m_flDefaultVelRodAirDrag = 0.000000
+		float m_flDefaultExpRodAirDrag = 0.000000
+		float m_flQuadVelocitySmoothRate = 0.000000
+		float m_flRodVelocitySmoothRate = 0.000000
+		float m_flWindage = 0.000000
+		float m_flWindDrag = 0.000000
+		int m_nQuadVelocitySmoothIterations = 0
+		int m_nRodVelocitySmoothIterations = 0
+		float m_flDefaultGroundFriction = 0.000000
+		float m_flDefaultWorldCollisionPenetration = 0.000000
+		float m_flAddWorldCollisionRadius = 2.000000
+		float m_flLocalForce = 1.000000
+		float m_flLocalRotation = 0.000000
+		float m_flVolumetricSolveAmount = 0.000000
+		float m_flAddCurvature = 0.000000
+		float m_flQuadBendTolerance = 0.050000
+		bool m_bFollowTheLead = true
+		bool m_bUsePerNodeLocalForceAndRotation = false
+		bool m_bUninertialRods = true
+		bool m_bExplicitMasses = true
+		bool m_bUnitlessDamping = false
+		bool m_bForceWorldCollisionOnAllNodes = false
+		int m_nMergePriority = 0
+		bool m_bNewStyle = true
+		bool m_bCanCollideWithWorldMeshes = false
+		bool m_bCanCollideWithWorldCapsulesAndSpheres = false
+		bool m_bCanCollideWithWorldHulls = false
+		bool m_bAddStiffnessRods = true
+		bool m_bRigidEdgeHinges = false
+	}
+}

@@ -1,0 +1,11 @@
+// Created by Crowbar 0.33.0.0
+version 1
+nodes
+  0 "Root_0" -1
+  1 "Head_1" 0
+end
+skeleton
+  time 0
+    0 0.000000 2.574219 92.875000 0.000000 0.000000 -1.570796   # pos: raw   rot: raw64 (0, 0, 0, 1)
+    1 3.428989 0.000000 69.552147 0.000000 0.000000 0.000000   # pos: desc_bone   rot: desc_bone
+end

@@ -1,0 +1,9 @@
+// Created by Crowbar 0.33.0.0
+version 1
+nodes
+  0 "staff_1" -1
+end
+skeleton
+  time 0
+    0 -112.687500 -0.814453 96.562500 1.570792 0.000005 -0.000005
+end

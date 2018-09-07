@@ -1,0 +1,127 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 8
+	m_flConstantRadius = 48.0
+	m_flConstantLifespan = 0.6
+	m_ConstantColor = [ 232, 149, 223, 255 ]
+	m_bShouldSort = false
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_nSequenceCombineMode = "SEQUENCE_COMBINE_MODE_USE_SEQUENCE_0"
+			m_bAdditive = true
+			m_nOrientationType = 3
+			m_hTexture = resource:"materials/particle/spectre_blade.vtex"
+			m_flAnimationRate = 2.0
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_Decay"
+		},
+		{
+			_class = "C_OP_FadeInSimple"
+		},
+		{
+			_class = "C_OP_FadeOutSimple"
+			m_flFadeOutTime = 0.75
+		},
+		{
+			_class = "C_OP_PositionLock"
+			m_bLockRot = true
+		},
+		{
+			_class = "C_OP_NormalLock"
+		},
+		{
+			_class = "C_OP_RampScalarLinear"
+			m_nField = 4
+			m_RateMin = -2.0
+			m_RateMax = 2.0
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_CreateWithinSphere"
+		},
+		{
+			_class = "C_INIT_NormalAlignToCP"
+		},
+		{
+			_class = "C_INIT_RandomRotation"
+		},
+		{
+			_class = "C_INIT_RandomColor"
+			m_ColorMin = [ 67, 5, 49, 55 ]
+			m_ColorMax = [ 130, 32, 92, 55 ]
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_ContinuousEmitter"
+			m_flEmitRate = 12.0
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_spectre/spectre_ambient_blade_fallback_low.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_spectre/spectre_ambient_g.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_spectre/spectre_ambient_h.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_spectre/spectre_ambient_j.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_spectre/spectre_ambient_b.vpcf"
+			m_bDisableChild = true
+		},
+	]
+	m_previewState = 
+	{
+		m_previewModel = "models/heroes/spectre/spectre.vmdl"
+		m_nModSpecificData = 323
+		m_sequenceName = "idle"
+		m_hitboxSetName = "default"
+	}
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "attach_attack1"
+					m_vecOffset = [ 19.414063, -12.219055, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "parent"
+				},
+			]
+		},
+		{
+			m_name = "game"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "attach_attack1"
+					m_vecOffset = [ 20.497597, -12.619324, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "parent"
+				},
+			]
+		},
+	]
+}

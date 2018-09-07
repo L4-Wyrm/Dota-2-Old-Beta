@@ -1,0 +1,194 @@
+.BetaBckRoot
+{
+    width: 100%;
+    height: 100%;
+	background-color: #212226;
+}
+
+.BetaBckTitle
+{
+	horizontal-align: left;   
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: clip;
+}
+
+#TitlePanel
+{
+	horizontal-align: left;
+	vertical-align: bottom;
+	margin-bottom: 150px;
+	margin-left: 100px;
+	flow-children: right;
+}
+
+.TitleNameImg
+{
+	position: 5px 30px 0px;   
+    width: 450px;
+    height: 55px;
+}
+
+#BetaNameTitle
+{
+	margin-bottom: -15px;
+	vertical-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	color: #cc0202;
+	text-shadow: 10px 10px 10px #000000;
+}
+
+
+#BetaTitle
+{
+	margin-bottom: -15px;
+	vertical-align: center;
+	text-transform: uppercase;
+	font-size: 80px;
+	color: #cc0202;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+#GameModeDescription
+{
+    font-size: 27px;
+	text-transform: uppercase;
+	color: #cccccc;
+}
+
+#GameModeHints
+{
+	margin: 10px;
+	font-size: 18px;
+	color: #8f9092;
+}
+
+#GameModeImage
+{
+	horizontal-align: center;
+	width: 200px;
+	height: 150px;
+
+	box-shadow: inset black 5px 5px 10px 10px;
+}
+
+.BetaBckScene
+{
+	horizontal-align: left;   
+    width: 100%;
+    height: 100%;
+    overflow: clip;
+}
+
+#BetaBtnmain
+{
+	flow-children: down;
+	horizontal-align: left;
+	vertical-align: top;
+	position: 458px 0px 0px; 
+}
+
+#BetaBtnmain Label
+{
+	color: gray;
+	font-size: 20px;
+	horizontal-align: center;
+}
+
+#BmpBtn
+{
+	margin-bottom: -15px;
+	vertical-align: center;
+	text-transform: uppercase;
+	font-size: 80px;
+	color: #cc0202;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.BmpBtnimg
+{
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+	horizontal-align: center;
+}
+
+#BetaChangesBtnmain
+{
+	flow-children: down;
+	horizontal-align: left;
+	vertical-align: top;
+	position: 548px 0px 0px; 
+}
+
+#BetaChangesBtnmain Label
+{
+	color: gray;
+	font-size: 20px;
+	horizontal-align: center;
+}
+
+#ChangesBtn
+{
+	margin-bottom: -15px;
+	vertical-align: center;
+	text-transform: uppercase;
+	font-size: 80px;
+	color: #cc0202;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.ChangesBtnimg
+{
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+	horizontal-align: center;
+}
+
+#BetaDevelopers
+{
+	flow-children: down;
+	horizontal-align: left;
+	vertical-align: top;
+	position: 130px 850px 0px;
+}
+
+.betadevcolumn
+{
+	width: 100%;
+	flow-children: down;
+}
+
+.betadevavatar
+{
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+	horizontal-align: center;
+}
+
+#BetaDevHdrMain
+{
+	horizontal-align: left;
+	vertical-align: bottom;
+	margin-bottom: 230px;
+	margin-left: 45px;
+	flow-children: right;
+}
+
+.BetaDevImg
+{
+	position: 6px 30px 0px;   
+    width: 250px;
+    height: 35px;
+}
+
+.TitleLogoImg
+{
+	position: 430px 870px 0px;   
+    width: 950px;
+    height: 85px;
+}

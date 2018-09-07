@@ -1,0 +1,26 @@
+<root>
+	<Panel>
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_antimage.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_axe.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_brewmaster.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_broodmother.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_dazzle.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_death_prophet.png" />>
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_drow_ranger.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_earthshaker.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_faceless_void.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_gyrocopter.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_lion.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_nevermore.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_phantom_assassin.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_puck.png" />>
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_pudge.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_skeleton_king.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_storm_spirit.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_vengefulspirit.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_venomancer.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_zuus.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_slardar.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_viper.png" />
+	</Panel>
+</root>

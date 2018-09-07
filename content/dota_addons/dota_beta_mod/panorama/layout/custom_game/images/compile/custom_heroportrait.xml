@@ -1,0 +1,36 @@
+<root>
+	<Panel>
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_antimage.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_axe.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_beastmaster.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_brewmaster.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_broodmother.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_chen.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_dazzle.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_death_prophet.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_dragon_knight.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_drow_ranger.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_earthshaker.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_faceless_void.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_gyrocopter.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_lion.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_luna.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_nevermore.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_omniknight.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_phantom_assassin.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_puck.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_pudge.png" />>
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_riki.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_skeleton_king.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_sniper.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_storm_spirit.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_vengefulspirit.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_venomancer.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_witch_doctor.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_zuus.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_slardar.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_viper.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_enigma.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_jakiro.png" />
+	</Panel>
+</root>

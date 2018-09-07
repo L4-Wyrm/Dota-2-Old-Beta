@@ -1,0 +1,108 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "hero.vfx"
+
+	//---- Detail ----
+	F_DETAIL 3 // Mod2X
+
+	//---- Effect Proxies ----
+	F_USE_STATUS_EFFECTS_PROXY 1
+
+	//---- Masks ----
+	F_MASKS_1 1
+	F_MASKS_2 1
+
+	//---- Morph ----
+	F_MORPH_SUPPORTED 1
+
+	//---- Blend To Full ----
+	g_flDetailBlendToFull "0.000"
+	g_flEnvMapBlendToFull "0.000"
+	g_flMetalnessBlendToFull "0.000"
+	g_flReflectionsTintByBaseBlendToNone "0.000"
+	g_flSelfIllumBlendToFull "0.000"
+	g_flSpecularBlendToFull "0.000"
+	g_flSpecularExponentBlendToFull "0.000"
+
+	//---- Cloak ----
+	g_flCloakBlurAmount "0.005"
+	g_flCloakIntensity "0.750"
+	g_flCloakRefractAmount "0.100"
+	g_flMaterialCloakFactor "0.000"
+	g_vCloakColorTint "[1.000 1.000 1.000]"
+
+	//---- Color ----
+	g_flDiffuseModulationAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/models/heroes/broodmother/src/broodmother_color.tga"
+
+	//---- Detail 1 ----
+	g_flDetailBlendFactor "1.000"
+	g_flDetailTexCoordRotation "0.000"
+	g_vDetail1ColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vDetailTexCoordOffset "[0.000 0.000]"
+	g_vDetailTexCoordScale "[1.000 1.000]"
+	TextureDetail "materials/models/heroes/broodmother/src/broodmother_glow.tga"
+
+	//---- Detail 2 ----
+	g_flDetail2BlendFactor "0.000"
+	TextureDetail2 "materials/default/default_detail2.tga"
+
+	//---- Fresnel ----
+	g_flFresnelModulatesAlpha "0.000"
+	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
+	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
+	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
+
+	//---- Lighting ----
+	g_flAmbientScale "1.000"
+	g_flBloomScale "0.000"
+	g_flBloomShift "0.000"
+	g_vBloomColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Mask 1 ----
+	TextureDetailMask "materials/models/heroes/broodmother/src/broodmother_detailmask.tga"
+	TextureDiffuseWarpMask "materials/models/heroes/broodmother/src/broodmother_diffusemask.tga"
+	TextureMetalnessMask "materials/models/heroes/broodmother/src/broodmother_metalnessmask.tga"
+	TextureSelfIllumMask "materials/models/heroes/broodmother/src/broodmother_selfillummask.tga"
+
+	//---- Mask 2 ----
+	TextureRimMask "materials/models/heroes/broodmother/src/broodmother_rimmask.tga"
+	TextureSpecularExponent "materials/models/heroes/broodmother/src/broodmother_specexp.tga"
+	TextureSpecularMask "materials/models/heroes/broodmother/src/broodmother_specmask.tga"
+	TextureTintByBaseMask "materials/models/heroes/broodmother/src/broodmother_basetintmask.tga"
+
+	//---- Normal Map ----
+	TextureNormal "materials/models/heroes/broodmother/src/broodmother_normal.tga"
+
+	//---- Rim ----
+	g_flRimLightScale "1.000"
+	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Specular ----
+	g_flSpecularExponent "24.000"
+	g_flSpecularScale "8.000"
+	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	"legacy_import"
+	{
+		"CustomHero"
+		{
+			"$baseTexture"		"models/heroes/Broodmother/broodmother_body"
+			"$normalmap"		"models/heroes/broodmother/broodmother_body_normal.vtf"
+			"$maskmap1"		"models/heroes/broodmother/broodmother_body_mask1"
+			"$maskmap2"		"models/heroes/broodmother/broodmother_body_mask2"
+			"$SPECULAR_BLOOM_SCALE"		"0"
+			"$SPECULAREXPONENT"		"24"
+			"$SPECULARSCALE"		"8"
+			"$RIMLIGHTSCALE"		"1"
+			"$alphatest"		"1"
+			"$cloakintensity"		"0.750000"
+			"$cloakPassEnabled"		"1"
+		}
+	}
+}
