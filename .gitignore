@@ -108,7 +108,7 @@ cache_*.soc
 # Dota 2 Old Beta
 
 # Custom workshop folder
-workshop/*
+/workshop/
 
 # File extensions
 *.dev
@@ -119,7 +119,7 @@ workshop/*
 *.tmp
 *.unused
 *.vmf
-.src/*
+
 
 # Files
 desktop.ini
@@ -134,4 +134,4 @@ gameinfo.txt
 Thumbs.db
 
 # SFM Elements folder
-elements/*
+/elements/
