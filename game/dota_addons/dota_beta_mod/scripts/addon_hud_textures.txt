@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////
+// This file is created for custom gamemode: Dota 2 Old Beta. //
+// 			DO NOT CHANGE ANYTING THERE!	      			  //
+////////////////////////////////////////////////////////////////
+""
+{
+    "TextureData"
+    {
+        "minimap_enemyicon"
+        {
+            "file"     "materials/vgui/hud/minimap_enemyicon.vmat"
+            "x"        "0"
+            "y"        "0"
+            "width"    "64"
+            "height"   "64"
+        }
+	}
+}

@@ -1,0 +1,44 @@
+////////////////////////////////////////////////////////////////
+// This file is created for custom gamemode: Dota 2 Old Beta. //
+// 			DO NOT CHANGE ANYTING THERE!	      			  //
+////////////////////////////////////////////////////////////////
+
+"itembuilds"
+{
+	"author"		"Valve"
+	"hero"			"npc_dota_hero_antimage"
+	"Title"			"Recommended items for Anti-Mage"
+	
+	"Items"
+	{		
+		"#DOTA_Item_Build_Starting_Items"
+		{
+			"item"		"item_stout_shield"
+			"item"		"item_tango"
+			"item"		"item_quelling_blade"
+		}
+		
+		"#DOTA_Item_Build_Early_Game"
+		{	
+			"item"		"item_magic_stick"
+			"item"		"item_boots"
+			"item"		"item_poor_mans_shield"
+		}
+		
+		"#DOTA_Item_Build_Core_Items"
+		{
+			"item"		"item_magic_wand"
+			"item"		"item_power_treads"
+			"item"		"item_manta"
+		}
+		
+		"#DOTA_Item_Build_Luxury"
+		{
+			"item"		"item_heart"
+			"item"		"item_blade_mail"
+			"item"		"item_black_king_bar"
+			"item"		"item_butterfly"
+			"item"		"item_monkey_king_bar"
+		}
+	}
+}

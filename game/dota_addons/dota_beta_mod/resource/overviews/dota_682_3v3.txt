@@ -1,0 +1,15 @@
+////////////////////////////////////////////////////////////////
+// This file is created for custom gamemode: Dota 2 Old Beta. //
+// 			DO NOT CHANGE ANYTING THERE!	      			  //
+////////////////////////////////////////////////////////////////
+
+dota_682_3v3
+{
+	material materials/overviews/dota_682.vmat
+	pos_x		-8204			// X coordinate
+	pos_y		8173			// Y coordinate
+	scale		16 			// scale used when taking the screenshot
+	rotate		0			// map was rotated by 90 degrees in image editor
+	zoom		1.05			// optimal zoom factor if map is shown in full size
+}
+

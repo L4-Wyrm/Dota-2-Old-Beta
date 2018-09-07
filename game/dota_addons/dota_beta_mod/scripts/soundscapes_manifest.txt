@@ -1,0 +1,13 @@
+////////////////////////////////////////////////////////////////
+// This file is created for custom gamemode: Dota 2 Old Beta. //
+// 			DO NOT CHANGE ANYTING THERE!	      			  //
+////////////////////////////////////////////////////////////////
+soundscaples_manifest
+{
+	// List additional soundscape files here
+
+		"file"		"scripts/soundscapes_dota.txt"
+		"file"		"scripts/soundscapes_dota_frostivus.txt"
+		"file"		"scripts/soundscapes_dota_diretide.txt"
+}
+
