@@ -1373,7 +1373,7 @@
 									{
 										m_Event = "AE_CL_SPEECH"
 										m_nFrame = 142
-										m_DataString = "\"brewmaster_loadout_spawn\" \"portrait_world_unit\" \"TLK_DOTA_CUSTOM\""
+										m_DataString = "TLK_DOTA_CUSTOM|special_spawn=brewmaster_loadout_spawn,classname=portrait_world_unit"
 									},
 								]
 								m_MotionFrames = [  ]

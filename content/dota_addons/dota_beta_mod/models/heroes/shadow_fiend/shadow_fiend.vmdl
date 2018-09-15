@@ -31,7 +31,7 @@
 		m_flMatchProxiesToMeshes = 1.0
 		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bReservedBool1 = false
+		m_bSoftSkinAnimation = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
@@ -1812,7 +1812,7 @@
 					m_Filepath = "models/heroes/shadow_fiend/src_model/shadow_fiend_anims/nevermore_runN.smd"
 					m_nStartframe = 0
 					m_nEndframe = 30
-					m_flFps = 30.0
+					m_flFps = 35.0
 					m_Loop = 
 					{
 						m_bLoop = true

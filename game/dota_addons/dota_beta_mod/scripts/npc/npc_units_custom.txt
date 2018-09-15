@@ -1106,4 +1106,22 @@
 		"BountyGoldMin"				"0"		// Gold earned min.
 		"BountyGoldMax"				"0"		// Gold earned max.
 	}
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 15.09.2018.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_huskar_background"
+	{
+		"BaseClass"	"npc_dota_creep_neutral"
+		"Model"	"models/custom_game/model_backgrounds/huskar_background/huskar_background.vmdl"
+		"SoundSet"					"Hero_Huskar"					// Name of sound set.
+		"ModelScale"	"1"
+		
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+	}
 }

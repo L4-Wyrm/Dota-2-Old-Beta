@@ -2710,7 +2710,7 @@
 									{
 										m_Event = "AE_CL_SPEECH"
 										m_nFrame = 1
-										m_DataString = "cork_screw"
+										m_DataString = "TLK_DOTA_TAUNT|taunt_type=cork_screw"
 									},
 								]
 								m_MotionFrames = [  ]
@@ -2772,7 +2772,7 @@
 									{
 										m_Event = "AE_CL_SPEECH"
 										m_nFrame = 1
-										m_DataString = "cork_screw"
+										m_DataString = "TLK_DOTA_TAUNT|taunt_type=cork_screw"
 									},
 								]
 								m_MotionFrames = [  ]

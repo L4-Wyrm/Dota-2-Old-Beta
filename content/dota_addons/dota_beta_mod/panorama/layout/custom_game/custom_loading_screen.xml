@@ -7,7 +7,7 @@
 	</styles>
 	<Panel class="BetaBckRoot">
 		<Image class="BetaBckTitle" src="file://{images}/beta/screen/beta_screen.tga" />
-		<DOTAScenePanel class="BetaBckScene" map="maps/backgrounds/dota_beta_background_model.vmap" camera="beta_bck_camera"  particleonly='false'/>
+		<DOTAScenePanel class="BetaBckScene" map="maps/backgrounds/dota_beta_background_huskar.vmap" camera="beta_bck_camera"  particleonly='false'/>
 <!--	<Panel id="TitlePanel">
 			<Image id="BetaTitle" src="file://{images}/beta/dota_logo/logo_lf.png" />
 		</Panel> -->
