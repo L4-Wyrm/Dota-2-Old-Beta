@@ -72,7 +72,7 @@
 		"Ability3"	"skeleton_king_mortal_strike_datadriven"
 		"Ability4"	"generic_hidden"
 		"Ability5"	"generic_hidden"
-		"Ability6"	"skeleton_king_reincarnation"
+		"Ability6"	"skeleton_king_reincarnation_old"
 		"Ability7"	"attribute_bonus_datadriven"
 	}
 	////////////////////////////////////////////////////////////

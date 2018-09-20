@@ -7212,7 +7212,7 @@
 	
 		"Modifiers"
 		{
-			"modifier_mortal_strike"
+			"modifier_skeleton_king_mortal_strike_datadriven"
 			{
 			    "Passive"   "1"
 			    "IsHidden"  "1"
@@ -7220,7 +7220,7 @@
 			    {
 			        "RemoveModifier"
 			        {
-			            "ModifierName" 	"modifier_mortal_strike_crit"
+			            "ModifierName" 	"modifier_skeleton_king_mortal_strike_crit_datadriven"
 			            "Target" 		"CASTER"
 			        }
 	
@@ -7244,7 +7244,7 @@
 	
 			                "ApplyModifier"
 			                {
-			                    "ModifierName" 	"modifier_mortal_strike_crit"
+			                    "ModifierName" 	"modifier_skeleton_king_mortal_strike_crit_datadriven"
 			                    "Target"    	"CASTER"    
 			                }        
 			            }
@@ -7252,7 +7252,7 @@
 			    }
 			}
 	
-			"modifier_mortal_strike_crit"
+			"modifier_skeleton_king_mortal_strike_crit_datadriven"
 			{
 			    "IsHidden"  "1"
 			    "Properties"
@@ -7264,10 +7264,90 @@
 			    {
 			        "RemoveModifier"
 			        {
-			            "ModifierName"  "modifier_mortal_strike_crit"
+			            "ModifierName"  "modifier_skeleton_king_mortal_strike_crit_datadriven"
 			            "Target"   		"CASTER"    
 			        }
 			    }
+			}
+		}
+	}
+	///////////////////////////////////////////
+	// Written by: Wyrm						 //
+	// Date: 20.09.2018.					 //
+	// For gamemode: Dota 2 Old Beta		 //
+	///////////////////////////////////////////
+	"skeleton_king_reincarnation_old"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"skeleton_king_reincarnation"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"2"
+
+		"HasScepterUpgrade"			"0"
+		"AbilitySound"					"Hero_SkeletonKing.Reincarnate"
+		
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_4"
+		"AbilityTextureName"			"skeleton_king_reincarnation_old"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"140"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"260 160 60"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportValue"	"0.2"	// Slow isn't the main function of this ability.
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reincarnate_time"		"3.0 3.0 3.0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow_radius"			"900"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"movespeed"				"-50"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attackslow_tooltip"	"-75"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"slow_duration"			"4.0"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"scepter_duration"		"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_radius"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_radius_tooltip_scepter"	"0"
 			}
 		}
 	}
