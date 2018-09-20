@@ -2794,12 +2794,12 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"restore_per_charge"	"15"
+				"bonus_all_stats"		"3"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_all_stats"		"3"
+				"restore_per_charge"	"15"
 			}
 			"05"
 			{

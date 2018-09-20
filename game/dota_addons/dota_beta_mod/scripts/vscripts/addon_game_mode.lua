@@ -256,11 +256,6 @@ function Precache( context )
 		PrecacheResource( "particle_folder", "particles/winter_fx", context )
 		PrecacheResource( "particle_folder", "particles/world_environmental_fx", context )
 		PrecacheResource( "particle_folder", "particles/generic_hero_status", context )
-		
-	--Cache sounds for heroes
-		PrecacheResource( "soundfile", "soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts", context )
-		PrecacheResource( "soundfile", "soundevents/game_sounds_ambient.vsndevts", context )
-		PrecacheResource( "soundfile", "soundevents/voscripts/game_sounds_vo_skeleton_king.vsndevts", context )
 
 	--Cache models for heroes
 		PrecacheResource( "model_folder", "models/heroes/axe", context )
@@ -404,7 +399,13 @@ function BetaDota:InitGameMode()
 	GameRules:GetGameModeEntity():SetThink( "OnThink", self, "GlobalThink", 5 )
 	GameRules:GetGameModeEntity():SetRuneEnabled( DOTA_RUNE_BOUNTY , false )
 	GameRules:GetGameModeEntity():SetRuneEnabled( DOTA_RUNE_ARCANE , false )
-	GameRules:GetGameModeEntity():SetItemAddedToInventoryFilter( Dynamic_Wrap( Filter, "ItemFilter" ), self )
+	
+	-- Remove TP scrolls
+	GameRules:GetGameModeEntity():SetItemAddedToInventoryFilter(function(ctx, event)
+		local item = EntIndexToHScript(event.item_entindex_const)
+			if item:GetAbilityName() == TPSCROLL and item:GetPurchaser() == nil then return false end
+		return true
+	end, self)
 	
 	-- Remove bonus armor and tower armor bonus modifiers from all towers
 	local allTowers = Entities:FindAllByClassname('npc_dota_tower')
@@ -420,7 +421,7 @@ function BetaDota:InitGameMode()
 	
 	-- Bots behavior
 	GameRules:GetGameModeEntity():SetBotThinkingEnabled(true)
-  --GameRules:GetGameModeEntity():SetBotsAlwaysPushWithHuman( true )   
+	GameRules:GetGameModeEntity():SetBotsAlwaysPushWithHuman( true )   
   
   	-- Sets max players in both teams for 3v3 and 1v1 maps
 	-- Also enable snow particles on winter maps (EXPEREMENTAL)
@@ -581,22 +582,3 @@ XP_PER_LEVEL_TABLE = {
     29900,-- 24
     32400 -- 25
 }
-
-_G.BetaDota = class({})
-_G.Filter = class({})
-
-function Filter:ItemFilter( kv )
-    local item = EntIndexToHScript(kv.item_entindex_const)
-    if item:GetAbilityName() == TPSCROLL then
-        if kv.item_parent_entindex_const == -1 then
-            return false
-        else
-            local owner = EntIndexToHScript(kv.item_parent_entindex_const)
-            if owner:IsHero() and owner.tp_remove_marked == nil then
-                owner.tp_remove_marked = true
-                return false
-            end
-        end
-    end
-    return true
-end
