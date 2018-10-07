@@ -8,9 +8,6 @@ Layer0
 	F_MASKS_1 1
 	F_MASKS_2 1
 
-	//---- Translucency ----
-	F_ALPHA_TEST 1
-
 	//---- Blend To Full ----
 	g_flEnvMapBlendToFull "0.000"
 	g_flMetalnessBlendToFull "0.000"
@@ -34,7 +31,6 @@ Layer0
 	TextureColor "materials/models/heroes/dragon_knight/src/shoulders_color.tga"
 
 	//---- Fresnel ----
-	g_flFresnelModulatesAlpha "0.000"
 	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
 	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
@@ -58,18 +54,14 @@ Layer0
 	TextureTintByBaseMask "materials/models/heroes/dragon_knight/src/shoulders_basetintmask.tga"
 
 	//---- Normal Map ----
-	TextureNormal "materials/models/heroes/dragon_knight/src/shoulders_normal.tga"
+	TextureNormal "materials/models/heroes/dragon_knight/src/shoulders_normal.jpg"
 
 	//---- Rim ----
 	g_flRimLightScale "1.000"
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "11.000"
-	g_flSpecularScale "5.000"
+	g_flSpecularExponent "32.000"
+	g_flSpecularScale "1.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
-
-	//---- Translucency ----
-	g_flAlphaTestReference "0.500"
-	TextureTranslucency "materials/models/heroes/dragon_knight/src/shoulders_trans.tga"
 }

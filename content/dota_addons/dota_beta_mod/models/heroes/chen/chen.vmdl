@@ -13,7 +13,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -31,7 +30,7 @@
 		m_flMatchProxiesToMeshes = 1.0
 		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
+		m_bReservedBool1 = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
@@ -39,7 +38,23 @@
 	}
 	m_physicsMeshList = 
 	{
-		m_meshList = [  ]
+		m_meshList = 
+		[
+			{
+				m_meshName = "chen_model"
+				m_meshFile = "models/heroes/chen/chen_model.smd"
+				m_bOneConvexPiece = true
+				m_flMaxError = 0.0
+				m_bUseExactGeometry = false
+				m_bAutoMass = true
+				m_flMassOverride = 100.0
+				m_bConcavePerJoint = false
+				m_bSelfCollisions = false
+				m_bForceKinematic = false
+				m_bIgnoreScale = false
+				m_bIgnoreSkeleton = false
+			},
+		]
 	}
 	m_pModelInfo = null
 	m_pBoneFlagList = 
@@ -779,123 +794,6 @@
 						m_sCompileScripts = [  ]
 					}
 				},
-				{
-					m_pObject = 
-					{
-						m_Name = "new_anims"
-						m_pReferenceSkeleton = 
-						{
-							m_pObject = null
-						}
-						m_pBoneFlagList = 
-						{
-							m_pObject = null
-						}
-						m_pSeqGroup = 
-						{
-							m_pObject = null
-						}
-						m_pAnimGroups = [  ]
-						m_Vanim = 
-						[
-							{
-								m_Animationname = "loadout_idle_facial"
-								m_Filepath = "models/heroes/chen/chen_new_anims/loadout_idle_facial.dmx"
-								m_nStartframe = 0
-								m_nEndframe = 35
-								m_flFps = 24.0
-								m_Loop = 
-								{
-									m_bLoop = true
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = false
-								m_bDisable = false
-								m_Activities = 
-								[
-									{
-										m_Name = "ACT_DOTA_LOADOUT"
-										m_nWeight = 1
-									},
-								]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 1.8, 0.01, 6.39 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "capture_facial"
-								m_Filepath = "models/heroes/chen/chen_new_anims/capture_facial.dmx"
-								m_nStartframe = 0
-								m_nEndframe = 35
-								m_flFps = 24.0
-								m_Loop = 
-								{
-									m_bLoop = true
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = false
-								m_bDisable = false
-								m_Activities = 
-								[
-									{
-										m_Name = "ACT_DOTA_CAPTURE"
-										m_nWeight = 1
-									},
-								]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 1.8, 0.01, 6.39 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-						]
-						m_sScripts = [  ]
-						m_folderNames = [  ]
-						m_sCompileScripts = [  ]
-					}
-				},
 			]
 			m_Vanim = 
 			[
@@ -1085,7 +983,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = true
+					m_bDisable = false
 					m_Activities = 
 					[
 						{
@@ -1566,7 +1464,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = true
+					m_bDisable = false
 					m_Activities = 
 					[
 						{
@@ -1739,7 +1637,7 @@
 					m_Filepath = "models/heroes/chen/chen_anims/attack_alt1.smd"
 					m_nStartframe = 9
 					m_nEndframe = 17
-					m_flFps = 0.1
+					m_flFps = 0.5
 					m_Loop = 
 					{
 						m_bLoop = false
@@ -1866,75 +1764,6 @@
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
-				{
-					m_Animationname = "@run_haste"
-					m_Filepath = "models/heroes/chen/chen_anims/run.smd"
-					m_nStartframe = 0
-					m_nEndframe = 24
-					m_flFps = 40.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = true
-					m_bDisable = false
-					m_Activities = [  ]
-					m_AnimationEvents = 
-					[
-						{
-							m_Event = "AE_CL_PLAYSOUND"
-							m_nFrame = 12
-							m_DataString = "Hero_Chen.Footsteps"
-						},
-						{
-							m_Event = "AE_CL_PLAYSOUND"
-							m_nFrame = 24
-							m_DataString = "Hero_Chen.Footsteps"
-						},
-					]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
 			]
 			m_sScripts = 
 			[
@@ -1976,7 +1805,7 @@
 		m_vMaterialRemapList = 
 		[
 			{
-				m_sSearchMaterial = "chen_color/chen_color.vmat"
+				m_sSearchMaterial = "*"
 				m_sReplaceMaterial = "materials/models/heroes/chen/chen_color.vmat"
 			},
 		]

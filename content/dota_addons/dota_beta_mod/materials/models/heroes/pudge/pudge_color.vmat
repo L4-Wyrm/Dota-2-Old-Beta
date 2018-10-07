@@ -14,11 +14,7 @@ Layer0
 	//---- Morph ----
 	F_MORPH_SUPPORTED 1
 
-	//---- Warp ----
-	F_DIFFUSE_WARP 1
-
 	//---- Blend To Full ----
-	g_flDiffuseWarpBlendToFull "0.000"
 	g_flEnvMapBlendToFull "0.000"
 	g_flMetalnessBlendToFull "0.000"
 	g_flReflectionsTintByBaseBlendToNone "0.000"
@@ -48,17 +44,15 @@ Layer0
 	TextureDetail2 "materials/default/default_detail2.tga"
 
 	//---- Fresnel ----
-	g_flFresnelModulatesAlpha "0.000"
-	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
-	TextureFresnelWarpRim "materials/models/heroes/pudge/pudge_fresnelwarprim.tga"
+	TextureFresnelWarpColor "materials/models/heroes/pudge/src/pudge_lightwarp.tga"
+	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
 
 	//---- Lighting ----
 	g_flAmbientScale "1.000"
-	g_flBloomScale "1.000"
+	g_flBloomScale "0.000"
 	g_flBloomShift "0.000"
 	g_vBloomColor "[1.000000 1.000000 1.000000 0.000000]"
-	TextureDiffuseWarp "materials/models/heroes/pudge/pudge_diffusewarp.psd"
 
 	//---- Mask 1 ----
 	TextureDetailMask "materials/models/heroes/pudge/src/detailmask.tga"
@@ -80,7 +74,7 @@ Layer0
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "13.000"
-	g_flSpecularScale "42.000"
+	g_flSpecularExponent "32.000"
+	g_flSpecularScale "1.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
 }

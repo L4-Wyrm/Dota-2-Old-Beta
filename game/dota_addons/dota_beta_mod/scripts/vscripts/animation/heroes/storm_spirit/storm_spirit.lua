@@ -7,10 +7,11 @@
 --
 -- Edited by Wyrm, for custom made gamemode Dota 2 Old Beta
 --
+-- Edited by Wyrm, for custom made gamemode Dota 2 Old Beta
+--
 --=============================================================================
 
 
---[[
 -- AsLookLayer
 model:CreateSequence(
 	{
@@ -96,5 +97,3 @@ model:CreateSequence(
 		}
 	}
 )
-
---]]

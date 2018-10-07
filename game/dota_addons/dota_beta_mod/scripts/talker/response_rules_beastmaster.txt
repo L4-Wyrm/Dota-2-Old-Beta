@@ -1,8 +1,3 @@
-////////////////////////////////////////////////////////////////
-// This file is created for custom gamemode: Dota 2 Old Beta. //
-// 			DO NOT CHANGE ANYTING THERE!	      			  //
-////////////////////////////////////////////////////////////////
-
 criterion "Isbeastmaster" "classname" "npc_dota_hero_beastmaster" weight 5 required
 criterion "IsEnemybeastmaster" "targetclassname" "npc_dota_hero_beastmaster" weight 5 required
 criterion "IsAllybeastmaster" "nearby_ally" "npc_dota_hero_beastmaster" weight 5 required

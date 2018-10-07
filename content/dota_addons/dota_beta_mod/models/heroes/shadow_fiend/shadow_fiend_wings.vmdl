@@ -5,8 +5,8 @@
 		m_meshList = 
 		[
 			{
-				m_meshName = "wings_reference"
-				m_meshFile = "models/heroes/shadow_fiend/src_wings_old/wings_reference.smd"
+				m_meshName = "wings_fx_reference"
+				m_meshFile = "models/heroes/shadow_fiend/src_wings/wings_fx_reference.smd"
 				m_materialSearchPath = ""
 				m_bSkinParentedObjects = true
 				m_bLegacySkinParentedTransforms = false
@@ -46,181 +46,10 @@
 		m_pObject = null
 	}
 	m_pHitBoxSetLists = [  ]
-	m_pAttachmentLists = 
-	[
-		{
-			m_pObject = 
-			{
-				m_name = ""
-				m_attachments = 
-				[
-					{
-						m_name = "attach_attack2"
-						m_influences = 
-						[
-							{
-								m_influenceName = "wrist_L"
-								m_vTranslationOffset = [ 5.72, -0.3, 0.48 ]
-								m_vRotationOffset = [ -3.16, -75.989998, -175.929993 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_head"
-						m_influences = 
-						[
-							{
-								m_influenceName = "head"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 90.0, 134.820007 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_attack1"
-						m_influences = 
-						[
-							{
-								m_influenceName = "wrist_R"
-								m_vTranslationOffset = [ -4.51, 0.12, -0.38 ]
-								m_vRotationOffset = [ -3.16, -75.989998, 4.07 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-					{
-						m_name = "attach_hitloc"
-						m_influences = 
-						[
-							{
-								m_influenceName = "spine3"
-								m_vTranslationOffset = [ -1.06, 0.0, 1.11 ]
-								m_vRotationOffset = [ 0.0, 90.0, 169.369995 ]
-								m_flWeight = 1.0
-								m_bRoot = false
-							},
-						]
-					},
-				]
-			}
-		},
-	]
+	m_pAttachmentLists = [  ]
 	m_pAnimGroup = 
 	{
-		m_pObject = 
-		{
-			m_Name = ""
-			m_pReferenceSkeleton = 
-			{
-				m_pObject = null
-			}
-			m_pBoneFlagList = 
-			{
-				m_pObject = null
-			}
-			m_pSeqGroup = 
-			{
-				m_pObject = null
-			}
-			m_pAnimGroups = [  ]
-			m_Vanim = 
-			[
-				{
-					m_Animationname = "BindPose"
-					m_Filepath = "models/heroes/shadow_fiend/src_wings_old/wings_anims/BindPose.smd"
-					m_nStartframe = 0
-					m_nEndframe = 0
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = [  ]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "nevermore_Requiem"
-					m_Filepath = "models/heroes/shadow_fiend/src_wings_old/wings_anims/nevermore_Requiem.smd"
-					m_nStartframe = 0
-					m_nEndframe = 100
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_6"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-			]
-			m_sScripts = [  ]
-			m_folderNames = [  ]
-			m_sCompileScripts = [  ]
-		}
+		m_pObject = null
 	}
 	m_pMaterialGroupList = 
 	{
@@ -273,6 +102,5 @@
 	m_bMakeUniqueVMeshes = true
 	m_bMakeImplicitBindPoseSequence = false
 	m_bAdjustSkeletonFromBoneFlags = false
-	m_bHiddenAssetFlag = false
 	m_pAnimGroups = [  ]
 }

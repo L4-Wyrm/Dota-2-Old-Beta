@@ -1,297 +1,653 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	m_meshList = 
+	_class = "CVModel"
+	m_meshList =
 	{
-		m_meshList = 
+		_class = "CVmeshList"
+		m_meshList =
 		[
 			{
+				_class = "CVmesh"
 				m_meshName = "n_creep_satyr_a_reference"
 				m_meshFile = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_reference.smd"
 				m_materialSearchPath = ""
 				m_bSkinParentedObjects = true
 				m_bLegacySkinParentedTransforms = false
 				m_bExpensiveTangents = false
-				m_bHighPrecisionTexCoords = false
-				m_bPerVertexCurvature = false
-				m_bBentNormals = false
+				m_bExpensiveVertices = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
 			},
 		]
 	}
-	m_clothProxyMeshList = 
+	m_clothProxyMeshList =
 	{
 		_class = "CVClothProxyMeshList"
-		m_flClothEnableThreshold = 0.05
+		m_flClothEnableThreshold = 0.050000
 		m_bCreateStaticBone = false
 		m_nMaxBonesPerVertex = 4
 		m_bRemoveUnusedBonesEnabled = false
 		m_bDriveMeshesWithBacksolvedJointsOnly = true
-		m_flMatchProxiesToMeshes = 1.0
-		m_flFallbackEnvelope = 1.0
+		m_flMatchProxiesToMeshes = 1.000000
+		m_flReservedFloat = 0.000000
 		m_nReservedInt = 0
 		m_bReservedBool1 = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
-		m_clothProxyMeshList = [  ]
+		m_clothProxyMeshList =
+		[
+		]
 	}
-	m_physicsMeshList = 
+	m_physicsMeshList =
 	{
-		m_meshList = [  ]
+		_class = "CVphysicsMeshList"
+		m_meshList =
+		[
+		]
 	}
 	m_pModelInfo = null
-	m_pBoneFlagList = 
+	m_pBoneFlagList =
 	{
+		_class = "CVBoneFlagListReference"
 		m_pObject = null
 	}
-	m_pHitBoxSetLists = 
+	m_pHitBoxSetLists =
 	[
 		{
-			m_pObject = 
+			_class = "CVhitBoxSetListReference"
+			m_pObject =
 			{
-				m_HitBoxSets = 
+				_class = "CVhitBoxSetList"
+				m_HitBoxSets =
 				[
 					{
+						_class = "CVhitBoxSet"
 						m_name = "default"
-						m_HitBoxes = 
+						m_HitBoxes =
 						[
 							{
+								_class = "CVhitBox"
 								m_name = "quadKnee_R"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "quadKnee_R"
-								m_vMinBounds = [ -44.299599, -12.2056, -21.154509 ]
-								m_vMaxBounds = [ 1.849, 17.2645, 10.955088 ]
+								m_vMinBounds =
+								[
+									-44.299599,
+									-12.205600,
+									-21.154509,
+								]
+								m_vMaxBounds =
+								[
+									1.849000,
+									17.264500,
+									10.955088,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "quadThigh_R"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "quadThigh_R"
-								m_vMinBounds = [ -53.046799, -14.2836, -13.074406 ]
-								m_vMaxBounds = [ -1.24067, 11.7397, 10.642183 ]
+								m_vMinBounds =
+								[
+									-53.046799,
+									-14.283600,
+									-13.074406,
+								]
+								m_vMaxBounds =
+								[
+									-1.240670,
+									11.739700,
+									10.642183,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "quadKnee_L"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "quadKnee_L"
-								m_vMinBounds = [ -4.74148, -17.2645, -10.955089 ]
-								m_vMaxBounds = [ 44.299599, 12.2056, 21.154507 ]
+								m_vMinBounds =
+								[
+									-4.741480,
+									-17.264500,
+									-10.955089,
+								]
+								m_vMaxBounds =
+								[
+									44.299599,
+									12.205600,
+									21.154507,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "quadThigh_L"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "quadThigh_L"
-								m_vMinBounds = [ 1.24067, -13.6452, -10.642184 ]
-								m_vMaxBounds = [ 53.040901, 14.2836, 13.074407 ]
+								m_vMinBounds =
+								[
+									1.240670,
+									-13.645200,
+									-10.642184,
+								]
+								m_vMaxBounds =
+								[
+									53.040901,
+									14.283600,
+									13.074407,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "elbow_R"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "elbow_R"
-								m_vMinBounds = [ -50.865501, -15.9188, -14.564723 ]
-								m_vMaxBounds = [ 3.93383, 12.3438, 13.771049 ]
+								m_vMinBounds =
+								[
+									-50.865501,
+									-15.918800,
+									-14.564723,
+								]
+								m_vMaxBounds =
+								[
+									3.933830,
+									12.343800,
+									13.771049,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "bicep_R"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bicep_R"
-								m_vMinBounds = [ -29.8675, -10.8335, -14.104443 ]
-								m_vMaxBounds = [ 1.03162, 9.09366, 10.584999 ]
+								m_vMinBounds =
+								[
+									-29.867500,
+									-10.833500,
+									-14.104443,
+								]
+								m_vMaxBounds =
+								[
+									1.031620,
+									9.093660,
+									10.584999,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "Head_1"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "Head_1"
-								m_vMinBounds = [ -63.229801, -25.898001, -40.226002 ]
-								m_vMaxBounds = [ 24.756599, 25.899401, 34.740597 ]
+								m_vMinBounds =
+								[
+									-63.229801,
+									-25.898001,
+									-40.226002,
+								]
+								m_vMaxBounds =
+								[
+									24.756599,
+									25.899401,
+									34.740597,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "elbow_L"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "elbow_L"
-								m_vMinBounds = [ -3.93383, -12.345, -13.770579 ]
-								m_vMaxBounds = [ 51.589901, 15.9188, 14.564723 ]
+								m_vMinBounds =
+								[
+									-3.933830,
+									-12.345000,
+									-13.770579,
+								]
+								m_vMaxBounds =
+								[
+									51.589901,
+									15.918800,
+									14.564723,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "bicep_L"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "bicep_L"
-								m_vMinBounds = [ -1.03096, -9.0949, -10.584999 ]
-								m_vMaxBounds = [ 29.868799, 10.8335, 14.104443 ]
+								m_vMinBounds =
+								[
+									-1.030960,
+									-9.094900,
+									-10.584999,
+								]
+								m_vMaxBounds =
+								[
+									29.868799,
+									10.833500,
+									14.104443,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "Spine_1"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "Spine_1"
-								m_vMinBounds = [ 0.601655, -26.6954, -22.955513 ]
-								m_vMaxBounds = [ 21.2302, 26.6968, 23.414391 ]
+								m_vMinBounds =
+								[
+									0.601655,
+									-26.695400,
+									-22.955513,
+								]
+								m_vMaxBounds =
+								[
+									21.230200,
+									26.696800,
+									23.414391,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "Spine_0"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "Spine_0"
-								m_vMinBounds = [ -1.1488, -21.2561, -21.681469 ]
-								m_vMaxBounds = [ 21.4708, 21.2561, 20.756971 ]
+								m_vMinBounds =
+								[
+									-1.148800,
+									-21.256100,
+									-21.681469,
+								]
+								m_vMaxBounds =
+								[
+									21.470800,
+									21.256100,
+									20.756971,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 						]
 					},
 					{
+						_class = "CVhitBoxSet"
 						m_name = "feet"
-						m_HitBoxes = 
+						m_HitBoxes =
 						[
 							{
+								_class = "CVhitBox"
 								m_name = "quadToe_R"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "quadToe_R"
-								m_vMinBounds = [ -15.5773, -16.224899, 0.478703 ]
-								m_vMaxBounds = [ 11.5012, 7.37216, 17.387503 ]
+								m_vMinBounds =
+								[
+									-15.577300,
+									-16.224899,
+									0.478703,
+								]
+								m_vMaxBounds =
+								[
+									11.501200,
+									7.372160,
+									17.387503,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "quadToe_L"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "quadToe_L"
-								m_vMinBounds = [ -7.17425, -8.40949, -13.368034 ]
-								m_vMaxBounds = [ 13.8594, 18.658001, 0.187846 ]
+								m_vMinBounds =
+								[
+									-7.174250,
+									-8.409490,
+									-13.368034,
+								]
+								m_vMaxBounds =
+								[
+									13.859400,
+									18.658001,
+									0.187846,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 						]
 					},
 					{
+						_class = "CVhitBoxSet"
 						m_name = "hands"
-						m_HitBoxes = 
+						m_HitBoxes =
 						[
 							{
+								_class = "CVhitBox"
 								m_name = "wrist_R"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "wrist_R"
-								m_vMinBounds = [ -13.8351, -16.875799, -10.272556 ]
-								m_vMaxBounds = [ 5.48235, 3.66203, 10.602642 ]
+								m_vMinBounds =
+								[
+									-13.835100,
+									-16.875799,
+									-10.272556,
+								]
+								m_vMaxBounds =
+								[
+									5.482350,
+									3.662030,
+									10.602642,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "wrist_L"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "wrist_L"
-								m_vMinBounds = [ -0.772594, -5.49704, -8.194055 ]
-								m_vMaxBounds = [ 16.6661, 13.6079, 9.85836 ]
+								m_vMinBounds =
+								[
+									-0.772594,
+									-5.497040,
+									-8.194055,
+								]
+								m_vMaxBounds =
+								[
+									16.666100,
+									13.607900,
+									9.858360,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 						]
 					},
 					{
+						_class = "CVhitBoxSet"
 						m_name = "head"
-						m_HitBoxes = 
+						m_HitBoxes =
 						[
 							{
+								_class = "CVhitBox"
 								m_name = "Head_1"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "Head_1"
-								m_vMinBounds = [ -63.229801, -25.898001, -40.226002 ]
-								m_vMaxBounds = [ 24.756599, 25.899401, 34.740597 ]
+								m_vMinBounds =
+								[
+									-63.229801,
+									-25.898001,
+									-40.226002,
+								]
+								m_vMaxBounds =
+								[
+									24.756599,
+									25.899401,
+									34.740597,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 						]
 					},
 					{
+						_class = "CVhitBoxSet"
 						m_name = "weapon"
-						m_HitBoxes = 
+						m_HitBoxes =
 						[
 							{
+								_class = "CVhitBox"
 								m_name = "staff_1"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "staff_1"
-								m_vMinBounds = [ -27.0905, -48.456402, -16.640158 ]
-								m_vMaxBounds = [ 21.8274, 81.403603, 23.026388 ]
+								m_vMinBounds =
+								[
+									-27.090500,
+									-48.456402,
+									-16.640158,
+								]
+								m_vMaxBounds =
+								[
+									21.827400,
+									81.403603,
+									23.026388,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 						]
 					},
 					{
+						_class = "CVhitBoxSet"
 						m_name = "select_high"
-						m_HitBoxes = 
+						m_HitBoxes =
 						[
 							{
+								_class = "CVhitBox"
 								m_name = "Root_0"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "Root_0"
-								m_vMinBounds = [ -27.515499, -31.447599, 16.571787 ]
-								m_vMaxBounds = [ 46.3377, 32.618401, 86.077019 ]
+								m_vMinBounds =
+								[
+									-27.515499,
+									-31.447599,
+									16.571787,
+								]
+								m_vMaxBounds =
+								[
+									46.337700,
+									32.618401,
+									86.077019,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 							{
+								_class = "CVhitBox"
 								m_name = "Root_0"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "Root_0"
-								m_vMinBounds = [ -29.316099, -33.056702, -92.50695 ]
-								m_vMaxBounds = [ 35.654301, 34.2276, 16.61047 ]
+								m_vMinBounds =
+								[
+									-29.316099,
+									-33.056702,
+									-92.506950,
+								]
+								m_vMaxBounds =
+								[
+									35.654301,
+									34.227600,
+									16.610470,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 						]
 					},
 					{
+						_class = "CVhitBoxSet"
 						m_name = "select_low"
-						m_HitBoxes = 
+						m_HitBoxes =
 						[
 							{
+								_class = "CVhitBox"
 								m_name = "Root_0"
 								m_sSurfaceProperty = ""
 								m_nGroupId = 0
 								m_sBoneName = "Root_0"
-								m_vMinBounds = [ -64.373901, -75.424797, -92.55616 ]
-								m_vMaxBounds = [ 85.4729, 76.595596, 81.785454 ]
+								m_vMinBounds =
+								[
+									-64.373901,
+									-75.424797,
+									-92.556160,
+								]
+								m_vMaxBounds =
+								[
+									85.472900,
+									76.595596,
+									81.785454,
+								]
 								m_bTranslationOnly = false
-								m_cRenderColor = [ 0, 0, 0, 0 ]
+								m_cRenderColor =
+								[
+									0,
+									0,
+									0,
+									0,
+								]
 							},
 						]
 					},
@@ -300,36 +656,62 @@
 			}
 		},
 	]
-	m_pAttachmentLists = 
+	m_pAttachmentLists =
 	[
 		{
-			m_pObject = 
+			_class = "CVattachmentListReference"
+			m_pObject =
 			{
+				_class = "CVattachmentList"
 				m_name = ""
-				m_attachments = 
+				m_attachments =
 				[
 					{
+						_class = "CVattachment"
 						m_name = "attach_attack1"
-						m_influences = 
+						m_influences =
 						[
 							{
+								_class = "CVattachmentInfluence"
 								m_influenceName = "staff_1"
-								m_vTranslationOffset = [ 0.0, 55.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
+								m_vTranslationOffset =
+								[
+									0.000000,
+									55.000000,
+									0.000000,
+								]
+								m_vRotationOffset =
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								m_flWeight = 1.000000
 								m_bRoot = false
 							},
 						]
 					},
 					{
+						_class = "CVattachment"
 						m_name = "attach_hitloc"
-						m_influences = 
+						m_influences =
 						[
 							{
+								_class = "CVattachmentInfluence"
 								m_influenceName = "Spine_3"
-								m_vTranslationOffset = [ 0.0, 0.0, 0.0 ]
-								m_vRotationOffset = [ 0.0, 0.0, 0.0 ]
-								m_flWeight = 1.0
+								m_vTranslationOffset =
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								m_vRotationOffset =
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								m_flWeight = 1.000000
 								m_bRoot = false
 							},
 						]
@@ -338,39 +720,48 @@
 			}
 		},
 	]
-	m_pAnimGroup = 
+	m_pAnimGroup =
 	{
-		m_pObject = 
+		_class = "CVanimGroupReference"
+		m_pObject =
 		{
+			_class = "CVanimGroup"
 			m_Name = ""
-			m_pReferenceSkeleton = 
+			m_pReferenceSkeleton =
 			{
+				_class = "CVReferenceSkeletonReference"
 				m_pObject = null
 			}
-			m_pBoneFlagList = 
+			m_pBoneFlagList =
 			{
+				_class = "CVBoneFlagListReference"
 				m_pObject = null
 			}
-			m_pSeqGroup = 
+			m_pSeqGroup =
 			{
+				_class = "CVseqGroupReference"
 				m_pObject = null
 			}
-			m_pAnimGroups = [  ]
-			m_Vanim = 
+			m_pAnimGroups =
+			[
+			]
+			m_Vanim =
 			[
 				{
+					_class = "CVanim"
 					m_Animationname = "BindPose"
 					m_Filepath = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_anims/BindPose.smd"
 					m_nStartframe = 0
 					m_nEndframe = 0
-					m_flFps = 30.0
-					m_Loop = 
+					m_flFps = 30.000000
+					m_Loop =
 					{
+						_class = "CAnimationLoop"
 						m_bLoop = false
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
+						m_StartLoop =
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -379,38 +770,62 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = [  ]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
+					m_Activities =
+					[
+					]
+					m_AnimationEvents =
+					[
+					]
+					m_MotionFrames =
+					[
+					]
+					m_pIkRules =
+					[
+					]
 					m_pAlignAnimation = null
-					m_adjustAnimation = 
+					m_adjustAnimation =
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
+						_class = "CAdjustAnimation"
+						m_translation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						m_rotation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
 					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+					m_Keywords =
+					[
+					]
+					m_sequenceParams =
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
+						_class = "CVAnimResourceSequenceParams"
+						m_flFadeInTime = 0.200000
+						m_flFadeOutTime = 0.200000
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 				{
+					_class = "CVanim"
 					m_Animationname = "cast"
 					m_Filepath = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_anims/cast.smd"
 					m_nStartframe = 0
 					m_nEndframe = 39
-					m_flFps = 30.0
-					m_Loop = 
+					m_flFps = 30.000000
+					m_Loop =
 					{
+						_class = "CAnimationLoop"
 						m_bLoop = false
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
+						m_StartLoop =
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -419,51 +834,73 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = 
+					m_Activities =
 					[
 						{
+							_class = "CActivity"
 							m_Name = "ACT_DOTA_CAST_ABILITY_1"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents = 
+					m_AnimationEvents =
 					[
 						{
+							_class = "CAnimationEvent"
 							m_Event = "AE_CL_PLAYSOUND"
 							m_nFrame = 12
 							m_DataString = "n_creep_SatyrHellcaster.Cast"
 						},
 					]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
+					m_MotionFrames =
+					[
+					]
+					m_pIkRules =
+					[
+					]
 					m_pAlignAnimation = null
-					m_adjustAnimation = 
+					m_adjustAnimation =
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
+						_class = "CAdjustAnimation"
+						m_translation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						m_rotation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
 					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+					m_Keywords =
+					[
+					]
+					m_sequenceParams =
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
+						_class = "CVAnimResourceSequenceParams"
+						m_flFadeInTime = 0.200000
+						m_flFadeOutTime = 0.200000
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 				{
+					_class = "CVanim"
 					m_Animationname = "satyr_a_attack"
 					m_Filepath = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_anims/satyr_a_attack.smd"
 					m_nStartframe = 0
 					m_nEndframe = 29
-					m_flFps = 30.0
-					m_Loop = 
+					m_flFps = 30.000000
+					m_Loop =
 					{
+						_class = "CAnimationLoop"
 						m_bLoop = false
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
+						m_StartLoop =
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -472,24 +909,27 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = 
+					m_Activities =
 					[
 						{
+							_class = "CActivity"
 							m_Name = "ACT_DOTA_ATTACK"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents = 
+					m_AnimationEvents =
 					[
 						{
+							_class = "CAnimationEvent"
 							m_Event = "AE_CL_PLAYSOUND"
 							m_nFrame = 5
 							m_DataString = "n_creep_Heavy.PreAttack"
 						},
 					]
-					m_MotionFrames = 
+					m_MotionFrames =
 					[
 						{
+							_class = "CMotionFrame"
 							m_nFrame = 0
 							m_bExtractTX = true
 							m_bExtractTY = true
@@ -505,35 +945,53 @@
 							m_bDiscardRZ = false
 						},
 					]
-					m_pIkRules = [  ]
+					m_pIkRules =
+					[
+					]
 					m_pAlignAnimation = null
-					m_adjustAnimation = 
+					m_adjustAnimation =
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
+						_class = "CAdjustAnimation"
+						m_translation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						m_rotation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
 					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+					m_Keywords =
+					[
+					]
+					m_sequenceParams =
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
+						_class = "CVAnimResourceSequenceParams"
+						m_flFadeInTime = 0.200000
+						m_flFadeOutTime = 0.200000
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 				{
+					_class = "CVanim"
 					m_Animationname = "satyr_a_capture"
 					m_Filepath = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_anims/satyr_a_capture.smd"
 					m_nStartframe = 0
 					m_nEndframe = 39
-					m_flFps = 30.0
-					m_Loop = 
+					m_flFps = 30.000000
+					m_Loop =
 					{
+						_class = "CAnimationLoop"
 						m_bLoop = true
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
+						m_StartLoop =
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -542,44 +1000,67 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = 
+					m_Activities =
 					[
 						{
+							_class = "CActivity"
 							m_Name = "ACT_DOTA_CAPTURE"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
+					m_AnimationEvents =
+					[
+					]
+					m_MotionFrames =
+					[
+					]
+					m_pIkRules =
+					[
+					]
 					m_pAlignAnimation = null
-					m_adjustAnimation = 
+					m_adjustAnimation =
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
+						_class = "CAdjustAnimation"
+						m_translation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						m_rotation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
 					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+					m_Keywords =
+					[
+					]
+					m_sequenceParams =
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
+						_class = "CVAnimResourceSequenceParams"
+						m_flFadeInTime = 0.200000
+						m_flFadeOutTime = 0.200000
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 				{
+					_class = "CVanim"
 					m_Animationname = "satyr_a_death"
 					m_Filepath = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_anims/satyr_a_death.smd"
 					m_nStartframe = 0
 					m_nEndframe = 29
-					m_flFps = 30.0
-					m_Loop = 
+					m_flFps = 30.000000
+					m_Loop =
 					{
+						_class = "CAnimationLoop"
 						m_bLoop = false
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
+						m_StartLoop =
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -588,29 +1069,33 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = 
+					m_Activities =
 					[
 						{
+							_class = "CActivity"
 							m_Name = "ACT_DOTA_DIE"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents = 
+					m_AnimationEvents =
 					[
 						{
+							_class = "CAnimationEvent"
 							m_Event = "AE_CL_PLAYSOUND"
 							m_nFrame = 14
 							m_DataString = "BodyImpact_Common.Heavy"
 						},
 						{
+							_class = "CAnimationEvent"
 							m_Event = "AE_CL_PLAYSOUND"
 							m_nFrame = 4
 							m_DataString = "n_creep_SatyrH.Death"
 						},
 					]
-					m_MotionFrames = 
+					m_MotionFrames =
 					[
 						{
+							_class = "CMotionFrame"
 							m_nFrame = 0
 							m_bExtractTX = true
 							m_bExtractTY = true
@@ -626,35 +1111,53 @@
 							m_bDiscardRZ = false
 						},
 					]
-					m_pIkRules = [  ]
+					m_pIkRules =
+					[
+					]
 					m_pAlignAnimation = null
-					m_adjustAnimation = 
+					m_adjustAnimation =
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
+						_class = "CAdjustAnimation"
+						m_translation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						m_rotation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
 					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+					m_Keywords =
+					[
+					]
+					m_sequenceParams =
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
+						_class = "CVAnimResourceSequenceParams"
+						m_flFadeInTime = 0.200000
+						m_flFadeOutTime = 0.200000
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 				{
+					_class = "CVanim"
 					m_Animationname = "satyr_a_flail"
 					m_Filepath = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_anims/satyr_a_flail.smd"
 					m_nStartframe = 0
 					m_nEndframe = 20
-					m_flFps = 30.0
-					m_Loop = 
+					m_flFps = 30.000000
+					m_Loop =
 					{
+						_class = "CAnimationLoop"
 						m_bLoop = true
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
+						m_StartLoop =
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -663,44 +1166,67 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = 
+					m_Activities =
 					[
 						{
+							_class = "CActivity"
 							m_Name = "ACT_DOTA_FLAIL"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
+					m_AnimationEvents =
+					[
+					]
+					m_MotionFrames =
+					[
+					]
+					m_pIkRules =
+					[
+					]
 					m_pAlignAnimation = null
-					m_adjustAnimation = 
+					m_adjustAnimation =
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
+						_class = "CAdjustAnimation"
+						m_translation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						m_rotation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
 					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+					m_Keywords =
+					[
+					]
+					m_sequenceParams =
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
+						_class = "CVAnimResourceSequenceParams"
+						m_flFadeInTime = 0.200000
+						m_flFadeOutTime = 0.200000
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 				{
+					_class = "CVanim"
 					m_Animationname = "satyr_a_idle"
 					m_Filepath = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_anims/satyr_a_idle.smd"
 					m_nStartframe = 0
 					m_nEndframe = 39
-					m_flFps = 30.0
-					m_Loop = 
+					m_flFps = 30.000000
+					m_Loop =
 					{
+						_class = "CAnimationLoop"
 						m_bLoop = true
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
+						m_StartLoop =
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -709,44 +1235,67 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = 
+					m_Activities =
 					[
 						{
+							_class = "CActivity"
 							m_Name = "ACT_DOTA_IDLE"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
+					m_AnimationEvents =
+					[
+					]
+					m_MotionFrames =
+					[
+					]
+					m_pIkRules =
+					[
+					]
 					m_pAlignAnimation = null
-					m_adjustAnimation = 
+					m_adjustAnimation =
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
+						_class = "CAdjustAnimation"
+						m_translation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						m_rotation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
 					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+					m_Keywords =
+					[
+					]
+					m_sequenceParams =
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
+						_class = "CVAnimResourceSequenceParams"
+						m_flFadeInTime = 0.200000
+						m_flFadeOutTime = 0.200000
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 				{
+					_class = "CVanim"
 					m_Animationname = "satyr_a_run"
 					m_Filepath = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_anims/satyr_a_run.smd"
 					m_nStartframe = 0
 					m_nEndframe = 22
-					m_flFps = 30.0
-					m_Loop = 
+					m_flFps = 30.000000
+					m_Loop =
 					{
+						_class = "CAnimationLoop"
 						m_bLoop = true
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
+						m_StartLoop =
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -755,29 +1304,33 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = 
+					m_Activities =
 					[
 						{
+							_class = "CActivity"
 							m_Name = "ACT_DOTA_RUN"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents = 
+					m_AnimationEvents =
 					[
 						{
+							_class = "CAnimationEvent"
 							m_Event = "AE_CL_PLAYSOUND"
 							m_nFrame = 2
 							m_DataString = "n_creep_Hooved.Footstep"
 						},
 						{
+							_class = "CAnimationEvent"
 							m_Event = "AE_CL_PLAYSOUND"
 							m_nFrame = 12
 							m_DataString = "n_creep_Hooved.Footstep"
 						},
 					]
-					m_MotionFrames = 
+					m_MotionFrames =
 					[
 						{
+							_class = "CMotionFrame"
 							m_nFrame = 0
 							m_bExtractTX = true
 							m_bExtractTY = true
@@ -793,35 +1346,53 @@
 							m_bDiscardRZ = false
 						},
 					]
-					m_pIkRules = [  ]
+					m_pIkRules =
+					[
+					]
 					m_pAlignAnimation = null
-					m_adjustAnimation = 
+					m_adjustAnimation =
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
+						_class = "CAdjustAnimation"
+						m_translation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						m_rotation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
 					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+					m_Keywords =
+					[
+					]
+					m_sequenceParams =
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
+						_class = "CVAnimResourceSequenceParams"
+						m_flFadeInTime = 0.200000
+						m_flFadeOutTime = 0.200000
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 				{
+					_class = "CVanim"
 					m_Animationname = "satyr_a_stun"
 					m_Filepath = "models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a_anims/satyr_a_stun.smd"
 					m_nStartframe = 0
 					m_nEndframe = 54
-					m_flFps = 30.0
-					m_Loop = 
+					m_flFps = 30.000000
+					m_Loop =
 					{
+						_class = "CAnimationLoop"
 						m_bLoop = true
 						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
+						m_StartLoop =
 						{
 							_class = "CVAnimCmdStartLoop"
 							m_bEnabled = false
@@ -830,79 +1401,125 @@
 					}
 					m_bHidden = false
 					m_bDisable = false
-					m_Activities = 
+					m_Activities =
 					[
 						{
+							_class = "CActivity"
 							m_Name = "ACT_DOTA_DISABLED"
 							m_nWeight = 1
 						},
 					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
+					m_AnimationEvents =
+					[
+					]
+					m_MotionFrames =
+					[
+					]
+					m_pIkRules =
+					[
+					]
 					m_pAlignAnimation = null
-					m_adjustAnimation = 
+					m_adjustAnimation =
 					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
+						_class = "CAdjustAnimation"
+						m_translation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						m_rotation =
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
 					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
+					m_Keywords =
+					[
+					]
+					m_sequenceParams =
 					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
+						_class = "CVAnimResourceSequenceParams"
+						m_flFadeInTime = 0.200000
+						m_flFadeOutTime = 0.200000
 					}
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
 			]
-			m_sScripts = [  ]
-			m_folderNames = [  ]
-			m_sCompileScripts = [  ]
+			m_sScripts =
+			[
+			]
+			m_folderNames =
+			[
+			]
 		}
 	}
-	m_pMaterialGroupList = 
+	m_pMaterialGroupList =
 	{
+		_class = "CVNodeMaterialGroupListReference"
 		m_pObject = null
 	}
-	m_pMeshGroupList = 
+	m_pMeshGroupList =
 	{
+		_class = "CVMeshGroupListReference"
 		m_pObject = null
 	}
-	m_pLodGroupList = 
+	m_pLodGroupList =
 	{
+		_class = "CVLODGroupListReference"
 		m_pObject = null
 	}
-	m_pPropBreakableList = 
+	m_pPropBreakableList =
 	{
+		_class = "CVpropBreakableListReference"
 		m_pObject = null
 	}
-	m_pPropDataList = 
+	m_pPropDataList =
 	{
+		_class = "CVpropDataListReference"
 		m_pObject = null
 	}
-	m_pConstraintLists = [  ]
+	m_pConstraintLists =
+	[
+	]
 	m_collision = ""
 	m_softbody = ""
 	m_sMDLFilename = ""
-	m_sOffsetHitboxSets = [  ]
-	m_vHitboxSetOffset = [ 0.0, 0.0, 0.0 ]
-	m_scriptFiles = [  ]
+	m_sOffsetHitboxSets =
+	[
+	]
+	m_vHitboxSetOffset =
+	[
+		0.000000,
+		0.000000,
+		0.000000,
+	]
+	m_scriptFiles =
+	[
+	]
 	m_pMaterialRemapList = null
-	m_flFbxScale = 1.0
-	m_flQCScale = 1.0
-	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_flFbxScale = 1.000000
+	m_flQCScale = 1.000000
+	m_vOrigin =
+	[
+		0.000000,
+		0.000000,
+		0.000000,
+	]
 	m_pPsfList = null
 	m_keyValueText = ""
 	m_bStaticProp = false
 	m_bEnableClothProcessing = true
-	m_flClothEnableThreshold = 0.05
+	m_flClothEnableThreshold = 0.050000
 	m_nMaxClothVertsPerMesh = 2048
 	m_bBuildClothBoneHierarchy = false
 	m_nNavType = "AUTH_NAV_MESH"
 	m_bMakeUniqueVMeshes = false
 	m_bMakeImplicitBindPoseSequence = false
 	m_bAdjustSkeletonFromBoneFlags = false
-	m_bHiddenAssetFlag = false
-	m_pAnimGroups = [  ]
+	m_pAnimGroups =
+	[
+	]
 }

@@ -13,7 +13,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -27,7 +26,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -41,7 +39,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -59,7 +56,7 @@
 		m_flMatchProxiesToMeshes = 1.0
 		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
+		m_bReservedBool1 = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
@@ -741,52 +738,6 @@
 								[
 									{
 										m_Name = "ACT_DOTA_VICTORY"
-										m_nWeight = 1
-									},
-								]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "teleport"
-								m_Filepath = "models/heroes/phantom_assassin/src_model_current_new/src_anims_current/victory.smd"
-								m_nStartframe = 0
-								m_nEndframe = 109
-								m_flFps = 24.0
-								m_Loop = 
-								{
-									m_bLoop = true
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = false
-								m_bDisable = false
-								m_Activities = 
-								[
-									{
-										m_Name = "ACT_DOTA_TELEPORT"
 										m_nWeight = 1
 									},
 								]
@@ -2007,6 +1958,52 @@
 					m_MotionFramesRootBone = ""
 				},
 				{
+					m_Animationname = "phantom_assassin_teleport"
+					m_Filepath = "models/heroes/phantom_assassin/src_model/phantom_assassin_anims/phantom_assassin_idle_alt1.smd"
+					m_nStartframe = 0
+					m_nEndframe = 68
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_TELEPORT"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
 					m_Animationname = "phantom_assassin_loadout"
 					m_Filepath = "models/heroes/phantom_assassin/src_model/phantom_assassin_anims/phantom_assassin_idle.smd"
 					m_nStartframe = 0
@@ -2894,7 +2891,7 @@
 					m_Filepath = "models/heroes/phantom_assassin/src_model/phantom_assassin_anims/phantom_assassin_attack.smd"
 					m_nStartframe = 7
 					m_nEndframe = 12
-					m_flFps = 0.1
+					m_flFps = 0.5
 					m_Loop = 
 					{
 						m_bLoop = false
@@ -3143,52 +3140,6 @@
 							m_bDiscardRZ = false
 						},
 					]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "phantom_assassin_spawn_teleport_end"
-					m_Filepath = "models/heroes/phantom_assassin/src_model/phantom_assassin_anims/phantom_assassin_spawn.smd"
-					m_nStartframe = 0
-					m_nEndframe = 31
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_TELEPORT_END"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
 					m_pIkRules = [  ]
 					m_pAlignAnimation = null
 					m_adjustAnimation = 

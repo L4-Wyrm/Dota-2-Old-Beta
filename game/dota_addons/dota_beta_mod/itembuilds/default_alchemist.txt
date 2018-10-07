@@ -3,7 +3,7 @@
 // 			DO NOT CHANGE ANYTING THERE!	      			  //
 ////////////////////////////////////////////////////////////////
 
-"itembuilds"
+"itembuilds/default_generic.txt"
 {
 	"author"		"Valve"
 	"hero"			"npc_dota_hero_alchemist"
@@ -35,7 +35,7 @@
 			"item"		"item_phase_boots"
 			"item"		"item_magic_wand"
 			"item"		"item_vanguard"
-			"item"		"item_tpscroll_datadriven"
+			"item"		"item_tpscroll"
 		}
 		
 		"#DOTA_Item_Build_Luxury"

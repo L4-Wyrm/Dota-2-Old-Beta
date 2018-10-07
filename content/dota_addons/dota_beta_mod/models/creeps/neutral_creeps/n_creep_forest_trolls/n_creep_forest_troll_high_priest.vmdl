@@ -13,7 +13,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -31,7 +30,7 @@
 		m_flMatchProxiesToMeshes = 1.0
 		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
+		m_bReservedBool1 = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
@@ -514,7 +513,7 @@
 			[
 				{
 					m_Animationname = "BindPose"
-					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/anims/BindPose.smd"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/n_creep_forest_troll_high_priest_anims/BindPose.smd"
 					m_nStartframe = 0
 					m_nEndframe = 0
 					m_flFps = 30.0
@@ -554,7 +553,7 @@
 				},
 				{
 					m_Animationname = "n_creep_forest_troll_high_priest_attack"
-					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/anims/n_creep_forest_troll_high_priest_attack.smd"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/n_creep_forest_troll_high_priest_anims/n_creep_forest_troll_high_priest_attack.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
 					m_flFps = 30.0
@@ -617,7 +616,7 @@
 				},
 				{
 					m_Animationname = "n_creep_forest_troll_high_priest_death"
-					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/anims/n_creep_forest_troll_high_priest_death.smd"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/n_creep_forest_troll_high_priest_anims/n_creep_forest_troll_high_priest_death.smd"
 					m_nStartframe = 0
 					m_nEndframe = 12
 					m_flFps = 30.0
@@ -680,7 +679,7 @@
 				},
 				{
 					m_Animationname = "n_creep_forest_troll_high_priest_heal"
-					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/anims/n_creep_forest_troll_high_priest_heal.smd"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/n_creep_forest_troll_high_priest_anims/n_creep_forest_troll_high_priest_heal.smd"
 					m_nStartframe = 0
 					m_nEndframe = 32
 					m_flFps = 30.0
@@ -743,7 +742,7 @@
 				},
 				{
 					m_Animationname = "n_creep_forest_troll_high_priest_idle"
-					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/anims/n_creep_forest_troll_high_priest_idle.smd"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/n_creep_forest_troll_high_priest_anims/n_creep_forest_troll_high_priest_idle.smd"
 					m_nStartframe = 0
 					m_nEndframe = 60
 					m_flFps = 30.0
@@ -806,7 +805,7 @@
 				},
 				{
 					m_Animationname = "n_creep_troll_high_priest_run"
-					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/anims/n_creep_troll_high_priest_run.smd"
+					m_Filepath = "models/creeps/neutral_creeps/n_creep_forest_trolls/src_forest_troll_high_priest_model/n_creep_forest_troll_high_priest_anims/n_creep_troll_high_priest_run.smd"
 					m_nStartframe = 0
 					m_nEndframe = 24
 					m_flFps = 30.0
@@ -898,7 +897,19 @@
 	}
 	m_pLodGroupList = 
 	{
-		m_pObject = null
+		m_pObject = 
+		{
+			m_lodGroups = 
+			[
+				{
+					m_flSwitchDistance = 0
+					m_meshList = 
+					[
+						"models/creeps/neutral_creeps/n_creep_forest_trolls/n_creep_forest_troll_high_priest_reference_6ab5f911.vmesh",
+					]
+				},
+			]
+		}
 	}
 	m_pPropBreakableList = 
 	{

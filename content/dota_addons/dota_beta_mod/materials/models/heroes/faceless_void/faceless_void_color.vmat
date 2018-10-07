@@ -44,7 +44,6 @@ Layer0
 	TextureDetail2 "materials/default/default_detail2.tga"
 
 	//---- Fresnel ----
-	g_flFresnelModulatesAlpha "0.000"
 	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
 	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
@@ -75,7 +74,7 @@ Layer0
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "30.000"
-	g_flSpecularScale "5.000"
+	g_flSpecularExponent "32.000"
+	g_flSpecularScale "1.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
 }
