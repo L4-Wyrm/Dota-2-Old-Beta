@@ -3,7 +3,7 @@
 // 			DO NOT CHANGE ANYTING THERE!	      			  //
 ////////////////////////////////////////////////////////////////
 
-"itembuilds/default_generic.txt"
+"itembuilds"
 {
 	"author"		"Valve"
 	"hero"			"npc_dota_hero_silencer"

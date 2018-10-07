@@ -3,7 +3,7 @@
 // 			DO NOT CHANGE ANYTING THERE!	      			  //
 ////////////////////////////////////////////////////////////////
 
-"itembuilds/test_axe.txt"
+"itembuilds"
 {
 	"author"		"Valve"
 	"hero"			"npc_dota_hero_weaver"

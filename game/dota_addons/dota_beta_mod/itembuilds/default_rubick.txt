@@ -3,7 +3,7 @@
 // 			DO NOT CHANGE ANYTING THERE!	      			  //
 ////////////////////////////////////////////////////////////////
 
-"itembuilds/test_default.txt"
+"itembuilds"
 {
 	"author"		"Valve"
 	"hero"			"npc_dota_hero_rubick"

@@ -7,8 +7,15 @@ Layer0
 	//---- Effect Proxies ----
 	F_USE_STATUS_EFFECTS_PROXY 1
 
+	//---- Masks ----
+	F_MASKS_1 1
+	F_MASKS_2 1
+
 	//---- Morph ----
 	F_MORPH_SUPPORTED 1
+
+	//---- Translucency ----
+	F_ALPHA_TEST 1
 
 	//---- Blend To Full ----
 	g_flEnvMapBlendToFull "0.000"
@@ -40,15 +47,28 @@ Layer0
 	TextureDetail2 "materials/default/default_detail2.tga"
 
 	//---- Fresnel ----
+	g_flFresnelModulatesAlpha "0.000"
 	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
 	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
 
 	//---- Lighting ----
 	g_flAmbientScale "1.000"
-	g_flBloomScale "0.000"
+	g_flBloomScale "0.850"
 	g_flBloomShift "0.000"
 	g_vBloomColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Mask 1 ----
+	TextureDetailMask "materials/models/heroes/brewmaster/src/body_detailmask.tga"
+	TextureDiffuseWarpMask "materials/models/heroes/brewmaster/src/body_diffusemask.tga"
+	TextureMetalnessMask "materials/models/heroes/brewmaster/src/body_metalnessmask.tga"
+	TextureSelfIllumMask "materials/models/heroes/brewmaster/src/body_selfillummask.tga"
+
+	//---- Mask 2 ----
+	TextureRimMask "materials/models/heroes/brewmaster/src/body_rimmask.tga"
+	TextureSpecularExponent "materials/models/heroes/brewmaster/src/body_specexp.tga"
+	TextureSpecularMask "materials/models/heroes/brewmaster/src/body_specmask.tga"
+	TextureTintByBaseMask "materials/models/heroes/brewmaster/src/body_basetintmask.tga"
 
 	//---- Normal Map ----
 	TextureNormal "materials/models/heroes/brewmaster/src/body_normal.tga"
@@ -61,4 +81,8 @@ Layer0
 	g_flSpecularExponent "32.000"
 	g_flSpecularScale "1.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Translucency ----
+	g_flAlphaTestReference "0.500"
+	TextureTranslucency "materials/models/heroes/brewmaster/src/body_trans.tga"
 }

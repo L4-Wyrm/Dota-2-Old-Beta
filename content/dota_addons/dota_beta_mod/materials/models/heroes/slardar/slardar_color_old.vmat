@@ -7,6 +7,9 @@ Layer0
 	//---- 2-Sided Rendering ----
 	F_RENDER_BACKFACES 1
 
+	//---- Effect Proxies ----
+	F_USE_STATUS_EFFECTS_PROXY 1
+
 	//---- Masks ----
 	F_MASKS_1 1
 	F_MASKS_2 1
@@ -17,7 +20,11 @@ Layer0
 	//---- Translucency ----
 	F_ALPHA_TEST 1
 
+	//---- Warp ----
+	F_DIFFUSE_WARP 1
+
 	//---- Blend To Full ----
+	g_flDiffuseWarpBlendToFull "0.000"
 	g_flEnvMapBlendToFull "0.000"
 	g_flMetalnessBlendToFull "0.000"
 	g_flReflectionsTintByBaseBlendToNone "0.000"
@@ -39,9 +46,17 @@ Layer0
 	g_vTexCoordScale "[1.000 1.000]"
 	TextureColor "materials/models/heroes/slardar/src/slardar_color.tga"
 
+	//---- Detail 1 ----
+	g_vDetailTexCoordScale "[1.000 1.000]"
+
+	//---- Detail 2 ----
+	g_flDetail2BlendFactor "0.000"
+	TextureDetail2 "materials/default/default_detail2.tga"
+
 	//---- Fresnel ----
-	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
-	TextureFresnelWarpRim "materials/models/heroes/slardar/src/slardar_fresnelranges.tga"
+	g_flFresnelModulatesAlpha "0.000"
+	TextureFresnelWarpColor "materials/models/heroes/slardar/slardar_fresnelwarpcolor.tga"
+	TextureFresnelWarpRim "materials/models/heroes/slardar/slardar_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
 
 	//---- Lighting ----
@@ -49,6 +64,7 @@ Layer0
 	g_flBloomScale "0.000"
 	g_flBloomShift "0.000"
 	g_vBloomColor "[1.000000 1.000000 1.000000 0.000000]"
+	TextureDiffuseWarp "materials/models/heroes/slardar/slardar_diffusewarp.psd"
 
 	//---- Mask 1 ----
 	TextureDetailMask "materials/models/heroes/slardar/src/slardar_detailmask.tga"
@@ -70,7 +86,7 @@ Layer0
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "32.000"
+	g_flSpecularExponent "20.000"
 	g_flSpecularScale "1.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
 

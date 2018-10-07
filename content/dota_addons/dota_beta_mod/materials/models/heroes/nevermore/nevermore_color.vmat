@@ -18,6 +18,7 @@ Layer0
 	F_MORPH_SUPPORTED 1
 
 	//---- Warp ----
+	F_COLOR_WARP 1
 	F_DIFFUSE_WARP 1
 
 	//---- Blend To Full ----
@@ -38,11 +39,13 @@ Layer0
 	g_vCloakColorTint "[1.000 1.000 1.000]"
 
 	//---- Color ----
+	g_flColorWarpBlendFactor "0.000"
 	g_flDiffuseModulationAmount "1.000"
 	g_flTexCoordRotation "0.000"
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	TextureColor "materials/models/heroes/nevermore/src/nevermore_color.tga"
+	TextureColorWarp3D "materials/models/heroes/nevermore/src/nevermore_lightwarp.tga"
 
 	//---- Detail 1 ----
 	g_flDetailBlendFactor "1.000"
@@ -57,6 +60,7 @@ Layer0
 	TextureDetail2 "materials/default/default_detail2.tga"
 
 	//---- Fresnel ----
+	g_flFresnelModulatesAlpha "0.000"
 	TextureFresnelWarpColor "materials/models/heroes/nevermore/src/nevermore_fresnelwarp.tga"
 	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
@@ -88,7 +92,7 @@ Layer0
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "32.000"
-	g_flSpecularScale "1.000"
+	g_flSpecularExponent "16.000"
+	g_flSpecularScale "5.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
 }

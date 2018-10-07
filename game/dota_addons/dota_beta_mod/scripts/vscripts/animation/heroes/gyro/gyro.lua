@@ -72,7 +72,7 @@ model:CreateWeightlist(
 
 model:CreateSequence(
 	{
-		name = "@abil1_rocket_barrage",
+		name = "abil1_rocket_barrage",
 		sequences = {
 			{ "@abil1_rocket_barrage" }
 		},
@@ -86,7 +86,7 @@ model:CreateSequence(
 
 model:CreateSequence(
 	{
-		name = "@abil2_homing_missile",
+		name = "abil2_homing_missile",
 		sequences = {
 			{ "@abil2_homing_missile" }
 		},
@@ -99,6 +99,7 @@ model:CreateSequence(
 
 
 
+--[[
 -- AsLookLayer
 model:CreateSequence(
 	{
@@ -144,7 +145,7 @@ model:CreateSequence(
 
 model:CreateSequence(
 	{
-		name = "@turns",
+		name = "turns",
 		delta = true,
 		poseParamX = model:CreatePoseParameter( "turn", -1, 1, 0, false ),
 		sequences = {
@@ -157,12 +158,12 @@ model:CreateSequence(
 
 model:CreateSequence(
 	{
-		name = "@run",
+		name = "run",
 		sequences = {
 			{ "@run" }
 		},
 		addlayer = {
-			"@turns"
+			"turns"
 		},
 		activities = {
 			{ name = "ACT_DOTA_RUN", weight = 5 }
@@ -175,12 +176,12 @@ model:CreateSequence(
 
 model:CreateSequence(
 	{
-		name = "@run_spin",
+		name = "run_spin",
 		sequences = {
 			{ "@run_spin" }
 		},
 		addlayer = {
-			"@turns"
+			"turns"
 		},
 		activities = {
 			{ name = "ACT_DOTA_RUN", weight = 1 }
@@ -193,12 +194,12 @@ model:CreateSequence(
 
 model:CreateSequence(
 	{
-		name = "@injured_run",
+		name = "injured_run",
 		sequences = {
 			{ "@injured_run" }
 		},
 		addlayer = {
-			"@turns"
+			"turns"
 		},
 		activities = {
 			{ name = "ACT_DOTA_RUN", weight = 1 },
@@ -207,10 +208,11 @@ model:CreateSequence(
 	}
 )
 
+--]]
 
 model:CreateSequence(
 	{
-		name = "@propeller_loop",
+		name = "propeller_loop",
 		framerangesequence = "@propeller_loop",
 		cmds = {
 			{ cmd = "sequence", sequence = "@propeller_loop", dst = 1 },
@@ -228,7 +230,7 @@ model:CreateSequence(
 
 model:CreateSequence(
 	{
-		name = "@propeller_loop_01",
+		name = "propeller_loop_01",
 		framerangesequence = "@propeller_loop_01",
 		cmds = {
 			{ cmd = "sequence", sequence = "@propeller_loop_01", dst = 1 },
@@ -246,7 +248,7 @@ model:CreateSequence(
 
 model:CreateSequence(
 	{
-		name = "@abil1_rocket_barrage",
+		name = "abil1_rocket_barrage",
 		sequences = {
 			{ "@abil1_rocket_barrage" }
 		},

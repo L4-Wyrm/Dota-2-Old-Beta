@@ -6,6 +6,10 @@ Layer0
 
 	//---- Masks ----
 	F_MASKS_1 1
+	F_MASKS_2 1
+
+	//---- Translucency ----
+	F_ALPHA_TEST 1
 
 	//---- Blend To Full ----
 	g_flEnvMapBlendToFull "0.000"
@@ -30,6 +34,7 @@ Layer0
 	TextureColor "materials/models/heroes/dragon_knight/src/bracers_color.tga"
 
 	//---- Fresnel ----
+	g_flFresnelModulatesAlpha "0.000"
 	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
 	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
@@ -46,6 +51,12 @@ Layer0
 	TextureMetalnessMask "materials/models/heroes/dragon_knight/src/bracers_metalnessmask.tga"
 	TextureSelfIllumMask "materials/models/heroes/dragon_knight/src/bracers_selfillummask.tga"
 
+	//---- Mask 2 ----
+	TextureRimMask "materials/default/default_rimmask.tga"
+	TextureSpecularExponent "materials/default/default_specexp.tga"
+	TextureSpecularMask "materials/default/default_specmask.tga"
+	TextureTintByBaseMask "materials/default/default_basetintmask.tga"
+
 	//---- Normal Map ----
 	TextureNormal "materials/models/heroes/dragon_knight/src/bracers_normal.tga"
 
@@ -54,7 +65,11 @@ Layer0
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "32.000"
-	g_flSpecularScale "1.000"
+	g_flSpecularExponent "11.000"
+	g_flSpecularScale "5.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Translucency ----
+	g_flAlphaTestReference "0.500"
+	TextureTranslucency "materials/models/heroes/dragon_knight/src/bracers_trans.tga"
 }

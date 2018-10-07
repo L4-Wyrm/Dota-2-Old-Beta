@@ -1,3 +1,8 @@
+////////////////////////////////////////////////////////////////
+// This file is created for custom gamemode: Dota 2 Old Beta. //
+// 			DO NOT CHANGE ANYTING THERE!	      			  //
+////////////////////////////////////////////////////////////////
+
 "DOTAAbilities"
 {
 	//=================================================================================================================
@@ -11,7 +16,7 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityTextureName"	"item_recipe_old"
-		"ID" "101" 				// Valve's version of this item uses the ID "102".
+		"ID" "3000" 				// Valve's version of this item uses the ID "101".
 		"BaseClass"           "item_datadriven"
 		
 		// Item Info
@@ -39,7 +44,7 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"						"item_datadriven"
-		"ID"							"102"														// Valve's version of this item uses the ID "102".
+		"ID"							"3001"														// Valve's version of this item uses the ID "102".
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL"
@@ -128,6 +133,165 @@
 					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS"	"%bonus_intellect"
 					"MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE"	"%bonus_damage"
 					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus_attack_speed"
+				}
+			}
+		}
+	}
+	//=================================================================================================================
+	// Recipe: Poor Man's Shield
+	// Written by: Wyrm
+	// Date: 09.11.2017
+	// For gamemode: Dota 2 Old Beta 
+	//=================================================================================================================
+	"item_recipe_poor_mans_shield"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"           "item_datadriven"
+		"ID"							"3004"														// Valve's version of this item uses the ID "70".
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"AbilityTextureName"	"item_recipe_old"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_poor_mans_shield_datadriven"
+		"ItemRequirements"
+		{
+			"01"						"item_slippers;item_slippers;item_stout_shield"
+		}
+	}
+	//=================================================================================================================
+	// Poor Man's Shield
+	// Written by: Wyrm
+	// Date: 09.11.2017
+	// For gamemode: Dota 2 Old Beta 
+	// Note: UNUSED
+	// Note 2: NOT FINISHED
+	//=================================================================================================================
+	"item_poor_mans_shield_datadriven"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"ID"							"3005"														// Valve's version of this item uses the ID "71".
+		"AbilityName"					"item_poor_mans_shield"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName" 			"item_poor_mans_shield_datadriven"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"550"
+		"ItemShopTags"					"agi;block"
+		"ItemQuality"					"common"
+		"ItemAliases"					"pms"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"			"6"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_block_melee"	"20"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_block_ranged"	"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"block_chance"			"60"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"block_chance_hero"		"100"
+			}			
+		}
+	
+		"Modifiers"
+		{
+			"item_poor_mans_shield_modifier"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				"Attributes" "MODIFIER_ATTRIBUTE_MULTIPLE" //This makes duplicate items stack their properties
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%bonus_agility"
+				}
+				
+				"OnCreated"
+				{
+					"Random"
+					{
+						"Chance" "%block_chance"
+						"OnSuccess"
+						{
+							"ApplyModifier"
+							{
+								"Target" "CASTER"
+								"ModifierName" "item_poor_mans_shield_block_modifier"
+							}
+						}
+					}
+				}
+				
+				"OnAttacked"
+				{
+					"Random"
+					{
+						"Chance" "%block_chance"
+						"OnSuccess"
+						{
+							"ApplyModifier"
+							{
+								"Target" "CASTER"
+								"ModifierName" "item_poor_mans_shield_block_modifier"
+							}
+						}
+					}
+				}
+				"OnFailure"
+				{
+					"RemoveModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "item_poor_mans_shield_block_modifier"
+					}
+				}
+			}
+		}
+		
+		"item_poor_mans_shield_block_modifier"
+		{
+			"IsBuff" "1"
+			"IsHidden" "1"
+		
+			"Properties"
+			{
+				"MODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK" "%damage_blocked"
+			}
+			
+			"OnAttacked"
+			{
+				"RemoveModifier"
+				{
+					"Target" "CASTER"
+					"ModifierName" "item_poor_mans_shield_block_modifier"
 				}
 			}
 		}

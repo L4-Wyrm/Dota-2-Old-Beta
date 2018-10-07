@@ -4,6 +4,9 @@ Layer0
 {
 	shader "hero.vfx"
 
+	//---- Effect Proxies ----
+	F_USE_STATUS_EFFECTS_PROXY 1
+
 	//---- Masks ----
 	F_MASKS_1 1
 	F_MASKS_2 1
@@ -33,10 +36,18 @@ Layer0
 	g_vTexCoordScale "[1.000 1.000]"
 	TextureColor "materials/models/heroes/silencer/src/silencer_color.tga"
 
+	//---- Detail 1 ----
+	g_vDetailTexCoordScale "[1.000 1.000]"
+
+	//---- Detail 2 ----
+	g_flDetail2BlendFactor "0.000"
+	TextureDetail2 "materials/default/default_detail2.tga"
+
 	//---- Fresnel ----
+	g_flFresnelModulatesAlpha "0.000"
 	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
 	TextureFresnelWarpRim "materials/models/heroes/silencer/src/silencer_fresnelranges.tga"
-	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
+	TextureFresnelWarpSpec "materials/models/heroes/silencer/silencer_fresnelwarpspec.tga"
 
 	//---- Lighting ----
 	g_flAmbientScale "1.000"
@@ -64,7 +75,7 @@ Layer0
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "32.000"
-	g_flSpecularScale "1.000"
+	g_flSpecularExponent "12.000"
+	g_flSpecularScale "2.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
 }

@@ -56,7 +56,8 @@ Layer0
 	TextureDetail2 "materials/default/default_detail2.tga"
 
 	//---- Fresnel ----
-	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
+	g_flFresnelModulatesAlpha "0.000"
+	TextureFresnelWarpColor "materials/models/heroes/enigma/src/enigma_fresnelranges.tga"
 	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
 
@@ -88,7 +89,7 @@ Layer0
 	//---- Specular ----
 	g_flCubeMapScalar "5.000"
 	g_flSpecularExponent "5.000"
-	g_flSpecularScale "5.000"
+	g_flSpecularScale "2.000"
 	g_vSpecularColor "[0.000000 0.701961 1.000000 0.000000]"
 	TextureCubeMap "materials/models/cubemaps/crimson_pique_glass_cube.psd"
 

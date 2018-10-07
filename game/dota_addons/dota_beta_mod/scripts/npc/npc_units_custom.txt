@@ -1,11 +1,19 @@
+////////////////////////////////////////////////////////////////
+// This file is created for custom gamemode: Dota 2 Old Beta. //
+// 			DO NOT CHANGE ANYTING THERE!	      			  //
+////////////////////////////////////////////////////////////////
 // Units File
 "DOTAUnits"
 {
 	"Version"	"1"
 	
-	////////////////////////////////////////////////////////////
-	//Old: Lycan Wolf Lvl 2
-	////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 01.03.2016.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	//Old: Lycan Wolf Lvl 2									 //
+	///////////////////////////////////////////////////////////
 	"npc_dota_lycan_wolf2_old"	
 	{
 		// General
@@ -85,9 +93,13 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRONG"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 	}
-	////////////////////////////////////////////////////////////
-	//Old: Lycan Wolf Lvl 3
-	////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 01.03.2016.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	//Old: Lycan Wolf Lvl 3									 //
+	///////////////////////////////////////////////////////////
 	"npc_dota_lycan_wolf3_old"	
 	{
 		// General
@@ -166,9 +178,13 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRONG"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 	}
-	////////////////////////////////////////////////////////////
-	//Old: Lycan Wolf Lvl 4
-	////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 01.03.2016.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	//Old: Lycan Wolf Lvl 4									 //
+	///////////////////////////////////////////////////////////
 	"npc_dota_lycan_wolf4_old"	
 	{
 		// General
@@ -248,9 +264,14 @@
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 	}
 	
-	////////////////////////////////////////////////////////////
-	// Old Neutral: Centaur Chief
-	////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 12.04.2016.					 				 //
+	// Updated: 02.05.2018									 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	// Old Neutral: Centaur Chief							 //
+	///////////////////////////////////////////////////////////
 	"npc_dota_neutral_centaur_khan"
 	{										
 		// General
@@ -278,7 +299,7 @@
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
 		"AttackDamageMin"			"49"		// Damage range min.
 		"AttackDamageMax"			"55"		// Damage range max.	
-		"AttackRate"				"1.5"		// Speed of attack.
+		"AttackRate"				"1.65"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -316,13 +337,18 @@
 		// Team
 		//----------------------------------------------------------------
 		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
-		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_LIGHT"
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRONG"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 	}
-	////////////////////////////////////////////////////////////
-	// Old Neutral: Furbolg Disrupter
-	////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 12.04.2016.					 				 //
+	// Updated: 02.05.2018									 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	// Old Neutral: Furbolg Disrupter						 //
+	///////////////////////////////////////////////////////////
 	"npc_dota_neutral_polar_furbolg_ursa_warrior"
 	{										
 		// General
@@ -331,7 +357,7 @@
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
 		"Level"						"5"
-		"ModelScale" 					".95"
+		"ModelScale" 					"0.95"
 		"IsNeutralUnitType"			"1"
 
 		// Abilities
@@ -350,7 +376,7 @@
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
 		"AttackDamageMin"			"49"		// Damage range min.
 		"AttackDamageMax"			"55"		// Damage range max.	
-		"AttackRate"				"1.55"		// Speed of attack.
+		"AttackRate"				"1.35"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -375,7 +401,7 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"950"		// Base health.
+		"StatusHealth"				"1100"		// Base health.
 		"StatusHealthRegen"			"1"			// Health regeneration rate.
 		"StatusMana"				"300"		// Base mana.
 		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
@@ -388,13 +414,18 @@
 		// Team
 		//----------------------------------------------------------------
 		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
-		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_LIGHT"
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRONG"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 	}
-	////////////////////////////////////////////////////////////
-	// Old Neutral: Mud Golem
-	////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 28.04.2016.					 				 //
+	// Updated: 02.05.2018									 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	// Old Neutral: Mud Golem								 //
+	///////////////////////////////////////////////////////////
 	"npc_dota_neutral_mud_golem"
 	{										
 		// General
@@ -402,7 +433,7 @@
 		"Model"						"models/creeps/neutral_creeps/n_creep_golem_b/n_creep_golem_b.vmdl"	// Model.
 		"BaseClass"					"npc_dota_creep_neutral"
 		"SoundSet"					"n_creep_Melee"
-		"Level"						"4"
+		"Level"						"5"
 		"ModelScale" 					"1.1"
 		"IsNeutralUnitType"			"1"
 
@@ -415,8 +446,7 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"0"			// Physical protection.
-		"MagicalResistance"			"50"		// Magical protection.  
+		"ArmorPhysical"				"4"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
@@ -437,14 +467,13 @@
 
 		// Bounty
 		//----------------------------------------------------------------
-		"BountyXP"					"42"		// Experience earn.
-		"BountyGoldMin"				"30"		// Gold earned min.
-		"BountyGoldMax"				"34"		// Gold earned max.
-
+		"BountyXP"					"119"		// Experience earn.
+		"BountyGoldMin"				"54"		// Gold earned min.
+		"BountyGoldMax"				"62"		// Gold earned max.
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"310"		// Speed.
+		"MovementSpeed"				"270"		// Speed.
 
 		// Status
 		//----------------------------------------------------------------
@@ -465,9 +494,13 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRONG"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 	}
-	////////////////////////////////////////////////////////////
-	// Old Neutral: Blue Dragonspawn Sorcerer
-	////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 09.02.2017.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	// Old Neutral: Blue Dragonspawn Sorcerer				 //
+	///////////////////////////////////////////////////////////
 	"npc_dota_neutral_prowler_acolyte"
 	{										
 		// General
@@ -539,9 +572,13 @@
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 	}	
 
-	////////////////////////////////////////////////////////////
-	// Old Neutral: Blue Dragonspawn Overseer
-	////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 09.02.2017.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	// Old Neutral: Blue Dragonspawn Overseer				 //
+	///////////////////////////////////////////////////////////
 	"npc_dota_neutral_prowler_shaman"
 	{										
 		// General
@@ -611,5 +648,397 @@
 		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+	}
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 16.12.2017.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_mega_greevil_background_winter"
+	{
+		"BaseClass"	"npc_dota_creep_neutral"
+		"Model"	"models/creeps/mega_greevil/mega_greevil.vmdl"
+		"SoundSet"					"Greevil"					// Name of sound set.
+		"ModelScale"	"2"
+		
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+	}
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 16.12.2017.					 				 //
+	// For gamemode: The Greeviling Reborn					 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_roshan_greevil"
+	{
+		"BaseClass"	"npc_dota_roshan"
+		"Model"	"models/creeps/mega_greevil/mega_greevil.vmdl"
+		"SoundSet"					"Greevil"					// Name of sound set.
+		"ModelScale"	"3"
+	}
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 07.01.2018.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_twin_headed_dragon_model_background"
+	{
+		"BaseClass"	"npc_dota_creep_neutral"
+		"Model"	"models/custom_game/model_backgrounds/twin_headed_dragon_background/twin_headed_dragon_model_background.vmdl"
+		"SoundSet"					"Hero_Jakiro"					// Name of sound set.
+		"ModelScale"	"1"
+		
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+	}
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 02.05.2018.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////	
+	// Old Neutral: Ancient - Black Drake					 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_neutral_black_drake"	
+	{
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/creeps/neutral_creeps/n_creep_dragon_med/n_creep_dragon_med.vmdl"	// Model.
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"n_creep_Ranged"
+		"Level"						"3"
+		"IsAncient"					"1"
+		"ModelScale" 					"0.6"
+		"IsNeutralUnitType"			"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					""			// Ability 1
+		"Ability2"					""			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					""			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"2"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"34"		// Damage range min.
+		"AttackDamageMax"			"45"		// Damage range max.
+		"AttackRate"				"1.8"		// Speed of attack.
+		"AttackAnimationPoint"		"0.94"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"300"		// Range within a target can be acquired.
+		"AttackRange"				"300"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/neutral_fx/black_drake_attack.vpcf" // Particle system model for projectile.
+		"ProjectileSpeed"			"900"		// Speed of projectile.		     
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"70"
+		"HealthBarOffset"			"300"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"62"		// Experience earn.
+		"BountyGoldMin"				"44"		// Gold earned min.
+		"BountyGoldMax"				"56"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"350"		// Speed.			
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"950"		// Base health.
+		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_PIERCE"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRONG"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+	}	
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 02.05.2018.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////	
+	// Old Neutral: Ancient - Black Dragon					 //
+	///////////////////////////////////////////////////////////	
+	"npc_dota_neutral_black_dragon"	
+	{
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/creeps/neutral_creeps/n_creep_black_dragon/n_creep_black_dragon.vmdl"	// Model.
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"n_creep_Ranged"
+		"Level"						"6"
+		"IsAncient"					"1"
+		"ModelScale" 					"1"
+		"IsNeutralUnitType"			"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"black_dragon_splash_attack"			// Ability 1
+		"Ability2"					"neutral_spell_immunity"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					""			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"6"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"48"		// Damage range min.
+		"AttackDamageMax"			"81"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
+		"AttackAnimationPoint"		"0.94"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"300"		// Range within a target can be acquired.
+		"AttackRange"				"300"		// Range within a target can be attacked.
+		"ProjectileModel"			"particles/neutral_fx/black_dragon_attack.vpcf" // Particle system model for projectile.
+		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"70"
+		"HealthBarOffset"			"300"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"155"		// Experience earn.
+		"BountyGoldMin"				"164"		// Gold earned min.
+		"BountyGoldMax"				"234"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"300"		// Speed.			
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"2000"		// Base health.
+		"StatusHealthRegen"			"2"			// Health regeneration rate.
+		"StatusMana"				"0"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.		 
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_LIGHT"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRONG"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+	}	
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 02.05.2018.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////	
+	// Old Neutral: Ancient - Rock Golem					 //
+	///////////////////////////////////////////////////////////	
+	"npc_dota_neutral_rock_golem"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/creeps/neutral_creeps/n_creep_golem_a/neutral_creep_golem_a.vmdl"	// Model.
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"n_creep_Melee"
+		"Level"						"5"
+		"IsAncient"					"1"
+		"ModelScale" 					"1"
+		"IsNeutralUnitType"			"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"neutral_spell_immunity"			// Ability 1
+		"Ability2"					""			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					""			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"4"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"29"		// Damage range min.
+		"AttackDamageMax"			"33"		// Damage range max.	
+		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
+		"AttackRange"				"100"		// Range within a target can be attacked.
+		"ProjectileModel"			""			// Particle system model for projectile.
+		"ProjectileSpeed"			"0"			// Speed of projectile.		   
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"60"
+		"HealthBarOffset"			"220"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"119"		// Experience earn.
+		"BountyGoldMin"				"54"		// Gold earned min.
+		"BountyGoldMax"				"62"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"270"		// Speed.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"800"		// Base health.
+		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
+		"StatusMana"				"400"		// Base mana.
+		"StatusManaRegen"			"1"			// Mana regeneration rate.		 
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRONG"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+	}								  
+
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 02.05.2018.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////	
+	// Old Neutral: Ancient - Granite Golem					 //
+	///////////////////////////////////////////////////////////	
+	"npc_dota_neutral_granite_golem"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/creeps/neutral_creeps/n_creep_golem_a/neutral_creep_golem_a.vmdl"	// Model.
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"n_creep_Melee"
+		"Level"						"6"
+		"IsAncient"					"1"
+		"ModelScale" 					"1.15"
+		"IsNeutralUnitType"			"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"neutral_spell_immunity"			// Ability 1
+		"Ability2"					""			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					""			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"8"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"77"		// Damage range min.
+		"AttackDamageMax"			"87"		// Damage range max.	
+		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
+		"AttackRange"				"128"		// Range within a target can be attacked.
+		"ProjectileModel"			""			// Particle system model for projectile.
+		"ProjectileSpeed"			"0"			// Speed of projectile.		   
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"60"
+		"HealthBarOffset"			"220"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"155"		// Experience earn.
+		"BountyGoldMin"				"107"		// Gold earned min.
+		"BountyGoldMax"				"121"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"270"		// Speed.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"2000"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		"StatusMana"				"600"		// Base mana.
+		"StatusManaRegen"			"1.5"		// Mana regeneration rate.		 
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_LIGHT"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRONG"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+	}
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 02.05.2018.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_model_background"
+	{
+		"BaseClass"	"npc_dota_creep_neutral"
+		"Model"	"models/custom_game/model_backgrounds/n_creep_black_dragon_background/n_creep_black_dragon_background.vmdl"
+		"ModelScale"	"1"
+		
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+	}
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 15.09.2018.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_huskar_background"
+	{
+		"BaseClass"	"npc_dota_creep_neutral"
+		"Model"	"models/custom_game/model_backgrounds/huskar_background/huskar_background.vmdl"
+		"SoundSet"					"Hero_Huskar"					// Name of sound set.
+		"ModelScale"	"1"
+		
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
 	}
 }

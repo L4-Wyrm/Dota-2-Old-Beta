@@ -13,6 +13,7 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
+				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -30,7 +31,7 @@
 		m_flMatchProxiesToMeshes = 1.0
 		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bReservedBool1 = false
+		m_bSoftSkinAnimation = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
@@ -38,23 +39,7 @@
 	}
 	m_physicsMeshList = 
 	{
-		m_meshList = 
-		[
-			{
-				m_meshName = "zuus_reference"
-				m_meshFile = "models/heroes/zeus/src_model/zuus_reference.smd"
-				m_bOneConvexPiece = true
-				m_flMaxError = 0.0
-				m_bUseExactGeometry = false
-				m_bAutoMass = true
-				m_flMassOverride = 100.0
-				m_bConcavePerJoint = false
-				m_bSelfCollisions = false
-				m_bForceKinematic = false
-				m_bIgnoreScale = false
-				m_bIgnoreSkeleton = false
-			},
-		]
+		m_meshList = [  ]
 	}
 	m_pModelInfo = null
 	m_pBoneFlagList = 
@@ -879,275 +864,10 @@
 						m_Vanim = 
 						[
 							{
-								m_Animationname = "@turn_lookFrame_0"
-								m_Filepath = "models/heroes/zeus/src_model/zuus_anims/turn_lookFrame_0.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "@turn_lookFrame_1"
-								m_Filepath = "models/heroes/zeus/src_model/zuus_anims/turn_lookFrame_1.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "@turn_lookFrame_2"
-								m_Filepath = "models/heroes/zeus/src_model/zuus_anims/turn_lookFrame_2.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
 								m_Animationname = "@turns"
 								m_Filepath = "models/heroes/zeus/src_model/zuus_anims/turns.smd"
 								m_nStartframe = 0
 								m_nEndframe = 2
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-						]
-						m_sScripts = [  ]
-						m_folderNames = [  ]
-						m_sCompileScripts = [  ]
-					}
-				},
-				{
-					m_pObject = 
-					{
-						m_Name = "turn_dupe1"
-						m_pReferenceSkeleton = 
-						{
-							m_pObject = null
-						}
-						m_pBoneFlagList = 
-						{
-							m_pObject = null
-						}
-						m_pSeqGroup = 
-						{
-							m_pObject = null
-						}
-						m_pAnimGroups = [  ]
-						m_Vanim = 
-						[
-							{
-								m_Animationname = "@turn_dupe1_lookFrame_0"
-								m_Filepath = "models/heroes/zeus/src_model/zuus_anims/turn_dupe1_lookFrame_0.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "@turn_dupe1_lookFrame_1"
-								m_Filepath = "models/heroes/zeus/src_model/zuus_anims/turn_dupe1_lookFrame_1.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "@turn_dupe1_lookFrame_2"
-								m_Filepath = "models/heroes/zeus/src_model/zuus_anims/turn_dupe1_lookFrame_2.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
 								m_flFps = 30.0
 								m_Loop = 
 								{
@@ -1209,126 +929,6 @@
 						m_Vanim = 
 						[
 							{
-								m_Animationname = "@lightning_turns_lookFrame_0"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns_lookFrame_0.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "@lightning_turns_lookFrame_1"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns_lookFrame_1.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "@lightning_turns_lookFrame_2"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns_lookFrame_2.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
 								m_Animationname = "@lightning_turns"
 								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns.smd"
 								m_nStartframe = 0
@@ -1377,7 +977,7 @@
 				{
 					m_pObject = 
 					{
-						m_Name = "lightning_turns_dupe1"
+						m_Name = "new_anims"
 						m_pReferenceSkeleton = 
 						{
 							m_pObject = null
@@ -1394,14 +994,14 @@
 						m_Vanim = 
 						[
 							{
-								m_Animationname = "@lightning_turns_dupe1_lookFrame_0"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns_dupe1_lookFrame_0.smd"
+								m_Animationname = "lightning_loadout_facial"
+								m_Filepath = "models/heroes/zeus/src_model/zuus_anims_new/lightning_loadout_facial.dmx"
 								m_nStartframe = 0
-								m_nEndframe = 0
+								m_nEndframe = 80
 								m_flFps = 30.0
 								m_Loop = 
 								{
-									m_bLoop = false
+									m_bLoop = true
 									m_bSmoothLoop = false
 									m_nSmoothLoopStart = 0
 									m_nSmoothLoopEnd = 0
@@ -1412,9 +1012,19 @@
 										m_nLoopRestart = 0
 									}
 								}
-								m_bHidden = true
+								m_bHidden = false
 								m_bDisable = false
-								m_Activities = [  ]
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_LOADOUT"
+										m_nWeight = 1
+									},
+									{
+										m_Name = "lightning"
+										m_nWeight = 1
+									},
+								]
 								m_AnimationEvents = [  ]
 								m_MotionFrames = [  ]
 								m_pIkRules = [  ]
@@ -1434,14 +1044,14 @@
 								m_MotionFramesRootBone = ""
 							},
 							{
-								m_Animationname = "@lightning_turns_dupe1_lookFrame_1"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns_dupe1_lookFrame_1.smd"
+								m_Animationname = "loadout_facial"
+								m_Filepath = "models/heroes/zeus/src_model/zuus_anims_new/loadout_facial.dmx"
 								m_nStartframe = 0
-								m_nEndframe = 0
+								m_nEndframe = 80
 								m_flFps = 30.0
 								m_Loop = 
 								{
-									m_bLoop = false
+									m_bLoop = true
 									m_bSmoothLoop = false
 									m_nSmoothLoopStart = 0
 									m_nSmoothLoopEnd = 0
@@ -1452,9 +1062,15 @@
 										m_nLoopRestart = 0
 									}
 								}
-								m_bHidden = true
+								m_bHidden = false
 								m_bDisable = false
-								m_Activities = [  ]
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_LOADOUT"
+										m_nWeight = 1
+									},
+								]
 								m_AnimationEvents = [  ]
 								m_MotionFrames = [  ]
 								m_pIkRules = [  ]
@@ -1474,10 +1090,10 @@
 								m_MotionFramesRootBone = ""
 							},
 							{
-								m_Animationname = "@lightning_turns_dupe1_lookFrame_2"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns_dupe1_lookFrame_2.smd"
+								m_Animationname = "loadout_rare_facial"
+								m_Filepath = "models/heroes/zeus/src_model/zuus_anims_new/loadout_rare_facial.dmx"
 								m_nStartframe = 0
-								m_nEndframe = 0
+								m_nEndframe = 160
 								m_flFps = 30.0
 								m_Loop = 
 								{
@@ -1492,74 +1108,15 @@
 										m_nLoopRestart = 0
 									}
 								}
-								m_bHidden = true
+								m_bHidden = false
 								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-						]
-						m_sScripts = [  ]
-						m_folderNames = [  ]
-						m_sCompileScripts = [  ]
-					}
-				},
-				{
-					m_pObject = 
-					{
-						m_Name = "lightning_turns_dupe2"
-						m_pReferenceSkeleton = 
-						{
-							m_pObject = null
-						}
-						m_pBoneFlagList = 
-						{
-							m_pObject = null
-						}
-						m_pSeqGroup = 
-						{
-							m_pObject = null
-						}
-						m_pAnimGroups = [  ]
-						m_Vanim = 
-						[
-							{
-								m_Animationname = "@lightning_turns_dupe2_lookFrame_0"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns_dupe2_lookFrame_0.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
+								m_Activities = 
+								[
 									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
+										m_Name = "ACT_DOTA_LOADOUT_RARE"
+										m_nWeight = 1
+									},
+								]
 								m_AnimationEvents = [  ]
 								m_MotionFrames = [  ]
 								m_pIkRules = [  ]
@@ -1579,14 +1136,14 @@
 								m_MotionFramesRootBone = ""
 							},
 							{
-								m_Animationname = "@lightning_turns_dupe2_lookFrame_1"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns_dupe2_lookFrame_1.smd"
+								m_Animationname = "portrait_facial"
+								m_Filepath = "models/heroes/zeus/src_model/zuus_anims_new/portrait_facial.dmx"
 								m_nStartframe = 0
-								m_nEndframe = 0
+								m_nEndframe = 80
 								m_flFps = 30.0
 								m_Loop = 
 								{
-									m_bLoop = false
+									m_bLoop = true
 									m_bSmoothLoop = false
 									m_nSmoothLoopStart = 0
 									m_nSmoothLoopEnd = 0
@@ -1597,9 +1154,15 @@
 										m_nLoopRestart = 0
 									}
 								}
-								m_bHidden = true
+								m_bHidden = false
 								m_bDisable = false
-								m_Activities = [  ]
+								m_Activities = 
+								[
+									{
+										m_Name = "ACT_DOTA_CAPTURE"
+										m_nWeight = 1
+									},
+								]
 								m_AnimationEvents = [  ]
 								m_MotionFrames = [  ]
 								m_pIkRules = [  ]
@@ -1619,14 +1182,14 @@
 								m_MotionFramesRootBone = ""
 							},
 							{
-								m_Animationname = "@lightning_turns_dupe2_lookFrame_2"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_turns_dupe2_lookFrame_2.smd"
+								m_Animationname = "lightning_portrait_facial"
+								m_Filepath = "models/heroes/zeus/src_model/zuus_anims_new/lightning_portrait_facial.dmx"
 								m_nStartframe = 0
-								m_nEndframe = 0
+								m_nEndframe = 80
 								m_flFps = 30.0
 								m_Loop = 
 								{
-									m_bLoop = false
+									m_bLoop = true
 									m_bSmoothLoop = false
 									m_nSmoothLoopStart = 0
 									m_nSmoothLoopEnd = 0
@@ -1637,154 +1200,19 @@
 										m_nLoopRestart = 0
 									}
 								}
-								m_bHidden = true
+								m_bHidden = false
 								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-						]
-						m_sScripts = [  ]
-						m_folderNames = [  ]
-						m_sCompileScripts = [  ]
-					}
-				},
-				{
-					m_pObject = 
-					{
-						m_Name = "turn_dupe2"
-						m_pReferenceSkeleton = 
-						{
-							m_pObject = null
-						}
-						m_pBoneFlagList = 
-						{
-							m_pObject = null
-						}
-						m_pSeqGroup = 
-						{
-							m_pObject = null
-						}
-						m_pAnimGroups = [  ]
-						m_Vanim = 
-						[
-							{
-								m_Animationname = "@turns_dupe2_lookFrame_0"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/turns_dupe2_lookFrame_0.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
+								m_Activities = 
+								[
 									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "@turns_dupe2_lookFrame_1"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/turns_dupe2_lookFrame_1.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
+										m_Name = "ACT_DOTA_CAPTURE"
+										m_nWeight = 1
+									},
 									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "@turns_dupe2_lookFrame_2"
-								m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/turns_dupe2_lookFrame_2.smd"
-								m_nStartframe = 0
-								m_nEndframe = 0
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = false
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = true
-								m_bDisable = false
-								m_Activities = [  ]
+										m_Name = "lightning"
+										m_nWeight = 1
+									},
+								]
 								m_AnimationEvents = [  ]
 								m_MotionFrames = [  ]
 								m_pIkRules = [  ]
@@ -1853,24 +1281,7 @@
 							m_DataString = "particles/units/heroes/hero_zuus/z_w.vpcf fa attach_attack1 fa attach_attack2"
 						},
 					]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
+					m_MotionFrames = [  ]
 					m_pIkRules = [  ]
 					m_pAlignAnimation = null
 					m_adjustAnimation = 
@@ -2039,7 +1450,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = false
+					m_bDisable = true
 					m_Activities = 
 					[
 						{
@@ -2359,63 +1770,6 @@
 					m_MotionFramesRootBone = ""
 				},
 				{
-					m_Animationname = "@zuus_run"
-					m_Filepath = "models/heroes/zeus/src_model/zuus_anims/zuus_run.smd"
-					m_nStartframe = 0
-					m_nEndframe = 30
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = true
-					m_bDisable = false
-					m_Activities = [  ]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
 					m_Animationname = "loadout_spawn"
 					m_Filepath = "models/heroes/zeus/src_model/zuus_anims/zuus_cast4.smd"
 					m_nStartframe = 0
@@ -2485,7 +1839,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = false
+					m_bDisable = true
 					m_Activities = 
 					[
 						{
@@ -2581,7 +1935,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = false
+					m_bDisable = true
 					m_Activities = 
 					[
 						{
@@ -3769,7 +3123,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = false
+					m_bDisable = true
 					m_Activities = 
 					[
 						{
@@ -3880,7 +3234,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = false
+					m_bDisable = true
 					m_Activities = 
 					[
 						{
@@ -3894,177 +3248,6 @@
 					]
 					m_AnimationEvents = [  ]
 					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "@lightning_run"
-					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_run.smd"
-					m_nStartframe = 0
-					m_nEndframe = 30
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = true
-					m_bDisable = false
-					m_Activities = [  ]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "@lightning_run_haste"
-					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_run_haste.smd"
-					m_nStartframe = 0
-					m_nEndframe = 30
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = true
-					m_bDisable = false
-					m_Activities = [  ]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "@lightning_run_injured"
-					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_run_injured.smd"
-					m_nStartframe = 0
-					m_nEndframe = 30
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = true
-					m_bDisable = false
-					m_Activities = [  ]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
 					m_pIkRules = [  ]
 					m_pAlignAnimation = null
 					m_adjustAnimation = 
@@ -4682,6 +3865,167 @@
 					m_MotionFramesRootBone = ""
 				},
 				{
+					m_Animationname = "forcestaff_end"
+					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/teleport_end.smd"
+					m_nStartframe = 0
+					m_nEndframe = 17
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_FORCESTAFF_END"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "zuus_versus"
+					m_Filepath = "models/heroes/zeus/src_model/zuus_anims/zuus_cast2.smd"
+					m_nStartframe = 9
+					m_nEndframe = 16
+					m_flFps = 0.1
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_VERSUS"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "@zuus_run"
+					m_Filepath = "models/heroes/zeus/src_model/zuus_anims/zuus_run.smd"
+					m_nStartframe = 0
+					m_nEndframe = 30
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = true
+					m_bDisable = false
+					m_Activities = [  ]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 11
+							m_DataString = "Hero_Zuus.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 26
+							m_DataString = "Hero_Zuus.Footsteps"
+						},
+					]
+					m_MotionFrames = 
+					[
+						{
+							m_nFrame = 0
+							m_bExtractTX = true
+							m_bExtractTY = true
+							m_bExtractTZ = false
+							m_bExtractRX = false
+							m_bExtractRY = false
+							m_bExtractRZ = false
+							m_bDiscardTX = false
+							m_bDiscardTY = false
+							m_bDiscardTZ = false
+							m_bDiscardRX = false
+							m_bDiscardRY = false
+							m_bDiscardRZ = false
+						},
+					]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
 					m_Animationname = "@zuus_run_aggro"
 					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/zuus_run_aggro.smd"
 					m_nStartframe = 0
@@ -4703,7 +4047,19 @@
 					m_bHidden = true
 					m_bDisable = false
 					m_Activities = [  ]
-					m_AnimationEvents = [  ]
+					m_AnimationEvents = 
+					[
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 11
+							m_DataString = "Hero_Zuus.Footsteps"
+						},
+						{
+							m_Event = "AE_CL_PLAYSOUND"
+							m_nFrame = 26
+							m_DataString = "Hero_Zuus.Footsteps"
+						},
+					]
 					m_MotionFrames = 
 					[
 						{
@@ -4760,161 +4116,6 @@
 					m_bHidden = true
 					m_bDisable = false
 					m_Activities = [  ]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "forcestaff_end"
-					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/teleport_end.smd"
-					m_nStartframe = 0
-					m_nEndframe = 17
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_FORCESTAFF_END"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "zuus_versus"
-					m_Filepath = "models/heroes/zeus/src_model/zuus_anims/zuus_cast2.smd"
-					m_nStartframe = 9
-					m_nEndframe = 16
-					m_flFps = 0.5
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_VERSUS"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "zuus_run"
-					m_Filepath = "models/heroes/zeus/src_model/zuus_anims/zuus_run.smd"
-					m_nStartframe = 0
-					m_nEndframe = 30
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-					]
 					m_AnimationEvents = 
 					[
 						{
@@ -4963,7 +4164,7 @@
 					m_MotionFramesRootBone = ""
 				},
 				{
-					m_Animationname = "lightning_run"
+					m_Animationname = "@lightning_run"
 					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_run.smd"
 					m_nStartframe = 0
 					m_nEndframe = 30
@@ -4981,19 +4182,9 @@
 							m_nLoopRestart = 0
 						}
 					}
-					m_bHidden = false
+					m_bHidden = true
 					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-						{
-							m_Name = "lightning"
-							m_nWeight = 1
-						},
-					]
+					m_Activities = [  ]
 					m_AnimationEvents = 
 					[
 						{
@@ -5042,7 +4233,7 @@
 					m_MotionFramesRootBone = ""
 				},
 				{
-					m_Animationname = "lightning_run_haste"
+					m_Animationname = "@lightning_run_haste"
 					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_run_haste.smd"
 					m_nStartframe = 0
 					m_nEndframe = 30
@@ -5060,23 +4251,9 @@
 							m_nLoopRestart = 0
 						}
 					}
-					m_bHidden = false
+					m_bHidden = true
 					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-						{
-							m_Name = "lightning"
-							m_nWeight = 1
-						},
-						{
-							m_Name = "haste"
-							m_nWeight = 1
-						},
-					]
+					m_Activities = [  ]
 					m_AnimationEvents = 
 					[
 						{
@@ -5125,7 +4302,7 @@
 					m_MotionFramesRootBone = ""
 				},
 				{
-					m_Animationname = "lightning_run_injured"
+					m_Animationname = "@lightning_run_injured"
 					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/lightning_run_injured.smd"
 					m_nStartframe = 0
 					m_nEndframe = 30
@@ -5143,23 +4320,9 @@
 							m_nLoopRestart = 0
 						}
 					}
-					m_bHidden = false
+					m_bHidden = true
 					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-						{
-							m_Name = "injured"
-							m_nWeight = 1
-						},
-						{
-							m_Name = "lightning"
-							m_nWeight = 1
-						},
-					]
+					m_Activities = [  ]
 					m_AnimationEvents = 
 					[
 						{
@@ -5208,11 +4371,11 @@
 					m_MotionFramesRootBone = ""
 				},
 				{
-					m_Animationname = "zuus_run_aggro"
-					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/zuus_run_aggro.smd"
+					m_Animationname = "@zuus_run_haste"
+					m_Filepath = "models/heroes/zeus/src_model/zuus_anims/zuus_run.smd"
 					m_nStartframe = 0
 					m_nEndframe = 30
-					m_flFps = 30.0
+					m_flFps = 40.0
 					m_Loop = 
 					{
 						m_bLoop = true
@@ -5226,98 +4389,9 @@
 							m_nLoopRestart = 0
 						}
 					}
-					m_bHidden = false
+					m_bHidden = true
 					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-						{
-							m_Name = "aggressive"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = 
-					[
-						{
-							m_Event = "AE_CL_PLAYSOUND"
-							m_nFrame = 11
-							m_DataString = "Hero_Zuus.Footsteps"
-						},
-						{
-							m_Event = "AE_CL_PLAYSOUND"
-							m_nFrame = 26
-							m_DataString = "Hero_Zuus.Footsteps"
-						},
-					]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "zuus_run_injured"
-					m_Filepath = "models/heroes/zeus/src_mode_final/zuus_anims/zuus_run_injured.smd"
-					m_nStartframe = 0
-					m_nEndframe = 30
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-						{
-							m_Name = "injured"
-							m_nWeight = 1
-						},
-					]
+					m_Activities = [  ]
 					m_AnimationEvents = 
 					[
 						{
@@ -5395,7 +4469,7 @@
 		m_pObject = null
 	}
 	m_pConstraintLists = [  ]
-	m_collision = ""
+	m_collision = "models\\heroes\\zeus\\zeus.collision"
 	m_softbody = ""
 	m_sMDLFilename = ""
 	m_sOffsetHitboxSets = [  ]
@@ -5425,5 +4499,6 @@
 	m_bMakeUniqueVMeshes = true
 	m_bMakeImplicitBindPoseSequence = false
 	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
 	m_pAnimGroups = [  ]
 }

@@ -3,7 +3,7 @@
 // 			DO NOT CHANGE ANYTING THERE!	      			  //
 ////////////////////////////////////////////////////////////////
 
-"itembuilds/default_nyx_assassin.txt"
+"itembuilds"
 {
 	"author"		"Valve"
 	"hero"			"npc_dota_hero_nyx_assassin"

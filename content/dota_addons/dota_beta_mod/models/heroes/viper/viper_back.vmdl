@@ -13,6 +13,7 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
+				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -84,7 +85,7 @@
 		[
 			{
 				m_sSearchMaterial = "*"
-				m_sReplaceMaterial = "materials/models/heroes/viper/viper_color.vmat"
+				m_sReplaceMaterial = "materials/models/development/invisibletexture.vmat"
 			},
 		]
 	}
@@ -102,5 +103,6 @@
 	m_bMakeUniqueVMeshes = true
 	m_bMakeImplicitBindPoseSequence = false
 	m_bAdjustSkeletonFromBoneFlags = false
+	m_bHiddenAssetFlag = false
 	m_pAnimGroups = [  ]
 }

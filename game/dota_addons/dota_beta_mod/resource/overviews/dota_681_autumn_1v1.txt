@@ -1,3 +1,8 @@
+////////////////////////////////////////////////////////////////
+// This file is created for custom gamemode: Dota 2 Old Beta. //
+// 			DO NOT CHANGE ANYTING THERE!	      			  //
+////////////////////////////////////////////////////////////////
+
 dota_681_autumn_1v1
 {
 	material	materials/overviews/dota_681_autumn.vmat		// texture file

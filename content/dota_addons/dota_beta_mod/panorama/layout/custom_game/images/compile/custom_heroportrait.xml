@@ -32,5 +32,6 @@
 		<Image src="file://{images}/heroes/selection/npc_dota_hero_viper.png" />
 		<Image src="file://{images}/heroes/selection/npc_dota_hero_enigma.png" />
 		<Image src="file://{images}/heroes/selection/npc_dota_hero_jakiro.png" />
+		<Image src="file://{images}/heroes/selection/npc_dota_hero_huskar.png" />
 	</Panel>
 </root>

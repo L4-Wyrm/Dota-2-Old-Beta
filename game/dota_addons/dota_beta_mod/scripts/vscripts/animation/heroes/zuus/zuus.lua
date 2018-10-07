@@ -231,3 +231,22 @@ model:CreateSequence(
 		}
 	}
 )
+
+
+-- AsTurningRunHaste
+
+model:CreateSequence(
+	{
+		name = "zuus_run_haste",
+		sequences = {
+			{ "@zuus_run_haste" }
+		},
+		addlayer = {
+			"turns"
+		},
+		activities = {
+			{ name = "ACT_DOTA_RUN", weight = 1 },
+			{ name = "haste", weight = 1 }
+		}
+	}
+)

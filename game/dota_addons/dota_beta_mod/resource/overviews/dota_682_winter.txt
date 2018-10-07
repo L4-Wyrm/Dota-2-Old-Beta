@@ -1,6 +1,11 @@
+////////////////////////////////////////////////////////////////
+// This file is created for custom gamemode: Dota 2 Old Beta. //
+// 			DO NOT CHANGE ANYTING THERE!	      			  //
+////////////////////////////////////////////////////////////////
+
 dota_682_winter
 {
-	material	materials/overviews/dota_682.vmat
+	material	materials/overviews/dota_682_winter.vmat
 	pos_x		-8204			// X coordinate
 	pos_y		8173			// Y coordinate
 	scale		16 			// scale used when taking the screenshot

@@ -1,3 +1,7 @@
+////////////////////////////////////////////////////////////////
+// This file is created for custom gamemode: Dota 2 Old Beta. //
+// 			DO NOT CHANGE ANYTING THERE!	      			  //
+////////////////////////////////////////////////////////////////
 "dota_shops"
 {
 	"consumables"
@@ -16,7 +20,7 @@
 
 	"attributes"
 	{
-		"item"		"item_branches"
+		"item"		"item_branches_old"
 
 		"item"		"item_gauntlets"
 		"item"		"item_slippers"
