@@ -13,7 +13,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -27,7 +26,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -45,7 +43,7 @@
 		m_flMatchProxiesToMeshes = 1.0
 		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
+		m_bReservedBool1 = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
@@ -1373,7 +1371,7 @@
 									{
 										m_Event = "AE_CL_SPEECH"
 										m_nFrame = 142
-										m_DataString = "TLK_DOTA_CUSTOM|special_spawn=brewmaster_loadout_spawn,classname=portrait_world_unit"
+										m_DataString = "\"brewmaster_loadout_spawn\" \"portrait_world_unit\" \"TLK_DOTA_CUSTOM\""
 									},
 								]
 								m_MotionFrames = [  ]
@@ -1510,52 +1508,6 @@
 										m_DataString = "Hero_Brewmaster.Taunt.KegRoll"
 									},
 								]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 0.0, 0.0, 0.0 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "teleport"
-								m_Filepath = "models/heroes/brewmaster/src/brewmaster_anims/victory.smd"
-								m_nStartframe = 0
-								m_nEndframe = 207
-								m_flFps = 24.0
-								m_Loop = 
-								{
-									m_bLoop = true
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = false
-								m_bDisable = false
-								m_Activities = 
-								[
-									{
-										m_Name = "ACT_DOTA_TELEPORT"
-										m_nWeight = 1
-									},
-								]
-								m_AnimationEvents = [  ]
 								m_MotionFrames = [  ]
 								m_pIkRules = [  ]
 								m_pAlignAnimation = null

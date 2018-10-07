@@ -13,35 +13,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-			{
-				m_meshName = "storm_spirit_reference"
-				m_meshFile = "models/heroes/storm_spirit/src_model/storm_spirit_reference.dmx"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bHighPrecisionTexCoords = false
-				m_bPerVertexCurvature = false
-				m_bBentNormals = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-			{
-				m_meshName = "storm_beard_jewelry_model_lod1"
-				m_meshFile = "models/heroes/storm_spirit/src_beard/storm_beard_jewelry_model_lod1.smd"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bHighPrecisionTexCoords = false
-				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -55,21 +26,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-			{
-				m_meshName = "storm_belt_model_lod1"
-				m_meshFile = "models/heroes/storm_spirit/src_belt/storm_belt_model_lod1.smd"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bHighPrecisionTexCoords = false
-				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -83,21 +39,6 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
-				m_bIgnoreCloth = false
-				m_bGetSkinningFromLod0 = false
-				m_pMorphInfo = null
-			},
-			{
-				m_meshName = "storm_hair_model_lod1"
-				m_meshFile = "models/heroes/storm_spirit/src_hair/storm_hair_model_lod1.smd"
-				m_materialSearchPath = ""
-				m_bSkinParentedObjects = true
-				m_bLegacySkinParentedTransforms = false
-				m_bExpensiveTangents = false
-				m_bHighPrecisionTexCoords = false
-				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -111,21 +52,19 @@
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
 			},
 			{
-				m_meshName = "storm_sleeves_model_lod1"
-				m_meshFile = "models/heroes/storm_spirit/src_sleeves/storm_sleeves_model_lod1.smd"
+				m_meshName = "storm_spirit_reference"
+				m_meshFile = "models/heroes/storm_spirit/src_model/storm_spirit_reference.dmx"
 				m_materialSearchPath = ""
 				m_bSkinParentedObjects = true
 				m_bLegacySkinParentedTransforms = false
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -143,7 +82,7 @@
 		m_flMatchProxiesToMeshes = 1.0
 		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
+		m_bReservedBool1 = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
@@ -868,7 +807,7 @@
 				{
 					m_pObject = 
 					{
-						m_Name = "new_anims"
+						m_Name = "turn"
 						m_pReferenceSkeleton = 
 						{
 							m_pObject = null
@@ -885,56 +824,10 @@
 						m_Vanim = 
 						[
 							{
-								m_Animationname = "loadout_facial"
-								m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims_new/loadout_facial.dmx"
+								m_Animationname = "@turn_lookFrame_0"
+								m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/turn_lookFrame_0.smd"
 								m_nStartframe = 0
-								m_nEndframe = 60
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = true
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = false
-								m_bDisable = false
-								m_Activities = 
-								[
-									{
-										m_Name = "ACT_DOTA_LOADOUT"
-										m_nWeight = 1
-									},
-								]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ -0.9, 0.07, -8.48 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "loadout_rare_facial"
-								m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims_new/loadout_rare_facial.dmx"
-								m_nStartframe = 0
-								m_nEndframe = 120
+								m_nEndframe = 0
 								m_flFps = 30.0
 								m_Loop = 
 								{
@@ -949,22 +842,16 @@
 										m_nLoopRestart = 0
 									}
 								}
-								m_bHidden = false
+								m_bHidden = true
 								m_bDisable = false
-								m_Activities = 
-								[
-									{
-										m_Name = "ACT_DOTA_LOADOUT_RARE"
-										m_nWeight = 1
-									},
-								]
+								m_Activities = [  ]
 								m_AnimationEvents = [  ]
 								m_MotionFrames = [  ]
 								m_pIkRules = [  ]
 								m_pAlignAnimation = null
 								m_adjustAnimation = 
 								{
-									m_translation = [ -0.9, 0.07, -8.48 ]
+									m_translation = [ 0.0, 0.0, 0.0 ]
 									m_rotation = [ 0.0, 0.0, 0.0 ]
 								}
 								m_Keywords = [  ]
@@ -977,14 +864,14 @@
 								m_MotionFramesRootBone = ""
 							},
 							{
-								m_Animationname = "portrait_facial"
-								m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims_new/portrait_facial.dmx"
+								m_Animationname = "@turn_lookFrame_1"
+								m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/turn_lookFrame_1.smd"
 								m_nStartframe = 0
-								m_nEndframe = 60
+								m_nEndframe = 0
 								m_flFps = 30.0
 								m_Loop = 
 								{
-									m_bLoop = true
+									m_bLoop = false
 									m_bSmoothLoop = false
 									m_nSmoothLoopStart = 0
 									m_nSmoothLoopEnd = 0
@@ -995,22 +882,204 @@
 										m_nLoopRestart = 0
 									}
 								}
-								m_bHidden = false
+								m_bHidden = true
 								m_bDisable = false
-								m_Activities = 
-								[
-									{
-										m_Name = "ACT_DOTA_CAPTURE"
-										m_nWeight = 1
-									},
-								]
+								m_Activities = [  ]
 								m_AnimationEvents = [  ]
 								m_MotionFrames = [  ]
 								m_pIkRules = [  ]
 								m_pAlignAnimation = null
 								m_adjustAnimation = 
 								{
-									m_translation = [ -0.9, 0.07, -8.48 ]
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "@turn_lookFrame_2"
+								m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/turn_lookFrame_2.smd"
+								m_nStartframe = 0
+								m_nEndframe = 0
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = true
+								m_bDisable = false
+								m_Activities = [  ]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+						]
+						m_sScripts = 
+						[
+							"animation\\heroes\\storm_spirit\\storm_spirit.lua",
+						]
+						m_folderNames = [  ]
+						m_sCompileScripts = [  ]
+					}
+				},
+				{
+					m_pObject = 
+					{
+						m_Name = "turn_dupe1"
+						m_pReferenceSkeleton = 
+						{
+							m_pObject = null
+						}
+						m_pBoneFlagList = 
+						{
+							m_pObject = null
+						}
+						m_pSeqGroup = 
+						{
+							m_pObject = null
+						}
+						m_pAnimGroups = [  ]
+						m_Vanim = 
+						[
+							{
+								m_Animationname = "@turn_dupe1_lookFrame_0"
+								m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/turn_dupe1_lookFrame_0.smd"
+								m_nStartframe = 0
+								m_nEndframe = 0
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = true
+								m_bDisable = false
+								m_Activities = [  ]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "@turn_dupe1_lookFrame_1"
+								m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/turn_dupe1_lookFrame_1.smd"
+								m_nStartframe = 0
+								m_nEndframe = 0
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = true
+								m_bDisable = false
+								m_Activities = [  ]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
+									m_rotation = [ 0.0, 0.0, 0.0 ]
+								}
+								m_Keywords = [  ]
+								m_sequenceParams = 
+								{
+									m_flFadeInTime = 0.2
+									m_flFadeOutTime = 0.2
+								}
+								m_folderName = ""
+								m_MotionFramesRootBone = ""
+							},
+							{
+								m_Animationname = "@turn_dupe1_lookFrame_2"
+								m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/turn_dupe1_lookFrame_2.smd"
+								m_nStartframe = 0
+								m_nEndframe = 0
+								m_flFps = 30.0
+								m_Loop = 
+								{
+									m_bLoop = false
+									m_bSmoothLoop = false
+									m_nSmoothLoopStart = 0
+									m_nSmoothLoopEnd = 0
+									m_StartLoop = 
+									{
+										_class = "CVAnimCmdStartLoop"
+										m_bEnabled = false
+										m_nLoopRestart = 0
+									}
+								}
+								m_bHidden = true
+								m_bDisable = false
+								m_Activities = [  ]
+								m_AnimationEvents = [  ]
+								m_MotionFrames = [  ]
+								m_pIkRules = [  ]
+								m_pAlignAnimation = null
+								m_adjustAnimation = 
+								{
+									m_translation = [ 0.0, 0.0, 0.0 ]
 									m_rotation = [ 0.0, 0.0, 0.0 ]
 								}
 								m_Keywords = [  ]
@@ -1531,7 +1600,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = true
+					m_bDisable = false
 					m_Activities = 
 					[
 						{
@@ -1747,7 +1816,7 @@
 					m_MotionFramesRootBone = ""
 				},
 				{
-					m_Animationname = "run"
+					m_Animationname = "@run"
 					m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/run.smd"
 					m_nStartframe = 0
 					m_nEndframe = 22
@@ -1765,15 +1834,9 @@
 							m_nLoopRestart = 0
 						}
 					}
-					m_bHidden = false
+					m_bHidden = true
 					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-					]
+					m_Activities = [  ]
 					m_AnimationEvents = [  ]
 					m_MotionFrames = 
 					[
@@ -1810,7 +1873,7 @@
 					m_MotionFramesRootBone = ""
 				},
 				{
-					m_Animationname = "run_overload"
+					m_Animationname = "@run_overload"
 					m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/run.smd"
 					m_nStartframe = 0
 					m_nEndframe = 22
@@ -1828,15 +1891,9 @@
 							m_nLoopRestart = 0
 						}
 					}
-					m_bHidden = false
+					m_bHidden = true
 					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_STORM_SPIRIT_OVERLOAD_RUN_OVERRIDE"
-							m_nWeight = 1
-						},
-					]
+					m_Activities = [  ]
 					m_AnimationEvents = [  ]
 					m_MotionFrames = 
 					[
@@ -2664,11 +2721,57 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = true
+					m_bDisable = false
 					m_Activities = 
 					[
 						{
 							m_Name = "ACT_DOTA_LOADOUT"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "teleport"
+					m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/idle_alt.smd"
+					m_nStartframe = 0
+					m_nEndframe = 120
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = true
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_TELEPORT"
 							m_nWeight = 1
 						},
 					]
@@ -2710,7 +2813,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = true
+					m_bDisable = false
 					m_Activities = 
 					[
 						{
@@ -3100,211 +3203,6 @@
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
-				{
-					m_Animationname = "teleport_start"
-					m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/static_remnant.smd"
-					m_nStartframe = 0
-					m_nEndframe = 30
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_TELEPORT"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "teleport_idle"
-					m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/static_remnant_idle.smd"
-					m_nStartframe = 0
-					m_nEndframe = 30
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_TELEPORT"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "teleport_end"
-					m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/electric_vortex.smd"
-					m_nStartframe = 0
-					m_nEndframe = 18
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_TELEPORT_END"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
-				{
-					m_Animationname = "run_haste"
-					m_Filepath = "models/heroes/storm_spirit/src_model/storm_spirit_anims/run.smd"
-					m_nStartframe = 0
-					m_nEndframe = 22
-					m_flFps = 40.0
-					m_Loop = 
-					{
-						m_bLoop = true
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_RUN"
-							m_nWeight = 1
-						},
-						{
-							m_Name = "haste"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = 
-					[
-						{
-							m_nFrame = 0
-							m_bExtractTX = true
-							m_bExtractTY = true
-							m_bExtractTZ = false
-							m_bExtractRX = false
-							m_bExtractRY = false
-							m_bExtractRZ = false
-							m_bDiscardTX = false
-							m_bDiscardTY = false
-							m_bDiscardTZ = false
-							m_bDiscardRX = false
-							m_bDiscardRY = false
-							m_bDiscardRZ = false
-						},
-					]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
 			]
 			m_sScripts = [  ]
 			m_folderNames = [  ]
@@ -3321,34 +3219,7 @@
 	}
 	m_pLodGroupList = 
 	{
-		m_pObject = 
-		{
-			m_lodGroups = 
-			[
-				{
-					m_flSwitchDistance = 0
-					m_meshList = 
-					[
-						"models/heroes/storm_spirit/storm_beard_jewelry_reference_8422acb2.vmesh",
-						"models/heroes/storm_spirit/storm_spirit_reference_8422acb2.vmesh",
-						"models/heroes/storm_spirit/storm_belt_reference_8422acb2.vmesh",
-						"models/heroes/storm_spirit/storm_hair_reference_8422acb2.vmesh",
-						"models/heroes/storm_spirit/storm_sleeves_reference_8422acb2.vmesh",
-					]
-				},
-				{
-					m_flSwitchDistance = 1
-					m_meshList = 
-					[
-						"models/heroes/storm_spirit/storm_beard_jewelry_model_lod1_8422acb2.vmesh",
-						"models/heroes/storm_spirit/storm_spirit_reference_8422acb2.vmesh",
-						"models/heroes/storm_spirit/storm_belt_model_lod1_8422acb2.vmesh",
-						"models/heroes/storm_spirit/storm_hair_model_lod1_8422acb2.vmesh",
-						"models/heroes/storm_spirit/storm_sleeves_model_lod1_8422acb2.vmesh",
-					]
-				},
-			]
-		}
+		m_pObject = null
 	}
 	m_pPropBreakableList = 
 	{
@@ -3373,22 +3244,6 @@
 				m_sSearchMaterial = "models/heroes/storm_spirit/storm_spirit_base_color/models/heroes/storm_spirit/storm_spirit_base_color.vmat"
 				m_sReplaceMaterial = "materials/models/heroes/storm_spirit/storm_spirit_base_color.vmat"
 			},
-			{
-				m_sSearchMaterial = "materials/models/heroes/storm_spirit/storm_spirit_beard_jewelry_color.vmat"
-				m_sReplaceMaterial = "materials/models/heroes/storm_spirit/storm_spirit_beard_jewelry_color.vmat"
-			},
-			{
-				m_sSearchMaterial = "materials/models/heroes/storm_spirit/storm_spirit_belt_color.vmat"
-				m_sReplaceMaterial = "materials/models/heroes/storm_spirit/storm_spirit_belt_color.vmat"
-			},
-			{
-				m_sSearchMaterial = "materials/models/heroes/storm_spirit/storm_spirit_hat_hair_color.vmat"
-				m_sReplaceMaterial = "materials/models/heroes/storm_spirit/storm_spirit_hat_hair_color.vmat"
-			},
-			{
-				m_sSearchMaterial = "materials/models/heroes/storm_spirit/storm_spirit_sleeves_color.vmat"
-				m_sReplaceMaterial = "materials/models/heroes/storm_spirit/storm_spirit_sleeves_color.vmat"
-			},
 		]
 	}
 	m_flFbxScale = 1.0
@@ -3405,6 +3260,5 @@
 	m_bMakeUniqueVMeshes = true
 	m_bMakeImplicitBindPoseSequence = false
 	m_bAdjustSkeletonFromBoneFlags = false
-	m_bHiddenAssetFlag = false
 	m_pAnimGroups = [  ]
 }

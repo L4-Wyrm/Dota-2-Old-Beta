@@ -1,79 +1,31 @@
 <root> 
   <scripts>
-    <include src="file://{resources}/scripts/playertables/playertables_base.js" />
   </scripts>
-	<script>
-	// Uncomment any of the following lines in order to disable that portion of the default UI
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_TIMEOFDAY, false );      //Time of day (clock).
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_HEROES, false );     //Heroes and team score at the top of the HUD.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_FLYOUT_SCOREBOARD, false );      //Lefthand flyout scoreboard.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ACTION_PANEL, false );     //Hero actions UI.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ACTION_MINIMAP, true   );     //Minimap.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_PANEL, false );      //Entire Inventory UI
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_SHOP, false );     //Shop portion of the Inventory.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_ITEMS, false );      //Player items.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_QUICKBUY, false );     //Quickbuy.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_COURIER, false );      //Courier controls.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_PROTECT, false );      //Glyph.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_GOLD, false );     //Gold display.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_SHOP_SUGGESTEDITEMS, false );      //Suggested items shop panel.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_HERO_SELECTION_TEAMS, false );     //Hero selection Radiant and Dire player lists.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_HERO_SELECTION_GAME_NAME, false );     //Hero selection game mode name display.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_HERO_SELECTION_CLOCK, false );     //Hero selection clock.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_MENU_BUTTONS, false );     //Top-left menu buttons in the HUD.
-    //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ENDGAME, false );      //Endgame scoreboard.  
-
-	// Disabling talent tree button on ui
-        var newUI = $.GetContextPanel().GetParent().GetParent().FindChildTraverse("HUDElements");
+    <script>
+	function UpdateHeroSelection() {
+		if (Game.GameStateIsBefore(DOTA_GameState.DOTA_GAMERULES_STATE_HERO_SELECTION)) {
+			$.GetContextPanel().GetParent().GetParent().FindChild("PreGame").visible = false;
+		}
+		else if (Game.GameStateIs(DOTA_GameState.DOTA_GAMERULES_STATE_HERO_SELECTION)) {
+			$.GetContextPanel().GetParent().GetParent().FindChild("PreGame").visible = true;
+		}
+		else if (Game.GameStateIs(DOTA_GameState.DOTA_GAMERULES_STATE_PRE_GAME)) {
+			$.GetContextPanel().GetParent().GetParent().FindChild("PreGame").visible = false;
+		    $.GetContextPanel().GetParent().GetParent().GetParent().FindChild("HUDElements").FindChild("RadarButton").DeleteAsync(0);
+		}
+	}
+	(function()
+	{
+		GameEvents.Subscribe( "game_rules_state_change", UpdateHeroSelection );
+	})();
     
-        newUI.FindChildTraverse("StatBranch").AddClass("NonHero");
-        
-        newUI.FindChildTraverse("StatBranch").FindChildTraverse("StatBranchGraphics").FindChildTraverse("StatBranchChannel").style.visibility = "collapse";
-       
-        newUI.FindChildTraverse("StatBranch").SetPanelEvent("onmouseover", function(){});
-        newUI.FindChildTraverse("StatBranch").SetPanelEvent("onactivate", function(){});
-		
-		newUI.FindChildTraverse("StatBranch").style.visibility = "collapse";
+	newUI.FindChildTraverse("StatBranch").style.visibility = "collapse";
 	
-		newUI.FindChildTraverse('level_stats_frame').style.visibility = 'collapse';		
-		
-		newUI.FindChildTraverse('StatBranchDrawer').style.visibility = 'collapse';	
-	
-	// Disabling scanner button on ui	
-		newUI.FindChildTraverse('RadarButton').style.visibility = 'collapse';		
-		
-	// Disabling backpack inventory part
-	// Doesn't work (broken)
-	//	newUI.FindChildTraverse("lower_hud").FindChildTraverse("InventoryContainer").FindChildTraverse("inventory_backpack_list").style.visibility = "collapse";
-	//	newUI.FindChildTraverse("inventory_backpack_list").AddClass("NonHero");
-	//	newUI.FindChildTraverse("inventory_backpack_list").SetPanelEvent("onmouseover", function(){});
-    //    newUI.FindChildTraverse("inventory_backpack_list").SetPanelEvent("onactivate", function(){});
-		
-	//	newUI.FindChildTraverse("lower_hud").FindChildTraverse("InventoryContainer").FindChildTraverse("BackpackShadow").style.visibility = "collapse";
-    //    newUI.FindChildTraverse("BackpackShadow").AddClass("NonHero");
-	//	newUI.FindChildTraverse("BackpackShadow").SetPanelEvent("onmouseover", function(){});
-    //    newUI.FindChildTraverse("BackpackShadow").SetPanelEvent("onactivate", function(){});
-		
-	// Doesn't work (broken)
-	//	newUI.FindChildTraverse("PreGame").FindChildTraverse("StartingItemsInventory").FindChildTraverse("StartingItemsBackpackRowContents").style.visibility = "collapse";
-    //    newUI.FindChildTraverse("StartingItemsBackpackRowContents").AddClass("NonHero");
-	//	newUI.FindChildTraverse("StartingItemsBackpackRowContents").SetPanelEvent("onmouseover", function(){});
-    //    newUI.FindChildTraverse("StartingItemsBackpackRowContents").SetPanelEvent("onactivate", function(){});
-		
-	// Disabling upgrate courier timer
-		newUI.FindChildTraverse("lower_hud").FindChildTraverse("CourierControls").FindChildTraverse("UpgradeCooldownLabel").style.visibility = "collapse";
-		newUI.FindChildTraverse("UpgradeCooldownLabel").AddClass("NonHero");
-		newUI.FindChildTraverse("UpgradeCooldownLabel").SetPanelEvent("onmouseover", function(){});
-        newUI.FindChildTraverse("UpgradeCooldownLabel").SetPanelEvent("onactivate", function(){});	
-		
+	newUI.FindChildTraverse("RadarButton").style.visibility = "collapse";
 	</script>
+
   <Panel>
     <!-- CustomUIElements go here.-->
-	 
-<!--	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/compile/custom_dotamap.xml" />
-	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/compile/custom_heroicon.xml" />
-	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/compile/custom_herolandscape.xml" />
-	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/compile/custom_heroportrait.xml" /> -->
-	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/videos/beta_heroes_pick_screen_movie.xml" /> 
+	
   </Panel>
 </root>

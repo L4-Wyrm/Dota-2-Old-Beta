@@ -1,0 +1,67 @@
+  <root>
+        <styles>
+              <include src="file://{resources}/styles/custom_game/videos/custom_heroportrait.css" />
+        </styles>
+        <Panel class="HerosPortraits">
+              <Panel id="AntimageVideo">
+			  </Panel>
+			  <Panel id="AxeVideo">
+			  </Panel>			 
+			  <Panel id="BeastmasterVideo">
+			  </Panel>
+			  <Panel id="BrewmasterVideo">
+			  </Panel>
+			  <Panel id="BroodmotherVideo">
+			  </Panel>
+			  <Panel id="ChenVideo">
+			  </Panel>
+			  <Panel id="DazzleVideo">
+			  </Panel>
+			  <Panel id="DeathProphetVideo">
+			  </Panel>
+			  <Panel id="DragonKnightVideo">
+			  </Panel>
+			  <Panel id="DrowRangerVideo">
+			  </Panel>
+			  <Panel id="EarthshakerVideo">
+			  </Panel>			  
+			  <Panel id="FacelessVoidVideo">
+			  </Panel>
+			  <Panel id="GyrocopterVideo">
+			  </Panel>
+			  <Panel id="LionVideo">
+			  </Panel>
+			  <Panel id="NevermoreVideo">
+			  </Panel>
+			  <Panel id="OmniknightVideo">
+			  </Panel>
+			  <Panel id="PhantomAssassinVideo">
+			  </Panel>
+			  <Panel id="PuckVideo">
+			  </Panel>
+			  <Panel id="PudgeVideo">
+			  </Panel>
+			  <Panel id="RikiVideo">
+			  </Panel>
+			  <Panel id="SkeletonKingVideo">
+			  </Panel>
+			  <Panel id="StormSpiritVideo">
+			  </Panel>
+			  <Panel id="VengefulSpiritVideo">
+			  </Panel>
+			  <Panel id="VenomancerVideo">
+			  </Panel>
+			  <Panel id="WitchDoctorVideo">
+			  </Panel>
+			  <Panel id="ZuusVideo">
+			  </Panel>
+			  <Panel id="SlardarVideo">
+			  </Panel>
+			  <Panel id="SniperVideo">
+			  </Panel>
+			  <Panel id="ViperVideo">
+			  </Panel>
+			  <Panel id="EnigmaVideo">
+			  </Panel>
+        </Panel>
+  </root>

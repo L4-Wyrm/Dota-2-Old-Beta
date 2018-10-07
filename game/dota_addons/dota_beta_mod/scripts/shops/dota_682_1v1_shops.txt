@@ -1,7 +1,3 @@
-////////////////////////////////////////////////////////////////
-// This file is created for custom gamemode: Dota 2 Old Beta. //
-// 			DO NOT CHANGE ANYTING THERE!	      			  //
-////////////////////////////////////////////////////////////////
 "dota_shops"
 {
 	"consumables"
@@ -121,7 +117,7 @@
 	"magics"			
 	{
 		"item"		"item_glimmer_cape"
-		"item"		"item_force_staff_datadriven"
+		"item"		"item_force_staff"
 		"item"		"item_veil_of_discord"		
 		"item"		"item_necronomicon"
 		"item"		"item_dagon"

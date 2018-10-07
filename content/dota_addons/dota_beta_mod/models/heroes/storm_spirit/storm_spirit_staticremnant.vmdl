@@ -2241,9 +2241,8 @@
 	m_nMaxClothVertsPerMesh = 2048
 	m_bBuildClothBoneHierarchy = false
 	m_nNavType = "AUTH_NAV_MESH"
-	m_bMakeUniqueVMeshes = true
+	m_bMakeUniqueVMeshes = false
 	m_bMakeImplicitBindPoseSequence = false
 	m_bAdjustSkeletonFromBoneFlags = false
-	m_bHiddenAssetFlag = false
 	m_pAnimGroups = [  ]
 }

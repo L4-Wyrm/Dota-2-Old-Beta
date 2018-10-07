@@ -14,11 +14,7 @@ Layer0
 	//---- Morph ----
 	F_MORPH_SUPPORTED 1
 
-	//---- Warp ----
-	F_DIFFUSE_WARP 1
-
 	//---- Blend To Full ----
-	g_flDiffuseWarpBlendToFull "0.000"
 	g_flEnvMapBlendToFull "0.000"
 	g_flMetalnessBlendToFull "0.000"
 	g_flReflectionsTintByBaseBlendToNone "0.000"
@@ -48,8 +44,7 @@ Layer0
 	TextureDetail2 "materials/default/default_detail2.tga"
 
 	//---- Fresnel ----
-	g_flFresnelModulatesAlpha "0.000"
-	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
+	TextureFresnelWarpColor "materials/models/heroes/bane/bane_fresnelwarpcolor.tga"
 	TextureFresnelWarpRim "materials/models/heroes/chen/chen_base_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/models/heroes/chen/chen_base_fresnelwarpspec.tga"
 
@@ -58,7 +53,6 @@ Layer0
 	g_flBloomScale "0.000"
 	g_flBloomShift "0.000"
 	g_vBloomColor "[1.000000 1.000000 1.000000 0.000000]"
-	TextureDiffuseWarp "materials/models/heroes/chen/src/chen_diffusewarp.tga"
 
 	//---- Mask 1 ----
 	TextureDetailMask "materials/models/heroes/chen/src/chen_detailmask.tga"
@@ -80,7 +74,7 @@ Layer0
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "20.000"
-	g_flSpecularScale "3.000"
+	g_flSpecularExponent "15.000"
+	g_flSpecularScale "1.300"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
 }

@@ -7,13 +7,6 @@ Layer0
 	//---- Effect Proxies ----
 	F_USE_STATUS_EFFECTS_PROXY 1
 
-	//---- Masks ----
-	F_MASKS_1 1
-	F_MASKS_2 1
-
-	//---- Translucency ----
-	F_ALPHA_TEST 1
-
 	//---- Blend To Full ----
 	g_flEnvMapBlendToFull "0.000"
 	g_flMetalnessBlendToFull "0.000"
@@ -44,7 +37,6 @@ Layer0
 	TextureDetail2 "materials/default/default_detail2.tga"
 
 	//---- Fresnel ----
-	g_flFresnelModulatesAlpha "0.000"
 	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
 	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
@@ -55,31 +47,15 @@ Layer0
 	g_flBloomShift "0.000"
 	g_vBloomColor "[1.000000 1.000000 1.000000 0.000000]"
 
-	//---- Mask 1 ----
-	TextureDetailMask "materials/models/heroes/lion/src/lion_cape_detailmask.tga"
-	TextureDiffuseWarpMask "materials/models/heroes/lion/src/lion_cape_diffusemask.tga"
-	TextureMetalnessMask "materials/models/heroes/lion/src/lion_cape_metalnessmask.tga"
-	TextureSelfIllumMask "materials/models/heroes/lion/src/lion_cape_selfillummask.tga"
-
-	//---- Mask 2 ----
-	TextureRimMask "materials/models/heroes/lion/src/lion_cape_rimmask.tga"
-	TextureSpecularExponent "materials/models/heroes/lion/src/lion_cape_specexp.tga"
-	TextureSpecularMask "materials/models/heroes/lion/src/lion_cape_specmask.tga"
-	TextureTintByBaseMask "materials/models/heroes/lion/src/lion_cape_basetintmask.tga"
-
 	//---- Normal Map ----
-	TextureNormal "materials/models/heroes/lion/src/lion_cape_normals.tga"
+	TextureNormal "materials/models/heroes/lion/src/lion_cape_normal.tga"
 
 	//---- Rim ----
 	g_flRimLightScale "1.000"
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "20.000"
-	g_flSpecularScale "15.000"
+	g_flSpecularExponent "32.000"
+	g_flSpecularScale "1.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
-
-	//---- Translucency ----
-	g_flAlphaTestReference "0.500"
-	TextureTranslucency "materials/models/heroes/lion/src/lion_cape_trans.tga"
 }
