@@ -303,6 +303,7 @@ function Precache( context )
 		PrecacheResource( "model_folder", "models/creeps/neutral_creeps/n_creep_satyr_a", context )
 		
 	--Cache materials for heroes
+--[[		
 		PrecacheResource( "material_folder", "materials/models/heroes/antimage", context )
 		PrecacheResource( "material_folder", "materials/models/heroes/axe", context )
 		PrecacheResource( "material_folder", "materials/models/heroes/beastmaster", context )
@@ -337,7 +338,8 @@ function Precache( context )
 		PrecacheResource( "material_folder", "materials/models/heroes/venommancer", context )
 		PrecacheResource( "material_folder", "materials/models/heroes/viper", context )
 		PrecacheResource( "material_folder", "materials/models/heroes/witchdoctor", context )
-		
+]]		
+
 	--Cache materials for creeps
 		PrecacheResource( "material", "materials/models/creeps/neutral_creeps/neutral_beast_color.vmat", context )
 		PrecacheResource( "material", "materials/models/creeps/neutral_creeps/neutral_beast_disrupter_color.vmat", context )
@@ -360,6 +362,12 @@ function Precache( context )
 
 	--Cache textures for minimap
 		PrecacheResource( "texture", "panorama/images/minimap/dotamap.vtex", context )				
+
+	--Cache sound events
+		PrecacheResource( "soundfile", "soundevents/game_sounds_ambient.vsndevts", context )				
+		PrecacheResource( "soundfile", "soundevents/game_sounds_roshan_halloween.vsndevts", context )				
+		PrecacheResource( "soundfile", "soundevents/voscripts/game_sounds_vo_skeleton_king.vsndevts", context )				
+		PrecacheResource( "soundfile", "soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts", context )				
 end
 
 --------------------------------------------------------------------------------
