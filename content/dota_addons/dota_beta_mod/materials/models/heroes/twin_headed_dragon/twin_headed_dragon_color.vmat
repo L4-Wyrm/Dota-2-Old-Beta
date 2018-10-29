@@ -51,31 +51,31 @@ Layer0
 
 	//---- Lighting ----
 	g_flAmbientScale "1.000"
-	g_flBloomScale "0.100"
+	g_flBloomScale "0.000"
 	g_flBloomShift "0.000"
 	g_vBloomColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Mask 1 ----
-	TextureDetailMask "[0.000000 0.000000 0.000000 0.000000]"
-	TextureDiffuseWarpMask "[1.000000 1.000000 1.000000 0.000000]"
-	TextureMetalnessMask "[0.704000 0.704000 0.704000 0.000000]"
+	TextureDetailMask "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_detailmask.tga"
+	TextureDiffuseWarpMask "[0.000000 0.000000 0.000000 0.000000]"
+	TextureMetalnessMask "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_metalnessmask.tga"
 	TextureSelfIllumMask "[0.000000 0.000000 0.000000 0.000000]"
 
 	//---- Mask 2 ----
-	TextureRimMask "[0.211000 0.211000 0.211000 0.000000]"
-	TextureSpecularExponent "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_specexp.png"
-	TextureSpecularMask "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_specmask.psd"
-	TextureTintByBaseMask "[0.035000 0.035000 0.035000 0.000000]"
+	TextureRimMask "[0.239000 0.239000 0.239000 0.000000]"
+	TextureSpecularExponent "[0.535000 0.535000 0.535000 0.000000]"
+	TextureSpecularMask "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_specmask.tga"
+	TextureTintByBaseMask "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Normal Map ----
-	TextureNormal "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_normal.png"
+	TextureNormal "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_normal.tga"
 
 	//---- Rim ----
 	g_flRimLightScale "1.000"
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "30.000"
-	g_flSpecularScale "5.000"
+	g_flSpecularExponent "32.000"
+	g_flSpecularScale "1.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
 }
