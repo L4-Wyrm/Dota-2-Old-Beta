@@ -9,9 +9,9 @@
 --
 --=============================================================================
 
-
-[model:CreateWeightlist(
-	"weights_attack",
+--[[
+model:CreateWeightlist(
+	"spine",
 	{
 		{ "root", 0.8 },
 		{ "Arm1_0_R", 0 },
@@ -36,7 +36,7 @@ model:CreateSequence(
 		sequences = {
 			{ "@attack" }
 		},
-		weightlist = "weights_attack",
+		weightlist = "spine",
 		activities = {
 			{ name = "ACT_DOTA_ATTACK", weight = 1 }
 		}
@@ -50,14 +50,15 @@ model:CreateSequence(
 		sequences = {
 			{ "@poison_attack" }
 		},
-		weightlist = "weights_attack",
+		weightlist = "spine",
 		activities = {
 			{ name = "ACT_DOTA_CAST_ABILITY_1", weight = 1 }
 		}
 	}
 )
 
---[[
+
+
 -- AsLookLayer
 model:CreateSequence(
 	{
@@ -127,4 +128,4 @@ model:CreateSequence(
 		}
 	}
 )
-]]
+--]]

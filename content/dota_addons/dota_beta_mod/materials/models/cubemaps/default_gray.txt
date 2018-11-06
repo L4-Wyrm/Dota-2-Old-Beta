@@ -1,6 +1,0 @@
-"settings"
-{
-	"clamps"		"1"
-	"clampt"		"1"
-	"maxres"		"512"
-}

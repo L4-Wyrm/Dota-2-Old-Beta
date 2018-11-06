@@ -51,14 +51,13 @@ Layer0
 	TextureDetail2 "materials/default/default_detail2.tga"
 
 	//---- Fresnel ----
-	g_flFresnelModulatesAlpha "0.000"
 	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
 	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
 
 	//---- Lighting ----
 	g_flAmbientScale "1.000"
-	g_flBloomScale "0.250"
+	g_flBloomScale "0.000"
 	g_flBloomShift "0.000"
 	g_vBloomColor "[1.000000 1.000000 1.000000 0.000000]"
 	TextureDiffuseWarp "materials/models/heroes/storm_spirit/src/storm_spirit_diffusewarp.tga"

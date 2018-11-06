@@ -1,32 +1,9 @@
-////////////////////////////////////////////////////////////////
-// This file is created for custom gamemode: Dota 2 Old Beta. //
-// 			DO NOT CHANGE ANYTING THERE!	      			  //
-////////////////////////////////////////////////////////////////
-
 "AddonInfo"
 {
 	maps			"dota_681 dota_681_1v1 dota_681_3v3 dota_681_autumn dota_681_autumn_1v1 dota_681_autumn_3v3 dota_681_winter dota_681_winter_1v1 dota_681_winter_3v3 dota_682 dota_682_1v1 dota_682_3v3 dota_682_winter dota_682_winter_1v1 dota_682_winter_3v3 dota_682_newbloom dota_682_newbloom_1v1 dota_682_newbloom_3v3"
-
-///////////////////////////////////////////////////////////////
-//////////////////////// Seasonal /////////////////////////////
-///////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////
-//////////////////////// New Year /////////////////////////////
-///////////////////////////////////////////////////////////////
-//	maps			"dota_681_winter dota_681_winter_1v1 dota_681_winter_3v3 dota_682_winter dota_682_winter_1v1 dota_682_winter_3v3"
-
-///////////////////////////////////////////////////////////////
-//////////////////////// Halloween ////////////////////////////
-///////////////////////////////////////////////////////////////
-//	maps			"dota_681_autumn dota_681_autumn_1v1 dota_681_autumn_3v3"
-
 	"IsTemplate"	"0"
 	"IsPlayable"	"1"
 	"TeamCount"		"2"
-	"HeroGuidesSupported" "1"	
-	"CheckAFKPlayers"	"1"	
-	"PenaltiesEnabled"	"1"
 	"dota_681" 
 	{	
 		"MaxPlayers"		"10"
@@ -99,8 +76,4 @@
 	{	
 		"MaxPlayers"		"6"	
 	}
-    "hero_picker"
-    {
-        "background_map"    "backgrounds/dashboard_dota_old_beta_selection"
-    }
 }

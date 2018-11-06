@@ -3,7 +3,7 @@
 // 			DO NOT CHANGE ANYTING THERE!	      			  //
 ////////////////////////////////////////////////////////////////
 
-"itembuilds"
+"itembuilds/test_sandking.txt"
 {
 	"author"		"Valve"
 	"hero"			"npc_dota_hero_pudge"

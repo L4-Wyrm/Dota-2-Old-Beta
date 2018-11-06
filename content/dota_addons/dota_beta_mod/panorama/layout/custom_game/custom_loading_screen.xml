@@ -1,57 +1,15 @@
 <root>
 	<!-- Builtin DOTA loading background -->
-
 	<styles>
 		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css" />
-		<include src="file://{resources}/styles/dotastyles.css" />
 	</styles>
 	<Panel class="BetaBckRoot">
-		<Image class="BetaBckTitle" src="file://{images}/beta/screen/beta_screen.tga" />
-	 
-	 <!-- Seasons -->
-		<!-- New Year -->
-<!--		<Image class="BetaBckTitle" src="file://{images}/beta/screen/beta_screen_winter.tga" /> -->
-	 
-		<!-- Halloween -->
-<!--		<Image class="BetaBckTitle" src="file://{images}/beta/screen/beta_screen_diretide.tga" /> -->
-	 
-
-		<DOTAScenePanel class="BetaBckScene" map="maps/backgrounds/dota_beta_background_ancient_apparition.vmap" camera="beta_bck_camera"  particleonly='false'/>
-	
-	<!-- Seasons -->
-		
-		<!-- New Year -->
-<!--		<DOTAScenePanel class="BetaBckScene" map="maps/backgrounds/dota_beta_background_winter.vmap" camera="beta_bck_camera"  particleonly='false'/> -->
-		
-		<!-- Halloween -->
-<!--		<DOTAScenePanel class="BetaBckScene" map="maps/backgrounds/dota_beta_background_halloween.vmap" camera="beta_bck_camera"  particleonly='false'/> -->
-<!--	<Panel id="TitlePanel">
+		<Image class="BetaBckTitle" src="file://{images}/beta/screen/beta_screen_new.tga" />
+	<Panel id="TitlePanel">
 			<Image id="BetaTitle" src="file://{images}/beta/dota_logo/logo_lf.png" />
-		</Panel> -->
-		<Panel id="TitleNamePanel">
-			<Image class="TitleNameImg" src="file://{images}/beta/dota_logo/logo_text_header.png" /> -->
-			<Image class="TitleLogoImg" src="file://{images}/beta/dota_logo/logo_text.png" />
 		</Panel>
-		<Panel id="BetaBtnmain">
-			<Label text="#beta_homepage"/>
-			<Button id="BmpBtn" onactivate="DOTADisplayURL('http://steamcommunity.com/sharedfiles/filedetails/?id=604487899');">
-				<Image class="BmpBtnimg" src="file://{images}/beta/dota_logo/buttons/hllstl_hp.png" />
-			</Button>		
-		</Panel>	
-		<Panel id="BetaChangesBtnmain">
-			<Label text="#beta_changes"/>
-			<Button id="ChangesBtn" onactivate="DOTADisplayURL('http://steamcommunity.com/sharedfiles/filedetails/changelog/604487899');">
-				<Image class="ChangesBtnimg" src="file://{images}/beta/dota_logo/buttons/hllstl_cl.png" />
-			</Button>		
-		</Panel>
-		<Panel id="BetaDevelopers">
-			<Label text="Wyrm"/>
-			<Panel id="Creator" class="betadevcolumn">
-				<DOTAAvatarImage class="betadevavatar" steamid="76561198039095860" />
-			</Panel>
-		</Panel>
-		<Panel id="BetaDevHdrMain">
-			<Image class="BetaDevImg" src="file://{images}/beta/dota_logo/logo_text_devs.png" />
+	<Panel id="TitleVerPanel">
+			<Label id="BetaVerTitle" text="Public Release" style="" />
 		</Panel>
 	</Panel>
 </root>

@@ -1,45 +1,45 @@
-// Created by Crowbar 0.44.0.0
+// Created by Crowbar 0.36.0.0
 version 1
 nodes
   0 "root" -1
-  1 "spine1" 0
-  2 "Tail0_0" 0
-  3 "Arm1_0_R" 1
-  4 "spine2" 1
-  5 "Arm0_0_L" 1
-  6 "Arm1_1_R" 3
-  7 "arm_flap7_0_C_R" 3
-  8 "inner_arm3_0_A_R" 6
-  9 "Arm1_2_R" 6
-  10 "Arm1_3_R" 9
-  11 "Arm1_4_R" 10
-  12 "outer_arm5_0_B_R" 10
-  13 "outer_arm5_1_B_R" 12
-  14 "neck1" 4
-  15 "head" 14
-  16 "jaw1_0" 15
-  17 "Wiskers4_0_R" 16
-  18 "Wiskers4_0_L" 16
-  19 "Wiskers4_1_R" 17
-  20 "Wiskers4_2_R" 19
-  21 "Wiskers4_1_L" 18
-  22 "Wiskers4_2_L" 21
-  23 "arm_flap6_0_C_L" 5
-  24 "Arm0_1_L" 5
-  25 "Arm0_2_L" 24
-  26 "inner_arm2_0_A_L" 24
-  27 "Arm0_3_L" 25
-  28 "Arm0_4_L" 27
-  29 "outer_arm4_0_B_L" 27
-  30 "outer_arm4_1_B_L" 29
-  31 "Tail0_1" 2
-  32 "Tail0_2" 31
-  33 "Tail0_3" 32
-  34 "Tail0_4" 33
-  35 "Tail0_5" 34
+  1 "Tail0_0" 0
+  2 "spine1" 0
+  3 "Tail0_1" 1
+  4 "Tail0_2" 3
+  5 "Tail0_3" 4
+  6 "Tail0_4" 5
+  7 "Tail0_5" 6
+  8 "Arm0_0_L" 2
+  9 "Arm1_0_R" 2
+  10 "spine2" 2
+  11 "Arm0_1_L" 8
+  12 "arm_flap6_0_C_L" 8
+  13 "inner_arm2_0_A_L" 11
+  14 "Arm0_2_L" 11
+  15 "Arm0_3_L" 14
+  16 "Arm0_4_L" 15
+  17 "outer_arm4_0_B_L" 15
+  18 "outer_arm4_1_B_L" 17
+  19 "Arm1_1_R" 9
+  20 "arm_flap7_0_C_R" 9
+  21 "inner_arm3_0_A_R" 19
+  22 "Arm1_2_R" 19
+  23 "Arm1_3_R" 22
+  24 "Arm1_4_R" 23
+  25 "outer_arm5_0_B_R" 23
+  26 "outer_arm5_1_B_R" 25
+  27 "neck1" 10
+  28 "head" 27
+  29 "jaw1_0" 28
+  30 "Wiskers4_0_L" 29
+  31 "Wiskers4_0_R" 29
+  32 "Wiskers4_1_L" 30
+  33 "Wiskers4_2_L" 32
+  34 "Wiskers4_1_R" 31
+  35 "Wiskers4_2_R" 34
 end
 skeleton
-  time 0
+time 0
     0 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
     1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
     2 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000

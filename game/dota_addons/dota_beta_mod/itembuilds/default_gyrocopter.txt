@@ -3,7 +3,7 @@
 // 			DO NOT CHANGE ANYTING THERE!	      			  //
 ////////////////////////////////////////////////////////////////
 
-"itembuilds"
+"itembuilds/default_generic.txt"
 {
 	"author"		"Valve"
 	"hero"			"npc_dota_hero_gyrocopter"

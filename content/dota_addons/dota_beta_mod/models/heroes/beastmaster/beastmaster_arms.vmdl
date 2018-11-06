@@ -31,7 +31,7 @@
 		m_flMatchProxiesToMeshes = 1.0
 		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
+		m_bReservedBool1 = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
@@ -100,7 +100,7 @@
 	m_nMaxClothVertsPerMesh = 2048
 	m_bBuildClothBoneHierarchy = false
 	m_nNavType = "AUTH_NAV_MESH"
-	m_bMakeUniqueVMeshes = true
+	m_bMakeUniqueVMeshes = false
 	m_bMakeImplicitBindPoseSequence = false
 	m_bAdjustSkeletonFromBoneFlags = false
 	m_bHiddenAssetFlag = false

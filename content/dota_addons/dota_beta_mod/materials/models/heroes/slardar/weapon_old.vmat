@@ -34,7 +34,6 @@ Layer0
 	TextureColor "materials/models/heroes/slardar/src/weapon_color.tga"
 
 	//---- Fresnel ----
-	g_flFresnelModulatesAlpha "0.000"
 	TextureFresnelWarpColor "materials/default/default_fresnelwarpcolor.tga"
 	TextureFresnelWarpRim "materials/default/default_fresnelwarprim.tga"
 	TextureFresnelWarpSpec "materials/default/default_fresnelwarpspec.tga"
@@ -65,7 +64,7 @@ Layer0
 	g_vRimLightColor "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Specular ----
-	g_flSpecularExponent "20.000"
+	g_flSpecularExponent "32.000"
 	g_flSpecularScale "1.000"
 	g_vSpecularColor "[1.000000 1.000000 1.000000 0.000000]"
 

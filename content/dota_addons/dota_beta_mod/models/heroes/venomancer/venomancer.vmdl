@@ -5,29 +5,27 @@
 		m_meshList = 
 		[
 			{
-				m_meshName = "venomancer_model"
-				m_meshFile = "models/heroes/venomancer/src_model/venomancer_model.dmx"
+				m_meshName = "venomancer_reference"
+				m_meshFile = "models/heroes/venomancer/src_modified/src_model/venomancer_reference.fbx"
 				m_materialSearchPath = ""
 				m_bSkinParentedObjects = true
 				m_bLegacySkinParentedTransforms = false
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
 			},
 			{
-				m_meshName = "venomancer_model_lod1"
-				m_meshFile = "models/heroes/venomancer/src_model/venomancer_model_lod1.smd"
+				m_meshName = "venomancer_reference_lod1"
+				m_meshFile = "models/heroes/venomancer/src_modified/src_model/venomancer_reference_lod1.smd"
 				m_materialSearchPath = ""
 				m_bSkinParentedObjects = true
 				m_bLegacySkinParentedTransforms = false
 				m_bExpensiveTangents = false
 				m_bHighPrecisionTexCoords = false
 				m_bPerVertexCurvature = false
-				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
 				m_pMorphInfo = null
@@ -45,7 +43,7 @@
 		m_flMatchProxiesToMeshes = 1.0
 		m_flFallbackEnvelope = 1.0
 		m_nReservedInt = 0
-		m_bSoftSkinAnimation = false
+		m_bReservedBool1 = false
 		m_bReservedBool2 = false
 		m_bReservedBool3 = false
 		m_bReservedBool4 = false
@@ -53,7 +51,23 @@
 	}
 	m_physicsMeshList = 
 	{
-		m_meshList = [  ]
+		m_meshList = 
+		[
+			{
+				m_meshName = "venomancer_reference"
+				m_meshFile = "models/heroes/venomancer/src_model/venomancer_reference.dmx"
+				m_bOneConvexPiece = true
+				m_flMaxError = 0.0
+				m_bUseExactGeometry = false
+				m_bAutoMass = true
+				m_flMassOverride = 100.0
+				m_bConcavePerJoint = false
+				m_bSelfCollisions = false
+				m_bForceKinematic = false
+				m_bIgnoreScale = false
+				m_bIgnoreSkeleton = false
+			},
+		]
 	}
 	m_pModelInfo = null
 	m_pBoneFlagList = 
@@ -459,126 +473,7 @@
 			{
 				m_pObject = null
 			}
-			m_pAnimGroups = 
-			[
-				{
-					m_pObject = 
-					{
-						m_Name = "anims_new"
-						m_pReferenceSkeleton = 
-						{
-							m_pObject = null
-						}
-						m_pBoneFlagList = 
-						{
-							m_pObject = null
-						}
-						m_pSeqGroup = 
-						{
-							m_pObject = null
-						}
-						m_pAnimGroups = [  ]
-						m_Vanim = 
-						[
-							{
-								m_Animationname = "loadout_facial"
-								m_Filepath = "models/heroes/venomancer/src_model/venomancer_anims_new/loadout_facial.dmx"
-								m_nStartframe = 0
-								m_nEndframe = 536
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = true
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = false
-								m_bDisable = false
-								m_Activities = 
-								[
-									{
-										m_Name = "ACT_DOTA_LOADOUT"
-										m_nWeight = 1
-									},
-								]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 4.64, -1.07, 11.93 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-							{
-								m_Animationname = "portrait_facial"
-								m_Filepath = "models/heroes/venomancer/src_model/venomancer_anims_new/portrait_facial.dmx"
-								m_nStartframe = 0
-								m_nEndframe = 67
-								m_flFps = 30.0
-								m_Loop = 
-								{
-									m_bLoop = true
-									m_bSmoothLoop = false
-									m_nSmoothLoopStart = 0
-									m_nSmoothLoopEnd = 0
-									m_StartLoop = 
-									{
-										_class = "CVAnimCmdStartLoop"
-										m_bEnabled = false
-										m_nLoopRestart = 0
-									}
-								}
-								m_bHidden = false
-								m_bDisable = false
-								m_Activities = 
-								[
-									{
-										m_Name = "ACT_DOTA_CAPTURE"
-										m_nWeight = 1
-									},
-								]
-								m_AnimationEvents = [  ]
-								m_MotionFrames = [  ]
-								m_pIkRules = [  ]
-								m_pAlignAnimation = null
-								m_adjustAnimation = 
-								{
-									m_translation = [ 4.64, -1.07, 11.93 ]
-									m_rotation = [ 0.0, 0.0, 0.0 ]
-								}
-								m_Keywords = [  ]
-								m_sequenceParams = 
-								{
-									m_flFadeInTime = 0.2
-									m_flFadeOutTime = 0.2
-								}
-								m_folderName = ""
-								m_MotionFramesRootBone = ""
-							},
-						]
-						m_sScripts = [  ]
-						m_folderNames = [  ]
-						m_sCompileScripts = [  ]
-					}
-				},
-			]
+			m_pAnimGroups = [  ]
 			m_Vanim = 
 			[
 				{
@@ -873,7 +768,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = true
+					m_bDisable = false
 					m_Activities = 
 					[
 						{
@@ -1131,7 +1026,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = true
+					m_bDisable = false
 					m_Activities = 
 					[
 						{
@@ -2167,7 +2062,7 @@
 						}
 					}
 					m_bHidden = false
-					m_bDisable = true
+					m_bDisable = false
 					m_Activities = 
 					[
 						{
@@ -2222,6 +2117,52 @@
 						},
 						{
 							m_Name = "forcestaff_enemy"
+							m_nWeight = 1
+						},
+					]
+					m_AnimationEvents = [  ]
+					m_MotionFrames = [  ]
+					m_pIkRules = [  ]
+					m_pAlignAnimation = null
+					m_adjustAnimation = 
+					{
+						m_translation = [ 0.0, 0.0, 0.0 ]
+						m_rotation = [ 0.0, 0.0, 0.0 ]
+					}
+					m_Keywords = [  ]
+					m_sequenceParams = 
+					{
+						m_flFadeInTime = 0.2
+						m_flFadeOutTime = 0.2
+					}
+					m_folderName = ""
+					m_MotionFramesRootBone = ""
+				},
+				{
+					m_Animationname = "loadout_rare"
+					m_Filepath = "models/heroes/venomancer/src_model/venomancer_anims/idle_headTurn.smd"
+					m_nStartframe = 0
+					m_nEndframe = 335
+					m_flFps = 30.0
+					m_Loop = 
+					{
+						m_bLoop = false
+						m_bSmoothLoop = false
+						m_nSmoothLoopStart = 0
+						m_nSmoothLoopEnd = 0
+						m_StartLoop = 
+						{
+							_class = "CVAnimCmdStartLoop"
+							m_bEnabled = false
+							m_nLoopRestart = 0
+						}
+					}
+					m_bHidden = false
+					m_bDisable = false
+					m_Activities = 
+					[
+						{
+							m_Name = "ACT_DOTA_LOADOUT_RARE"
 							m_nWeight = 1
 						},
 					]
@@ -2323,7 +2264,7 @@
 					m_pAlignAnimation = null
 					m_adjustAnimation = 
 					{
-						m_translation = [ 0.0, 5.0, 0.0 ]
+						m_translation = [ 0.0, 0.0, 0.0 ]
 						m_rotation = [ 0.0, 0.0, 0.0 ]
 					}
 					m_Keywords = [  ]
@@ -2381,52 +2322,6 @@
 					m_folderName = ""
 					m_MotionFramesRootBone = ""
 				},
-				{
-					m_Animationname = "cast_shadow_strike"
-					m_Filepath = "models/heroes/venomancer/src_model/venomancer_anims/cast_3_plague_ward.smd"
-					m_nStartframe = 0
-					m_nEndframe = 22
-					m_flFps = 30.0
-					m_Loop = 
-					{
-						m_bLoop = false
-						m_bSmoothLoop = false
-						m_nSmoothLoopStart = 0
-						m_nSmoothLoopEnd = 0
-						m_StartLoop = 
-						{
-							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = false
-							m_nLoopRestart = 0
-						}
-					}
-					m_bHidden = false
-					m_bDisable = false
-					m_Activities = 
-					[
-						{
-							m_Name = "ACT_DOTA_CAST_ABILITY_1"
-							m_nWeight = 1
-						},
-					]
-					m_AnimationEvents = [  ]
-					m_MotionFrames = [  ]
-					m_pIkRules = [  ]
-					m_pAlignAnimation = null
-					m_adjustAnimation = 
-					{
-						m_translation = [ 0.0, 0.0, 0.0 ]
-						m_rotation = [ 0.0, 0.0, 0.0 ]
-					}
-					m_Keywords = [  ]
-					m_sequenceParams = 
-					{
-						m_flFadeInTime = 0.2
-						m_flFadeOutTime = 0.2
-					}
-					m_folderName = ""
-					m_MotionFramesRootBone = ""
-				},
 			]
 			m_sScripts = [  ]
 			m_folderNames = [  ]
@@ -2451,14 +2346,14 @@
 					m_flSwitchDistance = 0
 					m_meshList = 
 					[
-						"models/heroes/venomancer/venomancer_model_c05aa4c9.vmesh",
+						"models/heroes/venomancer/venomancer_reference_c05aa4c9.vmesh",
 					]
 				},
 				{
 					m_flSwitchDistance = 1
 					m_meshList = 
 					[
-						"models/heroes/venomancer/venomancer_model_lod1_c05aa4c9.vmesh",
+						"models/heroes/venomancer/venomancer_reference_lod1_c05aa4c9.vmesh",
 					]
 				},
 			]
@@ -2484,7 +2379,7 @@
 		m_vMaterialRemapList = 
 		[
 			{
-				m_sSearchMaterial = "models/heroes/venomancer/venomancer_body_color.vmat"
+				m_sSearchMaterial = "venomancer_body_color.vmat"
 				m_sReplaceMaterial = "materials/models/heroes/venomancer/venomancer_body_color.vmat"
 			},
 		]
