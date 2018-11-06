@@ -1,0 +1,8 @@
+"settings"
+{
+	"clamps" "1"
+	"clampt" "1"
+	"clampu" "1"
+	"skybox" "1"
+	"cube" "1"
+}

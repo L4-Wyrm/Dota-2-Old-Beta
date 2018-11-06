@@ -372,6 +372,7 @@
 	"npc_dota_hero_ancient_apparition_old"
 	{
 		"override_hero"	"npc_dota_hero_ancient_apparition"
+		"Model"	"models/heroes/ancient_apparition/ancient_apparition_old.vmdl"
 
 		"Ability1"		"ancient_apparition_cold_feet"
 		"Ability2"		"ancient_apparition_ice_vortex"
