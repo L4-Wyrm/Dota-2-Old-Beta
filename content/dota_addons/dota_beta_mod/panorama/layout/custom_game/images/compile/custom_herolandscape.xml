@@ -49,6 +49,7 @@
 		<DOTAHeroImage heroname="npc_dota_hero_invoker" src="file://{images}/heroes/npc_dota_hero_invoker.png" />
 		<DOTAHeroImage heroname="npc_dota_hero_visage" src="file://{images}/heroes/npc_dota_hero_visage.png" />
 		<DOTAHeroImage heroname="npc_dota_hero_jakiro" src="file://{images}/heroes/npc_dota_hero_jakiro.png" />
-		<DOTAHeroImage heroname="npc_dota_hero_jakiro" src="file://{images}/heroes/npc_dota_hero_huskar.png" />
+		<DOTAHeroImage heroname="npc_dota_hero_huskar" src="file://{images}/heroes/npc_dota_hero_huskar.png" />
+		<DOTAHeroImage heroname="npc_dota_hero_ancient_apparition" src="file://{images}/heroes/npc_dota_hero_ancient_apparition.png" />
 	</Panel>
 </root>

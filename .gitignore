@@ -119,7 +119,7 @@ workshop
 *.tmp
 *.unused
 *.vmf
-
+*.vta
 
 # Files
 desktop.ini

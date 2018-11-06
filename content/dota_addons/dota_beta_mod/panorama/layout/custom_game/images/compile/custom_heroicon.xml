@@ -22,5 +22,6 @@
 		<Image src="file://{images}/heroes/icons/npc_dota_hero_zuus.png" />
 		<Image src="file://{images}/heroes/icons/npc_dota_hero_slardar.png" />
 		<Image src="file://{images}/heroes/icons/npc_dota_hero_viper.png" />
+		<Image src="file://{images}/heroes/icons/npc_dota_hero_ancient_apparition.png" />
 	</Panel>
 </root>

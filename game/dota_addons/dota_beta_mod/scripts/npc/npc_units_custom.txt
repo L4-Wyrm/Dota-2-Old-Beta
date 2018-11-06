@@ -660,12 +660,6 @@
 		"Model"	"models/custom_game/model_backgrounds/twin_headed_dragon_background/twin_headed_dragon_model_background.vmdl"
 		"SoundSet"					"Hero_Jakiro"					// Name of sound set.
 		"ModelScale"	"1"
-		
-		// Bounty
-		//----------------------------------------------------------------
-		"BountyXP"					"0"		// Experience earn.
-		"BountyGoldMin"				"0"		// Gold earned min.
-		"BountyGoldMax"				"0"		// Gold earned max.
 	}
 	///////////////////////////////////////////////////////////
 	// Written by: Wyrm						 				 //
@@ -986,12 +980,6 @@
 		"BaseClass"	"npc_dota_creep_neutral"
 		"Model"	"models/custom_game/model_backgrounds/n_creep_black_dragon_background/n_creep_black_dragon_background.vmdl"
 		"ModelScale"	"1"
-		
-		// Bounty
-		//----------------------------------------------------------------
-		"BountyXP"					"0"		// Experience earn.
-		"BountyGoldMin"				"0"		// Gold earned min.
-		"BountyGoldMax"				"0"		// Gold earned max.
 	}
 	///////////////////////////////////////////////////////////
 	// Written by: Wyrm						 				 //
@@ -1004,13 +992,22 @@
 		"Model"	"models/custom_game/model_backgrounds/huskar_background/huskar_background.vmdl"
 		"SoundSet"					"Hero_Huskar"					// Name of sound set.
 		"ModelScale"	"1"
-		
-		// Bounty
-		//----------------------------------------------------------------
-		"BountyXP"					"0"		// Experience earn.
-		"BountyGoldMin"				"0"		// Gold earned min.
-		"BountyGoldMax"				"0"		// Gold earned max.
 	}
+	
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 06.11.2018.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_ancient_apparition_background"
+	{
+		"BaseClass"	"npc_dota_creep_neutral"
+		"Model"	"models/custom_game/model_backgrounds/ancient_apparition_background/ancient_apparition_background.vmdl"
+		"SoundSet"		"Hero_ancient_apparition"
+		"IdleSoundLoop"		"Hero_Ancient_Apparition.IdleLoop"
+		"ModelScale"	"1"
+	}
+	
 	
 ///////////////////////////////////////////////////////////////
 //////////////////////// Seasonal /////////////////////////////
@@ -1126,7 +1123,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_badguys_ranged"
+	"npc_dota_creep_badguys_ranged_halloween"
 	{
 		// General
 		//
@@ -1220,7 +1217,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_badguys_melee"
+	"npc_dota_creep_badguys_melee_halloween"
 	{
 		// General
 		//
@@ -1314,7 +1311,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_badguys_siege"
+	"npc_dota_badguys_siege_halloween"
 	{
 		// General
 		//
@@ -1410,7 +1407,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_badguys_melee_upgraded"
+	"npc_dota_creep_badguys_melee_upgraded_halloween"
 	{
 		// General
 		//
@@ -1504,7 +1501,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_badguys_ranged_upgraded"
+	"npc_dota_creep_badguys_ranged_upgraded_halloween"
 	{
 		// General
 		//
@@ -1598,7 +1595,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_badguys_siege_upgraded"
+	"npc_dota_badguys_siege_upgraded_halloween"
 	{
 		// General
 		//
@@ -1693,7 +1690,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_badguys_ranged_upgraded_mega"
+	"npc_dota_creep_badguys_ranged_upgraded_mega_halloween"
 	{
 		// General
 		//
@@ -1787,7 +1784,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_badguys_melee_upgraded_mega"
+	"npc_dota_creep_badguys_melee_upgraded_mega_halloween"
 	{
 		// General
 		//
@@ -1881,7 +1878,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_badguys_siege_upgraded_mega"
+	"npc_dota_badguys_siege_upgraded_mega_halloween"
 	{
 		// General
 		//
@@ -1977,7 +1974,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_goodguys_ranged"
+	"npc_dota_creep_goodguys_ranged_halloween"
 	{
 		// General
 		//
@@ -2071,7 +2068,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_goodguys_ranged_upgraded"
+	"npc_dota_creep_goodguys_ranged_upgraded_halloween"
 	{
 		// General
 		//
@@ -2165,7 +2162,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_goodguys_ranged_upgraded_mega"
+	"npc_dota_creep_goodguys_ranged_upgraded_mega_halloween"
 	{
 		// General
 		//
@@ -2259,7 +2256,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_goodguys_melee"
+	"npc_dota_creep_goodguys_melee_halloween"
 	{
 		// General
 		//
@@ -2353,7 +2350,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_goodguys_melee_upgraded"
+	"npc_dota_creep_goodguys_melee_upgraded_halloween"
 	{
 		// General
 		//
@@ -2447,7 +2444,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_creep_goodguys_melee_upgraded_mega"
+	"npc_dota_creep_goodguys_melee_upgraded_mega_halloween"
 	{
 		// General
 		//
@@ -2541,7 +2538,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_goodguys_siege"
+	"npc_dota_goodguys_siege_halloween"
 	{
 		// General
 		//
@@ -2637,7 +2634,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_goodguys_siege_upgraded"
+	"npc_dota_goodguys_siege_upgraded_halloween"
 	{
 		// General
 		//
@@ -2733,7 +2730,7 @@
 	// Date: 27.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_goodguys_siege_upgraded_mega"
+	"npc_dota_goodguys_siege_upgraded_mega_halloween"
 	{
 		// General
 		//
@@ -2829,7 +2826,7 @@
 	// Date: 28.10.2018.					 				 //
 	// For gamemode: Dota 2 Old Beta.						 //
 	///////////////////////////////////////////////////////////
-	"npc_dota_roshan"
+	"npc_dota_roshan_halloween"
 	{
 		// General
 		//

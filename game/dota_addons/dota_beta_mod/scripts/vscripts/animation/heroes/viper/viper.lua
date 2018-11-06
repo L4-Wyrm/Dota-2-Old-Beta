@@ -10,7 +10,7 @@
 --=============================================================================
 
 
---[[model:CreateWeightlist(
+[model:CreateWeightlist(
 	"weights_attack",
 	{
 		{ "root", 0.8 },
@@ -21,7 +21,7 @@
 		{ "spine2", 1 }
 	}
 )
-]]
+
 model:CreateWeightlist(
 	"full",
 	{
