@@ -1,6 +1,6 @@
 # Source Code of Dota 2 Old Beta Custom Game For Dota 2 (OBSOLUTE)
 
-![Logo](https://raw.githubusercontent.com/L4-Wyrm/Dota2OldBeta_Obsolute/master/Logo.png "Logo")
+![Logo](https://raw.githubusercontent.com/L4-Wyrm/Dota-2-Old-Beta/obsolute/Logo.png "Logo")
 
 Source code of Obsolute Dota 2 Old Beta
 
