@@ -1,0 +1,1463 @@
+<!-- dmx encoding keyvalues2_flat 1 format facial_animation 18 -->
+"DmElement"
+{
+	"id" "elementid" "b7df9e33-e546-47ec-940b-907be7e71487"
+	"name" "string" "twin_headed_dragon1"
+	"gamemodel" "string" "models/heroes/twin_headed_dragon/twin_headed_dragon.mdl"
+	"animations" "element_array" 
+	[
+		"element" "b0155cb2-7390-496a-88bf-0fedd7187fd5",
+		"element" "3800f0ad-43e3-4fa9-8157-d0e360eb4fa5",
+		"element" "8112ea86-ca8b-4bfc-93cc-4e1e9dd67062",
+		"element" "dc810e43-c9dd-40fc-a9f1-5f1b93579056",
+		"element" "416c26f1-6dd7-4ab8-89e4-bb7f8db52fd8",
+		"element" "2d8a5546-bcd5-4b4e-83c7-8cc9b4510f57",
+		"element" "217a33d0-fbb4-4268-9976-03881774fefb",
+		"element" "97d14a4c-cd84-46cb-9cb9-43713f7b2f96",
+		"element" "35af3324-af2e-444d-a98d-48c27cdb156d",
+		"element" "83a16fd4-dbce-4c12-9b81-f0fe58450b87",
+		"element" "e86b8729-be79-4480-9c8c-8a01ace009fb",
+		"element" "e51e119e-0883-4f4c-b704-c2d9151f5d4d",
+		"element" "965d6f54-642e-4bfb-828c-e2e5d6347ad1",
+		"element" "3aaf9414-1d4f-4f98-95d2-bbf2da8a0905",
+		"element" "42df1e90-de98-493c-8e6a-f5af33d220b4",
+		"element" "2650dddb-2492-47d0-9581-d2fe96408639",
+		"element" "ea57915d-2145-43b1-8266-49851d144da2",
+		"element" "b5bb00e6-8738-4570-9200-aad5e0da4c8e",
+		"element" "51284b3c-c15d-4481-a2a3-aa1a23a47e87",
+		"element" "0288eb8b-3f99-4a86-9cf2-470b8f3e424a",
+		"element" "e86e7569-f9f0-4f93-a1af-758785ee302d",
+		"element" "9f11b749-66f2-441b-a1e4-8ee14502cb68",
+		"element" "5f009aba-f07e-46b6-9893-eab7d4e2c10e",
+		"element" "6eb45d3e-af57-4db5-bb3c-e151a1f1903f",
+		"element" "9ea61228-f87e-43e6-a22d-4daed7bfe9d2",
+		"element" "dc46ad2f-73fc-4155-b0a9-d127f867b7ea",
+		"element" "53969048-b574-4c31-a657-10be292c19d0",
+		"element" "77889678-4c54-4f38-9352-42b9e7a54758",
+		"element" "c676d417-935e-4769-b22a-069c4cb17f1a",
+		"element" "76993e33-20cd-424c-94c3-45479118df78",
+		"element" "31ada1b8-7cfb-4e93-bc6c-48617fb8653f",
+		"element" "f487fca6-911e-44fb-9a31-f7502cd2141e",
+		"element" "4e8bed57-fa00-4e74-a4f4-4bf4a2dd4f40",
+		"element" "b70ec32e-f49c-4012-86eb-cfa35da3ea5b",
+		"element" "f3263bf9-b24f-4876-8831-df130d4f119b",
+		"element" "403cea55-615a-4def-ae4b-c76418f2ad15",
+		"element" "11a1ea88-f39c-4240-9379-fe2bedbcdd52",
+		"element" "db7f9ae6-df87-477d-9c78-5d73be69f543",
+		"element" "3e51c557-ace1-404a-a29e-a52220d0421b",
+		"element" "e52b4c8e-c8b2-4398-87eb-6ecabfebf111",
+		"element" "864dd560-6c65-4b15-9ad4-9df2dbffbbda",
+		"element" "fb3a7f7c-de5c-4e8a-90d3-d259a72e9c05",
+		"element" "6bf14192-adc0-4958-b2ed-5c810118057e",
+		"element" "e7fb77ae-dc4b-47bc-9395-31cdcf3a0110",
+		"element" "0853fd73-ae80-4186-8265-2ee9715a24e7",
+		"element" "81e8c9c4-12a2-441b-b643-b85313ba5691",
+		"element" "637cf1ed-0e74-4b07-9731-83adf62aee73",
+		"element" "e1ff4b7b-1306-4bfe-9244-f210dcaec5d2",
+		"element" "601b91a0-ae0c-4060-b01f-f372f6c23083",
+		"element" "5f8965ff-12f2-4e0f-960f-a735cc9ec4bc",
+		"element" "95c3b681-7c60-482b-8812-bbd06ae54107",
+		"element" "1a7d3b39-ebe7-4798-9501-0277beef5da1",
+		"element" "43327a1b-7973-443d-80e0-6a71d275567b",
+		"element" "0f9e7b05-5878-4a5f-9d50-c34ea2b940e5",
+		"element" "cc0674ec-db50-4a03-a87c-d21cb76b1d73",
+		"element" "cac1b496-9c12-4cad-bd58-b9c349f518fa",
+		"element" "f2f1e8b3-a8d9-466a-b1dc-f3d8e4ca362f",
+		"element" "2529bee0-e31b-485c-95e7-3e1ebe5931ec",
+		"element" "266cbc96-ebc2-4ad9-b663-39395148e0f3",
+		"element" "d550e795-8d14-4c97-b15a-a52d30f30657",
+		"element" "229099de-4d4b-4b83-b8e0-42736f50ce6f",
+		"element" "b46fc049-b72c-4aa0-b3b4-589c733ae59f",
+		"element" "e6ed68af-66c7-4dc9-8ad0-33c6b2e4a2d3"
+	]
+	"sounds" "element_array" 
+	[
+	]
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "b0155cb2-7390-496a-88bf-0fedd7187fd5"
+	"name" "string" "innerBrowRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "3800f0ad-43e3-4fa9-8157-d0e360eb4fa5"
+	"name" "string" "outerBrowRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "8112ea86-ca8b-4bfc-93cc-4e1e9dd67062"
+	"name" "string" "browLowerer"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "dc810e43-c9dd-40fc-a9f1-5f1b93579056"
+	"name" "string" "eyeDownAndUp"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "416c26f1-6dd7-4ab8-89e4-bb7f8db52fd8"
+	"name" "string" "eyeRightAndLeft"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "2d8a5546-bcd5-4b4e-83c7-8cc9b4510f57"
+	"name" "string" "eyeClosedAndLidRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "217a33d0-fbb4-4268-9976-03881774fefb"
+	"name" "string" "squint"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "97d14a4c-cd84-46cb-9cb9-43713f7b2f96"
+	"name" "string" "cheekRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "35af3324-af2e-444d-a98d-48c27cdb156d"
+	"name" "string" "dimpler"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "83a16fd4-dbce-4c12-9b81-f0fe58450b87"
+	"name" "string" "supressor"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "e86b8729-be79-4480-9c8c-8a01ace009fb"
+	"name" "string" "noseWrinkler"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "e51e119e-0883-4f4c-b704-c2d9151f5d4d"
+	"name" "string" "nostrilDilator"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "965d6f54-642e-4bfb-828c-e2e5d6347ad1"
+	"name" "string" "upperLipsTowardAndPart"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "3aaf9414-1d4f-4f98-95d2-bbf2da8a0905"
+	"name" "string" "phonemeFV"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "42df1e90-de98-493c-8e6a-f5af33d220b4"
+	"name" "string" "phonemeBMP"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "2650dddb-2492-47d0-9581-d2fe96408639"
+	"name" "string" "lowerLipsTowardAndPart"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "ea57915d-2145-43b1-8266-49851d144da2"
+	"name" "string" "upperLipRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "b5bb00e6-8738-4570-9200-aad5e0da4c8e"
+	"name" "string" "lowerLipDepressorAndChinRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "51284b3c-c15d-4481-a2a3-aa1a23a47e87"
+	"name" "string" "lipCornerDepressorAndSharpLipPuller"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "0288eb8b-3f99-4a86-9cf2-470b8f3e424a"
+	"name" "string" "lipPressor"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "e86e7569-f9f0-4f93-a1af-758785ee302d"
+	"name" "string" "lipCornerPuller"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "9f11b749-66f2-441b-a1e4-8ee14502cb68"
+	"name" "string" "lipStretcher"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "5f009aba-f07e-46b6-9893-eab7d4e2c10e"
+	"name" "string" "lipPuckerer"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "6eb45d3e-af57-4db5-bb3c-e151a1f1903f"
+	"name" "string" "upperLipFunneler"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "9ea61228-f87e-43e6-a22d-4daed7bfe9d2"
+	"name" "string" "lowerLipFunneler"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "dc46ad2f-73fc-4155-b0a9-d127f867b7ea"
+	"name" "string" "lowerLipSuck"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "53969048-b574-4c31-a657-10be292c19d0"
+	"name" "string" "lipSideways"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "77889678-4c54-4f38-9352-42b9e7a54758"
+	"name" "string" "jawSuckAndThrust"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "c676d417-935e-4769-b22a-069c4cb17f1a"
+	"name" "string" "jawSideways"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "76993e33-20cd-424c-94c3-45479118df78"
+	"name" "string" "jawOpen"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "31ada1b8-7cfb-4e93-bc6c-48617fb8653f"
+	"name" "string" "jawClencher"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "f487fca6-911e-44fb-9a31-f7502cd2141e"
+	"name" "string" "alt_innerBrowRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "4e8bed57-fa00-4e74-a4f4-4bf4a2dd4f40"
+	"name" "string" "alt_outerBrowRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "b70ec32e-f49c-4012-86eb-cfa35da3ea5b"
+	"name" "string" "alt_browLowerer"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "f3263bf9-b24f-4876-8831-df130d4f119b"
+	"name" "string" "alt_eyeDownAndUp"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "403cea55-615a-4def-ae4b-c76418f2ad15"
+	"name" "string" "alt_eyeRightAndLeft"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "11a1ea88-f39c-4240-9379-fe2bedbcdd52"
+	"name" "string" "alt_eyeClosedAndLidRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "db7f9ae6-df87-477d-9c78-5d73be69f543"
+	"name" "string" "alt_squint"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "3e51c557-ace1-404a-a29e-a52220d0421b"
+	"name" "string" "alt_cheekRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "e52b4c8e-c8b2-4398-87eb-6ecabfebf111"
+	"name" "string" "alt_dimpler"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "864dd560-6c65-4b15-9ad4-9df2dbffbbda"
+	"name" "string" "alt_supressor"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "fb3a7f7c-de5c-4e8a-90d3-d259a72e9c05"
+	"name" "string" "alt_noseWrinkler"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "6bf14192-adc0-4958-b2ed-5c810118057e"
+	"name" "string" "alt_nostrilDilator"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "e7fb77ae-dc4b-47bc-9395-31cdcf3a0110"
+	"name" "string" "alt_upperLipsTowardAndPart"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "0853fd73-ae80-4186-8265-2ee9715a24e7"
+	"name" "string" "alt_phonemeFV"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "81e8c9c4-12a2-441b-b643-b85313ba5691"
+	"name" "string" "alt_phonemeBMP"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "637cf1ed-0e74-4b07-9731-83adf62aee73"
+	"name" "string" "alt_lowerLipsTowardAndPart"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "e1ff4b7b-1306-4bfe-9244-f210dcaec5d2"
+	"name" "string" "alt_upperLipRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "601b91a0-ae0c-4060-b01f-f372f6c23083"
+	"name" "string" "alt_lowerLipDepressorAndChinRaiser"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "5f8965ff-12f2-4e0f-960f-a735cc9ec4bc"
+	"name" "string" "alt_lipCornerDepressorAndSharpLipPuller"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "95c3b681-7c60-482b-8812-bbd06ae54107"
+	"name" "string" "alt_lipPressor"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "1a7d3b39-ebe7-4798-9501-0277beef5da1"
+	"name" "string" "alt_lipCornerPuller"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "43327a1b-7973-443d-80e0-6a71d275567b"
+	"name" "string" "alt_lipStretcher"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "0f9e7b05-5878-4a5f-9d50-c34ea2b940e5"
+	"name" "string" "alt_lipPuckerer"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "cc0674ec-db50-4a03-a87c-d21cb76b1d73"
+	"name" "string" "alt_upperLipFunneler"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "cac1b496-9c12-4cad-bd58-b9c349f518fa"
+	"name" "string" "alt_lowerLipFunneler"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "f2f1e8b3-a8d9-466a-b1dc-f3d8e4ca362f"
+	"name" "string" "alt_lowerLipSuck"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "2529bee0-e31b-485c-95e7-3e1ebe5931ec"
+	"name" "string" "alt_lipSideways"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "266cbc96-ebc2-4ad9-b663-39395148e0f3"
+	"name" "string" "alt_jawSuckAndThrust"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "d550e795-8d14-4c97-b15a-a52d30f30657"
+	"name" "string" "alt_jawSideways"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0.5",
+		"0.5"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "229099de-4d4b-4b83-b8e0-42736f50ce6f"
+	"name" "string" "alt_jawOpen"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "b46fc049-b72c-4aa0-b3b4-589c733ae59f"
+	"name" "string" "alt_jawClencher"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "e6ed68af-66c7-4dc9-8ad0-33c6b2e4a2d3"
+	"name" "string" "Orig"
+	"times" "time_array" 
+	[
+		"0.0000",
+		"60.0000"
+	]
+	"curvetypes" "int_array" 
+	[
+	]
+	"values" "float_array" 
+	[
+		"0",
+		"0"
+	]
+	"compressed" "binary" 
+	"
+	"
+}
+

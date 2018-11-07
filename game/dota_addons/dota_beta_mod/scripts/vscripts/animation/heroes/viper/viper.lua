@@ -9,8 +9,8 @@
 --
 --=============================================================================
 
-
-[model:CreateWeightlist(
+--[[
+model:CreateWeightlist(
 	"weights_attack",
 	{
 		{ "root", 0.8 },
@@ -56,8 +56,8 @@ model:CreateSequence(
 		}
 	}
 )
+--]]
 
---[[
 -- AsLookLayer
 model:CreateSequence(
 	{
@@ -112,7 +112,7 @@ model:CreateSequence(
 	}
 )
 
-
+--[[
 model:CreateSequence(
 	{
 		name = "run",
@@ -127,4 +127,51 @@ model:CreateSequence(
 		}
 	}
 )
-]]
+--]]
+
+model:CreateSequence(
+	{
+		name = "run_aggressive",
+		sequences = {
+			{ "@run_aggressive" }
+		},
+		addlayer = {
+			"turns"
+		},
+		activities = {
+			{ name = "ACT_DOTA_RUN", weight = 1 },
+			{ name = "aggressive", weight = 1 }
+		}
+	}
+)
+
+model:CreateSequence(
+	{
+		name = "viper_run_new",
+		sequences = {
+			{ "@viper_run_new" }
+		},
+		addlayer = {
+			"turns"
+		},
+		activities = {
+			{ name = "ACT_DOTA_RUN", weight = 1 }
+		}
+	}
+)
+
+model:CreateSequence(
+	{
+		name = "viper_run_haste",
+		sequences = {
+			{ "@viper_run_haste" }
+		},
+		addlayer = {
+			"turns"
+		},
+		activities = {
+			{ name = "ACT_DOTA_RUN", weight = 1 },
+			{ name = "haste", weight = 1 }
+		}
+	}
+)
