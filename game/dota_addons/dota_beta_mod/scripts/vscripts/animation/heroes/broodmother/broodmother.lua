@@ -8,7 +8,7 @@
 -- Edited by Wyrm, for custom made gamemode Dota 2 Old Beta
 --
 --=============================================================================
-
+--[[
 model:CreateWeightlist(
 	"torso_up",
 	{
@@ -16,7 +16,9 @@ model:CreateWeightlist(
 		{ "spine1", 1 }
 	}
 )
+--]]
 
+--[[
 model:CreateWeightlist(
 	"root_only",
 	{
@@ -29,7 +31,7 @@ model:CreateWeightlist(
 		{ "SimpleBugLeg_base_A_L", 0 }
 	}
 )
-
+--]]
 
 -- AsLookLayer
 model:CreateSequence(

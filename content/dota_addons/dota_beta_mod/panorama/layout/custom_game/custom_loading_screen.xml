@@ -4,9 +4,12 @@
 	<styles>
 		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css" />
 		<include src="file://{resources}/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/beta_intro_movie.css" />
 	</styles>
 	<Panel class="BetaBckRoot">
+		
 		<Image class="BetaBckTitle" src="file://{images}/beta/screen/beta_screen.tga" />
+		<MoviePanel class="BetaMovTitle" src="s2r://panorama/videos/beta/main_menu/dota2_teaser_intro.webm" repeat="true" autoplay="onload" />
 	 
 	 <!-- Seasons -->
 		<!-- New Year -->
@@ -15,8 +18,9 @@
 		<!-- Halloween -->
 <!--		<Image class="BetaBckTitle" src="file://{images}/beta/screen/beta_screen_diretide.tga" /> -->
 	 
+<!--		<Image id="LoadImage" class="CustomImage" src="s2r://panorama/images/loadingscreens/hs_flying_arrow_loadingscreen/loadingscreen_tga.vtex" scaling="stretch"/> -->
 
-		<DOTAScenePanel class="BetaBckScene" map="maps/backgrounds/dota_beta_background_ancient_apparition.vmap" camera="beta_bck_camera"  particleonly='false'/>
+		<DOTAScenePanel class="BetaBckScene" map="maps/backgrounds/dota_beta_background_drow_ranger.vmap" camera="beta_bck_camera"  particleonly='false'/>
 	
 	<!-- Seasons -->
 		
@@ -28,20 +32,20 @@
 <!--	<Panel id="TitlePanel">
 			<Image id="BetaTitle" src="file://{images}/beta/dota_logo/logo_lf.png" />
 		</Panel> -->
+
+
 		<Panel id="TitleNamePanel">
 			<Image class="TitleNameImg" src="file://{images}/beta/dota_logo/logo_text_header.png" /> -->
-			<Image class="TitleLogoImg" src="file://{images}/beta/dota_logo/logo_text.png" />
+<!--			<Image class="TitleLogoImg" src="file://{images}/beta/dota_logo/logo_text.png" /> -->
 		</Panel>
-		<Panel id="BetaBtnmain">
+		<Panel id="BetaBtnmain" class="betaBtnmain">
 			<Label text="#beta_homepage"/>
-			<Button id="BmpBtn" onactivate="DOTADisplayURL('http://steamcommunity.com/sharedfiles/filedetails/?id=604487899');">
-				<Image class="BmpBtnimg" src="file://{images}/beta/dota_logo/buttons/hllstl_hp.png" />
+			<Button id="BmpBtnimg" class="BmpBtnimg" onactivate="DOTADisplayURL('http://steamcommunity.com/sharedfiles/filedetails/?id=604487899');">
 			</Button>		
 		</Panel>	
 		<Panel id="BetaChangesBtnmain">
 			<Label text="#beta_changes"/>
-			<Button id="ChangesBtn" onactivate="DOTADisplayURL('http://steamcommunity.com/sharedfiles/filedetails/changelog/604487899');">
-				<Image class="ChangesBtnimg" src="file://{images}/beta/dota_logo/buttons/hllstl_cl.png" />
+			<Button id="ChangesBtn" class="ChangesBtnimg" onactivate="DOTADisplayURL('http://steamcommunity.com/sharedfiles/filedetails/changelog/604487899');">
 			</Button>		
 		</Panel>
 		<Panel id="BetaDevelopers">

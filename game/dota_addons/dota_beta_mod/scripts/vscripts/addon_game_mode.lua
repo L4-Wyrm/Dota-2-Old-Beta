@@ -11,14 +11,17 @@ print( "Dota Beta game mode loaded." )
 
 if BetaDota == nil then
 	BetaDota = class({})
+	_G.BetaDota = BetaDota
 end
 
 -- This library allow for easily delayed/timed actions
 require('libraries/timers')
 -- This library can be used for starting customized animations on units from lua
 require('libraries/animations')
+-- All precache files linked in that file
+require( "included/precache" )
 -- beta_settings.lua is where you can specify different properties for this game mode.
-require('beta_settings')
+require('settings/beta_settings')
 --------------------------------------------------------------------------------
 -- ACTIVATE
 --------------------------------------------------------------------------------
@@ -235,139 +238,35 @@ end
 
 function Precache( context )
 	
-	--Cache particles for heroes
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_elder_titan", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_jakiro", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_nevermore", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_skeletonking", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_slardar", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_spectre", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_stormspirit", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_vengeful", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_venomancer", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_zeus", context )
-		PrecacheResource( "particle_folder", "particles/units/heroes/hero_zuus", context )
-		
-	--Cache particles for items
-		PrecacheResource( "particle_folder", "particles/econ/items/storm_spirit/storm_spirit_orchid_hat", context )
+	--Cache particle folder
+    for _,ParticleFolder in pairs( g_ParticleFolderPrecache ) do
+    	PrecacheResource( "particle_folder", ParticleFolder, context )
+    end
 
-	--Cache particles for fx
-		PrecacheResource( "particle_folder", "particles/themed_fx", context )
-		PrecacheResource( "particle_folder", "particles/winter_fx", context )
-		PrecacheResource( "particle_folder", "particles/world_environmental_fx", context )
-		PrecacheResource( "particle_folder", "particles/generic_hero_status", context )
+	--Cache particles
+    for _,Particle in pairs( g_ParticlePrecache ) do
+    	PrecacheResource( "particle", Particle, context )
+    end
 
-	--Cache models for heroes
-		PrecacheResource( "model_folder", "models/heroes/axe", context )
-		PrecacheResource( "model_folder", "models/heroes/beastmaster", context )
-		PrecacheResource( "model_folder", "models/heroes/brewmaster", context )
-		PrecacheResource( "model_folder", "models/heroes/broodmother", context )
-		PrecacheResource( "model_folder", "models/heroes/chen", context )
-		PrecacheResource( "model_folder", "models/heroes/dazzle", context )
-		PrecacheResource( "model_folder", "models/heroes/earthshaker", context )
-		PrecacheResource( "model_folder", "models/heroes/enigma", context )
-		PrecacheResource( "model_folder", "models/heroes/faceless_void", context )
-		PrecacheResource( "model_folder", "models/heroes/gyro", context )
-		PrecacheResource( "model_folder", "models/heroes/jakiro", context )
-		PrecacheResource( "model_folder", "models/heroes/lion", context )
-		PrecacheResource( "model_folder", "models/heroes/luna", context )
-		PrecacheResource( "model_folder", "models/heroes/phantom_assassin", context )
-		PrecacheResource( "model_folder", "models/heroes/puck", context )
-		PrecacheResource( "model_folder", "models/heroes/pudge", context )
-		PrecacheResource( "model_folder", "models/heroes/rikimaru", context )
-		PrecacheResource( "model_folder", "models/heroes/shadow_fiend", context )
-		PrecacheResource( "model_folder", "models/heroes/skeleton_king", context )
-		PrecacheResource( "model_folder", "models/heroes/slardar", context )
-		PrecacheResource( "model_folder", "models/heroes/sniper", context )
-		PrecacheResource( "model_folder", "models/heroes/spectre", context )
-		PrecacheResource( "model_folder", "models/heroes/storm_spirit", context )
-		PrecacheResource( "model_folder", "models/heroes/twin_headed_dragon", context )
-		PrecacheResource( "model_folder", "models/heroes/vengeful", context )
-		PrecacheResource( "model_folder", "models/heroes/venomancer", context )
-		PrecacheResource( "model_folder", "models/heroes/viper", context )
-		PrecacheResource( "model_folder", "models/heroes/wraith_king", context )
-		PrecacheResource( "model_folder", "models/heroes/zeus", context )
-		
-	--Cache models for items
-		PrecacheResource( "model_folder", "models/items/deathbringer_arms", context )
-		PrecacheResource( "model_folder", "models/items/deathbringer_head", context )
-		PrecacheResource( "model_folder", "models/items/deathbringer_shoulders", context )
-		PrecacheResource( "model_folder", "models/items/deathbringer_tail", context )
-
-	--Cache models for creeps
-		PrecacheResource( "model_folder", "models/creeps/neutral_creeps/n_creep_beast", context )
-		PrecacheResource( "model_folder", "models/creeps/neutral_creeps/n_creep_dragonspawn_a", context )
-		PrecacheResource( "model_folder", "models/creeps/neutral_creeps/n_creep_dragonspawn_b", context )
-		PrecacheResource( "model_folder", "models/creeps/neutral_creeps/n_creep_forest_trolls", context )
-		PrecacheResource( "model_folder", "models/creeps/neutral_creeps/n_creep_furbolg", context )
-		PrecacheResource( "model_folder", "models/creeps/neutral_creeps/n_creep_satyr_a", context )
-		
-	--Cache materials for heroes
---[[		
-		PrecacheResource( "material_folder", "materials/models/heroes/antimage", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/axe", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/beastmaster", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/brewmaster", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/broodmother", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/chen", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/dazzle", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/death_prophet", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/dragon_knight", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/drow", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/earthshaker", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/enigma", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/faceless_void", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/gyro", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/jakiro", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/lion", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/luna", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/nevermore", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/omniknight", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/phantom_assassin", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/puck", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/pudge", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/rikimaru", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/silencer", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/skeleton_king", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/slardar", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/sniper", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/storm_spirit", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/twin_headed_dragon", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/vengeful", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/venomancer", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/venommancer", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/viper", context )
-		PrecacheResource( "material_folder", "materials/models/heroes/witchdoctor", context )
-]]		
-
-	--Cache materials for creeps
-		PrecacheResource( "material", "materials/models/creeps/neutral_creeps/neutral_beast_color.vmat", context )
-		PrecacheResource( "material", "materials/models/creeps/neutral_creeps/neutral_beast_disrupter_color.vmat", context )
-		PrecacheResource( "material", "materials/models/creeps/neutral_creeps/neutral_troll_b_color.vmat", context )
-		PrecacheResource( "material", "materials/models/creeps/neutral_creeps/satyr_a.vmat", context )
-
-	--Cache materials for overviews
-		PrecacheResource( "material", "materials/overviews/dota_600.vmat", context )		
-		PrecacheResource( "material", "materials/overviews/dota_681_autumn.vmat", context )		
-		PrecacheResource( "material", "materials/overviews/dota_681_winter.vmat", context )		
-		PrecacheResource( "material", "materials/overviews/dota_682.vmat", context )		
-		PrecacheResource( "material", "materials/overviews/dota_682_winter.vmat", context )		
-		
-	--Cache materials for minimap
-		PrecacheResource( "material", "materials/vgui/hud/minimap_enemyicon.vmat", context )	
-		PrecacheResource( "material", "materials/vgui/hud/minimap_hero_sheet.vmat", context )	
-		
-	--Cache textures for heroes
-		PrecacheResource( "texture_folder", "panorama/images/heroes", context )	
-
-	--Cache textures for minimap
-		PrecacheResource( "texture", "panorama/images/minimap/dotamap.vtex", context )				
+	--Cache models
+    for _,Model in pairs( g_ModelPrecache ) do
+    	PrecacheResource( "model", Model, context )
+    end	
 
 	--Cache sound events
-		PrecacheResource( "soundfile", "soundevents/game_sounds_ambient.vsndevts", context )				
-		PrecacheResource( "soundfile", "soundevents/game_sounds_roshan_halloween.vsndevts", context )				
-		PrecacheResource( "soundfile", "soundevents/voscripts/game_sounds_vo_skeleton_king.vsndevts", context )				
-		PrecacheResource( "soundfile", "soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts", context )				
+    for _,Sound in pairs( g_SoundPrecache ) do
+    	PrecacheResource( "soundfile", Sound, context )
+    end	
+
+	--Cache units
+    for _,Unit in pairs( g_UnitPrecache ) do
+    	PrecacheUnitByNameAsync( Unit, function( unit ) end )
+    end
+	
+	--Cache items	
+	for _,Item in pairs( g_ItemPrecache ) do
+    	PrecacheItemByNameSync( Item, context )
+    end
 end
 
 --------------------------------------------------------------------------------
@@ -394,11 +293,10 @@ function BetaDota:InitGameMode()
 	GameRules:GetGameModeEntity():SetSelectionGoldPenaltyEnabled( true )
 	GameRules:GetGameModeEntity():SetAnnouncerDisabled( false )
 	GameRules:GetGameModeEntity():SetKillingSpreeAnnouncerDisabled( false )
-	GameRules:SetCustomGameSetupAutoLaunchDelay( 15 )
+	GameRules:SetCustomGameSetupAutoLaunchDelay( 20 )
 	GameRules:LockCustomGameSetupTeamAssignment( true )
 	GameRules:EnableCustomGameSetupAutoLaunch( true )
 	GameRules:SetPreGameTime( 60 )
-	GameRules:SetHeroSelectionTime( 60.0 )
 	GameRules:SetHeroSelectionTime( 60.0 )
 	GameRules:SetCustomGameSetupRemainingTime ( -1 )
     GameRules:SetCustomGameSetupTimeout( -1 )
@@ -407,13 +305,7 @@ function BetaDota:InitGameMode()
 	GameRules:GetGameModeEntity():SetThink( "OnThink", self, "GlobalThink", 5 )
 	GameRules:GetGameModeEntity():SetRuneEnabled( DOTA_RUNE_BOUNTY , false )
 	GameRules:GetGameModeEntity():SetRuneEnabled( DOTA_RUNE_ARCANE , false )
-	
-	-- Remove TP scrolls
-	GameRules:GetGameModeEntity():SetItemAddedToInventoryFilter(function(ctx, event)
-		local item = EntIndexToHScript(event.item_entindex_const)
-			if item:GetAbilityName() == TPSCROLL and item:GetPurchaser() == nil then return false end
-		return true
-	end, self)
+
 	
 	-- Remove bonus armor and tower armor bonus modifiers from all towers
 	local allTowers = Entities:FindAllByClassname('npc_dota_tower')
@@ -432,7 +324,6 @@ function BetaDota:InitGameMode()
 	GameRules:GetGameModeEntity():SetBotsAlwaysPushWithHuman( true )   
   
   	-- Sets max players in both teams for 3v3 and 1v1 maps
-	-- Also enable snow particles on winter maps (EXPEREMENTAL)
 	if GetMapName() == "dota_681_1v1" then
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_GOODGUYS, 1 )
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_BADGUYS, 1 )

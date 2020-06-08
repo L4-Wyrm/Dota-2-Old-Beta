@@ -8,7 +8,7 @@
 -- Edited by Wyrm, for custom made gamemode Dota 2 Old Beta
 --
 --=============================================================================
-
+--[[
 model:CreateWeightlist(
 	"primalSplit",
 	{
@@ -16,7 +16,9 @@ model:CreateWeightlist(
 		{ "mug4_0", 0 }
 	}
 )
+--]]
 
+--[[
 model:CreateWeightlist(
 	"drunkenBrawler",
 	{
@@ -35,14 +37,16 @@ model:CreateWeightlist(
 		{ "mug4_0", 0 }
 	}
 )
+--]]
 
+--[[
 model:CreateWeightlist(
 	"upperBody",
 	{
 		{ "spine1", 1 }
 	}
 )
-
+--]]
 
 -- AsLookLayer
 model:CreateSequence(

@@ -34,9 +34,10 @@ Layer0
 	g_flTexCoordRotation "0.000"
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
-	TextureColor "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_color.psd"
+	TextureColor "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_color.tga"
 
 	//---- Detail 1 ----
+	g_vDetail2ColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	g_vDetailTexCoordScale "[1.000 1.000]"
 
 	//---- Detail 2 ----
@@ -62,7 +63,7 @@ Layer0
 	TextureSelfIllumMask "[0.000000 0.000000 0.000000 0.000000]"
 
 	//---- Mask 2 ----
-	TextureRimMask "[0.239000 0.239000 0.239000 0.000000]"
+	TextureRimMask "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_disp.tga"
 	TextureSpecularExponent "[0.535000 0.535000 0.535000 0.000000]"
 	TextureSpecularMask "materials/models/heroes/twin_headed_dragon/src/twin_headed_dragon_specmask.tga"
 	TextureTintByBaseMask "[1.000000 1.000000 1.000000 0.000000]"

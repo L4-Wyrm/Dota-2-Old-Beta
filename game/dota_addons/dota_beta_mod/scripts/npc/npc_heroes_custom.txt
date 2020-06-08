@@ -160,6 +160,7 @@
 	"npc_dota_hero_drow_ranger_old"
 	{
 		"override_hero"	"npc_dota_hero_drow_ranger"
+		"Model"	"models/heroes/drow/drow.vmdl"
 
 		"Ability1"	"drow_ranger_frost_arrows"
 		"Ability2"	"drow_ranger_silence_old"
@@ -1788,5 +1789,50 @@
 		"Ability5"		"generic_hidden"
 		"Ability6"		"grimstroke_soul_chain"
 		"Ability7"		"attribute_bonus_datadriven"
+	}
+	////////////////////////////////////////////////////////////
+	//Old: Mars
+	////////////////////////////////////////////////////////////
+	"npc_dota_hero_mars_old"
+	{
+		"override_hero"	"npc_dota_hero_mars"
+
+		"Ability1"		"mars_spear"
+		"Ability2"		"mars_gods_rebuke"
+		"Ability3"		"mars_bulwark"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"mars_arena_of_blood"
+		"Ability7"		"attribute_bonus_datadriven"
+	}
+	////////////////////////////////////////////////////////////
+	//Old: Void Spirit
+	////////////////////////////////////////////////////////////
+	"npc_dota_hero_void_spirit_old"
+	{
+		"override_hero"	"npc_dota_hero_void_spirit"
+
+		"Ability1"					"void_spirit_aether_remnant"
+		"Ability2"					"void_spirit_dissimilate"
+		"Ability3"					"void_spirit_resonant_pulse"
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"void_spirit_astral_step"
+		"Ability7"					"attribute_bonus_datadriven"
+	}
+	////////////////////////////////////////////////////////////
+	//Old: Snapfire
+	////////////////////////////////////////////////////////////
+	"npc_dota_hero_snapfire_old"
+	{
+		"override_hero"	"npc_dota_hero_snapfire"
+
+		"Ability1"				"snapfire_scatterblast"
+		"Ability2"				"snapfire_firesnap_cookie"
+		"Ability3"				"snapfire_lil_shredder"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"snapfire_mortimer_kisses"
+		"Ability7"				"attribute_bonus_datadriven"
 	}
 }

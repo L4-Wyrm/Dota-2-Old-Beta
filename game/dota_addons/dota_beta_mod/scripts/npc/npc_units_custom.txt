@@ -1008,6 +1008,18 @@
 		"ModelScale"	"1"
 	}
 	
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 07.06.2020.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_drow_ranger_background"
+	{
+		"BaseClass"	"npc_dota_creep_neutral"
+		"Model"	"models/custom_game/model_backgrounds/drow_ranger_background/drow_ranger_background.vmdl"
+		"SoundSet"		"Hero_DrowRanger"
+		"ModelScale"	"1"
+	}
 	
 ///////////////////////////////////////////////////////////////
 //////////////////////// Seasonal /////////////////////////////

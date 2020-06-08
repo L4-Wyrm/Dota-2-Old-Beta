@@ -8,7 +8,7 @@
 -- Edited by Wyrm, for custom made gamemode Dota 2 Old Beta
 --
 --=============================================================================
-
+--[[
 model:CreateWeightlist(
 	"upperBody",
 	{
@@ -16,7 +16,7 @@ model:CreateWeightlist(
 		{ "Spine_0", 1 }
 	}
 )
-
+--]]
 
 -- AsLookLayer
 model:CreateSequence(

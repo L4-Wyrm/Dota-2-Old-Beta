@@ -1,8 +1,5 @@
 <root> 
-  <scripts>
-    <include src="file://{resources}/scripts/playertables/playertables_base.js" />
-  </scripts>
-	<script>
+  	<script>
 	// Uncomment any of the following lines in order to disable that portion of the default UI
     //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_TIMEOFDAY, false );      //Time of day (clock).
     //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_HEROES, false );     //Heroes and team score at the top of the HUD.
@@ -49,11 +46,6 @@
 	//	newUI.FindChildTraverse("inventory_backpack_list").SetPanelEvent("onmouseover", function(){});
     //    newUI.FindChildTraverse("inventory_backpack_list").SetPanelEvent("onactivate", function(){});
 		
-	//	newUI.FindChildTraverse("lower_hud").FindChildTraverse("InventoryContainer").FindChildTraverse("BackpackShadow").style.visibility = "collapse";
-    //    newUI.FindChildTraverse("BackpackShadow").AddClass("NonHero");
-	//	newUI.FindChildTraverse("BackpackShadow").SetPanelEvent("onmouseover", function(){});
-    //    newUI.FindChildTraverse("BackpackShadow").SetPanelEvent("onactivate", function(){});
-		
 	// Doesn't work (broken)
 	//	newUI.FindChildTraverse("PreGame").FindChildTraverse("StartingItemsInventory").FindChildTraverse("StartingItemsBackpackRowContents").style.visibility = "collapse";
     //    newUI.FindChildTraverse("StartingItemsBackpackRowContents").AddClass("NonHero");
@@ -61,19 +53,15 @@
     //    newUI.FindChildTraverse("StartingItemsBackpackRowContents").SetPanelEvent("onactivate", function(){});
 		
 	// Disabling upgrate courier timer
-		newUI.FindChildTraverse("lower_hud").FindChildTraverse("CourierControls").FindChildTraverse("UpgradeCooldownLabel").style.visibility = "collapse";
-		newUI.FindChildTraverse("UpgradeCooldownLabel").AddClass("NonHero");
+//		newUI.FindChildTraverse("lower_hud").FindChildTraverse("CourierControls").FindChildTraverse("UpgradeCooldownLabel").style.visibility = "collapse";
 		newUI.FindChildTraverse("UpgradeCooldownLabel").SetPanelEvent("onmouseover", function(){});
-        newUI.FindChildTraverse("UpgradeCooldownLabel").SetPanelEvent("onactivate", function(){});	
+        newUI.FindChildTraverse("UpgradeCooldownLabel").SetPanelEvent("onactivate", function(){});
+		
+		// Disabling stat branch on hero selection on ui	
+		newUI.FindChildTraverse('.StatBranch').style.visibility = 'collapse';	
 		
 	</script>
   <Panel>
     <!-- CustomUIElements go here.-->
-	 
-<!--	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/compile/custom_dotamap.xml" />
-	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/compile/custom_heroicon.xml" />
-	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/compile/custom_herolandscape.xml" />
-	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/compile/custom_heroportrait.xml" /> -->
-	 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/images/videos/beta_heroes_pick_screen_movie.xml" /> 
   </Panel>
 </root>

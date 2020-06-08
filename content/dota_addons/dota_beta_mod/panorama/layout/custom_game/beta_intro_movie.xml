@@ -1,0 +1,11 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/beta_intro_movie.css" />
+    </styles>
+	<Panel>
+        <Panel id="IntroMain" class="IntroMain">
+			<MoviePanel class="BetaMovTitle" src="s2r://panorama/videos/beta/main_menu/valve_headturn.webm" autoplay="onload" controls="none" repeat="false" />	
+		    <Label id="EmptyBlackSpace" class="EmptyBlackSpace" />
+		</Panel>
+	</Panel>
+</root>

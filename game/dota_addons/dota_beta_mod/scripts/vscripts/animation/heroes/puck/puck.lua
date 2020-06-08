@@ -8,7 +8,7 @@
 -- Edited by Wyrm, for custom made gamemode Dota 2 Old Beta
 --
 --=============================================================================
-
+--[[
 model:CreateWeightlist(
 	"body_no_wings",
 	{
@@ -21,7 +21,8 @@ model:CreateWeightlist(
 		{ "root", 1 }
 	}
 )
-
+]]
+--[[
 model:CreateWeightlist(
 	"wings",
 	{
@@ -34,7 +35,7 @@ model:CreateWeightlist(
 		{ "wing_r1a", 1 }
 	}
 )
-
+]]
 
 model:CreateSequence(
 	{

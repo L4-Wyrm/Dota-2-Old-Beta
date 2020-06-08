@@ -16,6 +16,7 @@
 				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
+				m_bPreferHighDensityTrianglesInUvDensityCalculation = false
 				m_pMorphInfo = null
 			},
 			{
@@ -30,6 +31,7 @@
 				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
+				m_bPreferHighDensityTrianglesInUvDensityCalculation = false
 				m_pMorphInfo = null
 			},
 			{
@@ -44,6 +46,7 @@
 				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
+				m_bPreferHighDensityTrianglesInUvDensityCalculation = false
 				m_pMorphInfo = null
 			},
 			{
@@ -58,6 +61,7 @@
 				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
+				m_bPreferHighDensityTrianglesInUvDensityCalculation = false
 				m_pMorphInfo = null
 			},
 		]
@@ -549,17 +553,99 @@
 		m_pObject = 
 		{
 			m_Name = ""
-			m_pReferenceSkeleton = 
-			{
-				m_pObject = null
-			}
 			m_pBoneFlagList = 
 			{
 				m_pObject = null
 			}
 			m_pSeqGroup = 
 			{
-				m_pObject = null
+				m_pObject = 
+				{
+					m_poseParameterArray = [  ]
+					m_boneMaskArray = 
+					[
+						{
+							m_sName = "homing missile"
+							m_boneArray = 
+							[
+								{
+									m_sName = "bomb10_0"
+									m_flWeight = 1.0
+								},
+							]
+							m_morphArray = [  ]
+							m_userArray = [  ]
+						},
+						{
+							m_sName = "weights_propeller_loop"
+							m_boneArray = 
+							[
+								{
+									m_sName = "front_prop"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "front_prop"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "small_prop_L"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "small_prop_R"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "rear_prope"
+									m_flWeight = 1.0
+								},
+							]
+							m_morphArray = [  ]
+							m_userArray = [  ]
+						},
+						{
+							m_sName = "weights_abil1_rocket_barrage"
+							m_boneArray = 
+							[
+								{
+									m_sName = "small_gun_L"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "small_gun_R"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "stick_l"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "small_prop_L"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "small_prop_R"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "spine1"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "stick_r"
+									m_flWeight = 1.0
+								},
+							]
+							m_morphArray = [  ]
+							m_userArray = [  ]
+						},
+					]
+					m_syntheticAnimationArray = [  ]
+					m_cmdSequenceArray = [  ]
+					m_multiSequenceArray = [  ]
+					m_sequenceArray = [  ]
+				}
 			}
 			m_pAnimGroups = [  ]
 			m_Vanim = 
@@ -2611,6 +2697,10 @@
 			]
 			m_folderNames = [  ]
 			m_sCompileScripts = [  ]
+			m_pActivityWhiteList = 
+			{
+				m_pObject = null
+			}
 		}
 	}
 	m_pMaterialGroupList = 
@@ -2678,6 +2768,7 @@
 	m_flFbxScale = 1.0
 	m_flQCScale = 1.0
 	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_bEmbedAnimsInAnimGroup = false
 	m_pPsfList = null
 	m_keyValueText = ""
 	m_bStaticProp = false

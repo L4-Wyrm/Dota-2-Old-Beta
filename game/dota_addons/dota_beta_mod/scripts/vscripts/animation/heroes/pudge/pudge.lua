@@ -9,6 +9,7 @@
 --
 --=============================================================================
 
+--[[
 model:CreateWeightlist(
 	"upperBody",
 	{
@@ -20,7 +21,7 @@ model:CreateWeightlist(
 		{ "spine1", 1 }
 	}
 )
-
+]]
 
 
 -- AsLookLayer

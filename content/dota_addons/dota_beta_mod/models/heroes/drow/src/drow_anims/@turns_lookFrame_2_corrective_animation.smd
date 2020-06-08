@@ -1,0 +1,77 @@
+// Created by Crowbar 0.68
+version 1
+nodes
+  0 "root" -1
+  1 "spine1" 0
+  2 "thigh_L" 0
+  3 "thigh_R" 0
+  4 "spine2" 1
+  5 "spine3" 4
+  6 "neck1" 5
+  7 "clavicle_L" 5
+  8 "clavicle_R" 5
+  9 "Arrows2_0" 5
+  10 "Arrows5_0_B_R" 5
+  11 "Arrows4_0_B_L" 5
+  12 "Arrows6_0_C_L" 5
+  13 "cape_R0C0" 5
+  14 "cape_R0C1" 5
+  15 "cape_R0C2" 5
+  16 "head" 6
+  17 "bicep_L" 7
+  18 "elbow_L" 17
+  19 "wrist_L" 18
+  20 "index_0_L" 19
+  21 "mid_0_L" 19
+  22 "thumb_0_L" 19
+  23 "Bow1_0" 19
+  24 "index_1_L" 20
+  25 "index_2_L" 24
+  26 "mid_1_L" 21
+  27 "thumb_1_L" 22
+  28 "thumb_2_L" 27
+  29 "bow8_0_D_L" 23
+  30 "bow9_0_D_R" 23
+  31 "attach_bone" 23
+  32 "bow8_1_D_L" 29
+  33 "Bow2_0_A_L" 32
+  34 "bow9_1_D_R" 30
+  35 "Bow3_0_A_R" 34
+  36 "bicep_R" 8
+  37 "elbow_R" 36
+  38 "wrist_R" 37
+  39 "thumb_0_R" 38
+  40 "attach_attack2" 38
+  41 "mid_0_R" 38
+  42 "index_0_R" 38
+  43 "thumb_1_R" 39
+  44 "thumb_2_R" 43
+  45 "mid_1_R" 41
+  46 "index_1_R" 42
+  47 "index_2_R" 46
+  48 "cape_R1C0" 13
+  49 "cape_R2C0" 48
+  50 "cape_R3C0" 49
+  51 "cape_R4C0" 50
+  52 "cape_R5C0" 51
+  53 "cape_R1C1" 14
+  54 "cape_R2C1" 53
+  55 "cape_R3C1" 54
+  56 "cape_R4C1" 55
+  57 "cape_R5C1" 56
+  58 "cape_R1C2" 15
+  59 "cape_R2C2" 58
+  60 "cape_R3C2" 59
+  61 "cape_R4C2" 60
+  62 "cape_R5C2" 61
+  63 "knee_L" 2
+  64 "ankle_L" 63
+  65 "toeBase_L" 64
+  66 "knee_R" 3
+  67 "ankle_R" 66
+  68 "toeBase_R" 67
+end
+skeleton
+  time 0
+    0 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
+end

@@ -2264,7 +2264,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"					"death_prophet_witchcraft"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-		"AbilityTextureName"				"death_prophet_witchcraft"
+		"AbilityTextureName"				"death_prophet_witchcraft_old"
 				
 		// Special
 		//-------------------------------------------------------------------------------------------------------------

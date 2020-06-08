@@ -8,14 +8,16 @@
 -- Edited by Wyrm, for custom made gamemode Dota 2 Old Beta
 --
 --=============================================================================
-
+--[[
 model:CreateWeightlist(
 	"homing missile",
 	{
 		{ "bomb10_0", 1 }
 	}
 )
+--]]
 
+--[[
 model:CreateWeightlist(
 	"weights_propeller_loop",
 	{
@@ -26,7 +28,9 @@ model:CreateWeightlist(
 		{ "rear_prope", 1 }
 	}
 )
+--]]
 
+--[[
 model:CreateWeightlist(
 	"attack",
 	{
@@ -34,7 +38,9 @@ model:CreateWeightlist(
 		{ "small_gun_R", 1 }
 	}
 )
+--]]
 
+--[[
 model:CreateWeightlist(
 	"jiggle",
 	{
@@ -55,7 +61,9 @@ model:CreateWeightlist(
 		{ "clavicle_R", 1 }
 	}
 )
+--]]
 
+--[[
 model:CreateWeightlist(
 	"weights_abil1_rocket_barrage",
 	{
@@ -68,7 +76,7 @@ model:CreateWeightlist(
 		{ "stick_r", 1 }
 	}
 )
-
+--]]
 
 model:CreateSequence(
 	{

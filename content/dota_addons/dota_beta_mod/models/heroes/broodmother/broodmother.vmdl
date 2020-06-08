@@ -16,6 +16,7 @@
 				m_bBentNormals = false
 				m_bIgnoreCloth = false
 				m_bGetSkinningFromLod0 = false
+				m_bPreferHighDensityTrianglesInUvDensityCalculation = false
 				m_pMorphInfo = null
 			},
 		]
@@ -620,10 +621,6 @@
 		m_pObject = 
 		{
 			m_Name = ""
-			m_pReferenceSkeleton = 
-			{
-				m_pObject = null
-			}
 			m_pBoneFlagList = 
 			{
 				m_pObject = null
@@ -642,7 +639,61 @@
 							m_flLoop = 0.0
 						},
 					]
-					m_boneMaskArray = [  ]
+					m_boneMaskArray = 
+					[
+						{
+							m_sName = "torso_up"
+							m_boneArray = 
+							[
+								{
+									m_sName = "neck1"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "spine1"
+									m_flWeight = 1.0
+								},
+							]
+							m_morphArray = [  ]
+							m_userArray = [  ]
+						},
+						{
+							m_sName = "root_only"
+							m_boneArray = 
+							[
+								{
+									m_sName = "root"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "SimpleBugLeg_base_A_R"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "SimpleBugLeg_base_L"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "spine1"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "SimpleBugLeg_base_R"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "butt_start"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "SimpleBugLeg_base_A_L"
+									m_flWeight = 0.0
+								},
+							]
+							m_morphArray = [  ]
+							m_userArray = [  ]
+						},
+					]
 					m_syntheticAnimationArray = [  ]
 					m_cmdSequenceArray = [  ]
 					m_multiSequenceArray = [  ]
@@ -655,10 +706,6 @@
 					m_pObject = 
 					{
 						m_Name = "broodmother_turns"
-						m_pReferenceSkeleton = 
-						{
-							m_pObject = null
-						}
 						m_pBoneFlagList = 
 						{
 							m_pObject = null
@@ -714,6 +761,10 @@
 						m_sScripts = [  ]
 						m_folderNames = [  ]
 						m_sCompileScripts = [  ]
+						m_pActivityWhiteList = 
+						{
+							m_pObject = null
+						}
 					}
 				},
 			]
@@ -3090,6 +3141,10 @@
 			]
 			m_folderNames = [  ]
 			m_sCompileScripts = [  ]
+			m_pActivityWhiteList = 
+			{
+				m_pObject = null
+			}
 		}
 	}
 	m_pMaterialGroupList = 
@@ -3132,6 +3187,7 @@
 	m_flFbxScale = 1.0
 	m_flQCScale = 1.0
 	m_vOrigin = [ 0.0, 0.0, 0.0 ]
+	m_bEmbedAnimsInAnimGroup = false
 	m_pPsfList = null
 	m_keyValueText = ""
 	m_bStaticProp = false

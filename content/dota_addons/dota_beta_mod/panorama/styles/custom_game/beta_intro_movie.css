@@ -1,0 +1,19 @@
+.IntroMain
+{ 
+    height: 2000px;
+    width: 2000px;
+//	background-color: transparent;
+}
+
+.BetaMovIntroTitle
+{ 
+	background-position: 100% 100%;
+//	background-color: transparent;
+}
+
+.EmptyBlackSpace{
+    height: 13000px;
+    width: 60px; 
+    background-color: black;
+    position: -3% 0% 0px;
+}

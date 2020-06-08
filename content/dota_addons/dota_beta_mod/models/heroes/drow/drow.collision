@@ -1,0 +1,2060 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_CollisionAttributes = 
+	{
+		m_CollisionGroup = "default"
+		m_InteractAs = [  ]
+		m_InteractWith = [  ]
+		m_InteractExclude = [  ]
+	}
+	m_DMXReference = ""
+	m_Bodies = [  ]
+	m_Joints = [  ]
+	m_Fx = 
+	{
+		m_Quads = [  ]
+		m_Rods = 
+		[
+			{
+				m_nNodes = [ 0, 3 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 1, 4 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 2, 5 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 3, 4 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 3, 6 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 4, 5 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 4, 7 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 5, 8 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 6, 7 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 6, 9 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 7, 8 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 7, 10 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 8, 11 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 9, 10 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 9, 12 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 10, 11 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 10, 13 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 11, 14 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 12, 13 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 12, 15 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 15, 16 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 13, 14 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 13, 16 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 14, 17 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+			{
+				m_nNodes = [ 16, 17 ]
+				m_flMotionBias = [ 1.0, 1.0 ]
+				m_flRelaxationFactor = 1.0
+				m_bExplicitLength = false
+				m_flLength = 0.0
+				m_flContractionFactor = 0.05
+				m_nExtraIterations = 0
+			},
+		]
+		m_SourceEdges = [  ]
+		m_Springs = [  ]
+		m_Constraints = [  ]
+		m_Capsules = [  ]
+		m_Nodes = 
+		[
+			{
+				m_Name = "cape_r0c0"
+				m_Transform = 
+				[
+					-13.72184, -122.203644, 13.239632, 0.502622,
+					0.497364, 0.632232, 0.316675,
+				]
+				m_bSimulated = false
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = -1
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.0
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = -1
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r0c1"
+				m_Transform = 
+				[
+					-19.354866, -112.798538, -0.000004, 0.403999,
+					0.580332, 0.580332, 0.403998,
+				]
+				m_bSimulated = false
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = -1
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.0
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = -1
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r0c2"
+				m_Transform = 
+				[
+					-13.721848, -122.203636, -13.239651, 0.632215,
+					-0.316707, 0.502937, -0.497046,
+				]
+				m_bSimulated = false
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = -1
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.0
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = -1
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r1c0"
+				m_Transform = 
+				[
+					-20.15715, -102.506836, 20.251728, 0.136154,
+					-0.088987, 0.802368, 0.574238,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 0
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 0
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r1c1"
+				m_Transform = 
+				[
+					-23.134117, -102.58876, -0.000002, 0.0,
+					0.0, 0.818592, 0.574376,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 1
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 1
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r1c2"
+				m_Transform = 
+				[
+					-19.662178, -103.979546, -19.738443, -0.100697,
+					0.129422, 0.797626, 0.580434,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 2
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 2
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r2c0"
+				m_Transform = 
+				[
+					-26.578049, -83.040787, 27.189165, 0.135773,
+					-0.089567, 0.804812, 0.570807,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 0
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 3
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r2c1"
+				m_Transform = 
+				[
+					-29.962799, -83.712502, -0.000001, 0.0,
+					0.0, 0.818592, 0.574376,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 1
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 4
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r2c2"
+				m_Transform = 
+				[
+					-26.768044, -83.076965, -26.959667, -0.100697,
+					0.129422, 0.797626, 0.580434,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 2
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 5
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r3c0"
+				m_Transform = 
+				[
+					-34.51553, -60.278961, 35.353886, 0.135599,
+					-0.08983, 0.805917, 0.569246,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 0
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 6
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r3c1"
+				m_Transform = 
+				[
+					-40.141205, -55.576672, 0.0, 0.0,
+					0.0, 0.818592, 0.574376,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 1
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 7
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r3c2"
+				m_Transform = 
+				[
+					-34.469994, -60.420891, -34.786678, -0.100697,
+					0.129422, 0.797626, 0.580434,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 2
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 8
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r4c0"
+				m_Transform = 
+				[
+					-40.532391, -43.181751, 41.537979, 0.135599,
+					-0.08983, 0.805917, 0.569246,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 0
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 9
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r4c1"
+				m_Transform = 
+				[
+					-45.911392, -39.62635, 0.000004, 0.0,
+					0.0, 0.818592, 0.574376,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 1
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 10
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r4c2"
+				m_Transform = 
+				[
+					-40.209801, -43.499054, -40.689705, -0.091976,
+					0.122283, 0.800933, 0.578873,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 2
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 11
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r5c0"
+				m_Transform = 
+				[
+					-44.560829, -30.669743, 46.681892, 0.135599,
+					-0.08983, 0.805917, 0.569246,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 0
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 12
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r5c1"
+				m_Transform = 
+				[
+					-49.837646, -28.773157, 0.000004, 0.0,
+					0.0, 0.818592, 0.574376,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 1
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 13
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+			{
+				m_Name = "cape_r5c2"
+				m_Transform = 
+				[
+					-44.594452, -30.820129, -44.738228, -0.091976,
+					0.122283, 0.800933, 0.578873,
+				]
+				m_bSimulated = true
+				m_bForceSimulated = false
+				m_bFreeRotation = false
+				m_bAnimRotation = false
+				m_bVirtual = false
+				m_bNeedNodeBase = false
+				m_bNeedsWorldCollision = false
+				m_bOsOffset = false
+				m_bSuspenders = false
+				m_bAddBoneToRenderMesh = false
+				m_bGoalDampedSpringIntegrator = false
+				m_bTwistPriority = false
+				m_nRopeOptions = 0
+				m_flWorldFriction = 0.35
+				m_flGroundFriction = 0.0
+				m_flLegacyStretchForce = 1.0
+				m_flMass = 1.0
+				m_flMassBias = 0.0
+				m_nFollowParent = 2
+				m_flFollowWeight = 0.0
+				m_flCollisionRadius = 0.0
+				m_Integrator = 
+				{
+					flPointDamping = 0.85
+					flAnimationForceAttraction = 0.192
+					flAnimationVertexAttraction = 1.0
+					flGravity = 400.0
+				}
+				m_bHasMassOverride = false
+				m_nCollisionMask = 65535
+				m_nParent = 14
+				m_SoftParents = 
+				[
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+					{
+						nParent = -1
+						flAlpha = 0.0
+					},
+				]
+				m_bUseRods = false
+				m_flMakeRods = 0.0
+				m_flLocalForce = 1.0
+				m_flLocalRotation = 0.0
+				m_flBendStiffness = 0.0
+				m_flStrayRadiusInv = 0.0
+				m_flStrayRadiusRelaxationFactor = 1.0
+				m_flRenderInfluence = 1.0
+				m_flAntiShrink = 0.05
+				m_flShearResistance = 1.0
+				m_flExtraStretch = 0.0
+				m_flFriction = 0.0
+				m_VertexSet = ""
+			},
+		]
+		m_JiggleBones = [  ]
+		m_CollisionSpheres = [  ]
+		m_CollisionPlanes = [  ]
+		m_PresetNodeBases = 
+		[
+			{
+				nNode = 3
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 3
+				nNodeX1 = 4
+				nNodeY0 = 0
+				nNodeY1 = 6
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 4
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 3
+				nNodeX1 = 5
+				nNodeY0 = 1
+				nNodeY1 = 7
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 5
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 4
+				nNodeX1 = 5
+				nNodeY0 = 2
+				nNodeY1 = 8
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 6
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 6
+				nNodeX1 = 7
+				nNodeY0 = 3
+				nNodeY1 = 9
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 7
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 6
+				nNodeX1 = 8
+				nNodeY0 = 4
+				nNodeY1 = 10
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 8
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 7
+				nNodeX1 = 8
+				nNodeY0 = 5
+				nNodeY1 = 11
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 9
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 9
+				nNodeX1 = 10
+				nNodeY0 = 6
+				nNodeY1 = 12
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 10
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 9
+				nNodeX1 = 11
+				nNodeY0 = 7
+				nNodeY1 = 13
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 11
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 10
+				nNodeX1 = 11
+				nNodeY0 = 8
+				nNodeY1 = 14
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 12
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 12
+				nNodeX1 = 13
+				nNodeY0 = 9
+				nNodeY1 = 15
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 13
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 12
+				nNodeX1 = 14
+				nNodeY0 = 10
+				nNodeY1 = 16
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 14
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 13
+				nNodeX1 = 14
+				nNodeY0 = 11
+				nNodeY1 = 17
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 15
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 15
+				nNodeX1 = 16
+				nNodeY0 = 12
+				nNodeY1 = 15
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 16
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 15
+				nNodeX1 = 17
+				nNodeY0 = 13
+				nNodeY1 = 16
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+			{
+				nNode = 17
+				nDummy = [ 0, 0, 0 ]
+				nNodeX0 = 16
+				nNodeX1 = 17
+				nNodeY0 = 14
+				nNodeY1 = 17
+				qAdjust = [ 0.5, 0.5, -0.5, -0.5 ]
+			},
+		]
+		m_TaperedCapsuleRigids = [  ]
+		m_BoxRigids = [  ]
+		m_SphereRigids = [  ]
+		m_CtrlOffsets = [  ]
+		m_FitInfluences = [  ]
+		m_SourceQuads = 
+		[
+			{
+				m_nNodes = [ 0, 1, 4, 3 ]
+				m_bUseRods = false
+			},
+			{
+				m_nNodes = [ 1, 2, 5, 4 ]
+				m_bUseRods = false
+			},
+			{
+				m_nNodes = [ 3, 4, 7, 6 ]
+				m_bUseRods = false
+			},
+			{
+				m_nNodes = [ 4, 5, 8, 7 ]
+				m_bUseRods = false
+			},
+			{
+				m_nNodes = [ 6, 7, 10, 9 ]
+				m_bUseRods = false
+			},
+			{
+				m_nNodes = [ 7, 8, 11, 10 ]
+				m_bUseRods = false
+			},
+			{
+				m_nNodes = [ 9, 10, 13, 12 ]
+				m_bUseRods = false
+			},
+			{
+				m_nNodes = [ 10, 11, 14, 13 ]
+				m_bUseRods = false
+			},
+			{
+				m_nNodes = [ 12, 13, 16, 15 ]
+				m_bUseRods = false
+			},
+			{
+				m_nNodes = [ 13, 14, 17, 16 ]
+				m_bUseRods = false
+			},
+		]
+		m_Ropes = [  ]
+		m_MorphLayers = [  ]
+		m_MorphSetData = [  ]
+		m_VertexMaps = [  ]
+		m_ModelVertexSetName = ""
+		m_Effects = null
+		m_nExtraIterations = 0
+		m_nExtraGoalIterations = 0
+		m_nExtraPressureIterations = 0
+		m_flGoalStrengthBias = 0.0
+		m_flAdditionalShearStretch = 0.0
+		m_flDefaultSurfaceStretch = 0.0
+		m_flDefaultThreadStretch = 0.0
+		m_flDefaultGravityScale = 1.0
+		m_flDefaultVelAirDrag = 0.0
+		m_flDefaultExpAirDrag = 0.0
+		m_flDefaultVelQuadAirDrag = 0.0
+		m_flDefaultExpQuadAirDrag = 0.0
+		m_flDefaultVelRodAirDrag = 0.0
+		m_flDefaultExpRodAirDrag = 0.0
+		m_flQuadVelocitySmoothRate = 0.0
+		m_flRodVelocitySmoothRate = 0.0
+		m_flInternalPressure = 0.0
+		m_flWindage = 0.0
+		m_flWindDrag = 0.0
+		m_nQuadVelocitySmoothIterations = 0
+		m_nRodVelocitySmoothIterations = 0
+		m_flDefaultGroundFriction = 0.0
+		m_flDefaultWorldCollisionPenetration = 0.0
+		m_flAddWorldCollisionRadius = 2.0
+		m_flLocalForce = 1.0
+		m_flLocalRotation = 0.0
+		m_flVolumetricSolveAmount = 0.0
+		m_flAddCurvature = 0.0
+		m_flQuadBendTolerance = 0.05
+		m_bFollowTheLead = true
+		m_bUsePerNodeLocalForceAndRotation = false
+		m_bUninertialRods = true
+		m_bExplicitMasses = true
+		m_bUnitlessDamping = false
+		m_bMadeInModelDoc = false
+		m_bForceWorldCollisionOnAllNodes = false
+		m_nMergePriority = 0
+		m_bNewStyle = true
+		m_bCanCollideWithWorldMeshes = false
+		m_bCanCollideWithWorldCapsulesAndSpheres = false
+		m_bCanCollideWithWorldHulls = false
+		m_bAddStiffnessRods = true
+		m_bRigidEdgeHinges = false
+		m_bSoftSkinAnimation = false
+		m_bAddBendOnlyRods = false
+		m_bStraightBendRods = false
+		m_bImmovableHint = false
+	}
+}

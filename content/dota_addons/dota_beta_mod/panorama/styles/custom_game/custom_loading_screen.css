@@ -87,7 +87,7 @@
 	flow-children: down;
 	horizontal-align: left;
 	vertical-align: top;
-	position: 458px 0px 0px; 
+	position: 458px 0px 0px;	
 }
 
 #BetaBtnmain Label
@@ -95,6 +95,8 @@
 	color: gray;
 	font-size: 20px;
 	horizontal-align: center;
+	text-shadow: 1px 4px 0px #000000;
+	blur: gaussian( 0.7 );
 }
 
 #BmpBtn
@@ -113,6 +115,23 @@
 	height: 60px;
 	vertical-align: middle;
 	horizontal-align: center;
+	background-image: url("file://{images}/beta/dota_logo/buttons/hllstl_hp.png");
+	background-size: 105% 105%;
+	opacity: 0.6;
+}
+
+.BmpBtnimg:hover{
+    opacity: 1.0;
+	background-image: url("file://{images}/beta/dota_logo/buttons/hllstl_cl_hover.png");
+	box-shadow: 0 0 5px aqua;
+}
+
+.BmpBtnimg:active{
+	opacity: 1.0;
+	background-image: url("file://{images}/beta/dota_logo/buttons/hllstl_cl_hover.png");
+	width: 70px;
+	height: 70px;
+	background-blur: gaussian( 2.5 );
 }
 
 #BetaChangesBtnmain
@@ -128,6 +147,8 @@
 	color: gray;
 	font-size: 20px;
 	horizontal-align: center;
+	text-shadow: 1px 4px 0px #000000;
+	blur: gaussian( 0.7 );
 }
 
 #ChangesBtn
@@ -146,6 +167,22 @@
 	height: 60px;
 	vertical-align: middle;
 	horizontal-align: center;
+	background-image: url("file://{images}/beta/dota_logo/buttons/hllstl_hp.png");
+	background-size: 105% 105%;
+	opacity: 0.6;
+}
+
+.ChangesBtnimg:hover{
+    opacity: 1.0;
+	background-image: url("file://{images}/beta/dota_logo/buttons/hllstl_cl_hover.png");
+}
+
+.ChangesBtnimg:active{
+	opacity: 1.0;
+	background-image: url("file://{images}/beta/dota_logo/buttons/hllstl_cl_hover.png");
+	width: 70px;
+	height: 70px;
+	background-blur: gaussian( 2.5 );
 }
 
 #BetaDevelopers
@@ -153,7 +190,7 @@
 	flow-children: down;
 	horizontal-align: left;
 	vertical-align: top;
-	position: 130px 850px 0px;
+	position: 280px 940px 0px;
 }
 
 .betadevcolumn
@@ -168,14 +205,28 @@
 	height: 60px;
 	vertical-align: middle;
 	horizontal-align: center;
+	opacity: 0.3;
+}
+
+.betadevavatar:hover{
+	opacity: 1.0;
+	background-blur: gaussian( 2.5 );
+    box-shadow: 0 0 5px green;
+}
+
+.betadevavatar:active{
+	opacity: 1.0;
+	background-blur: gaussian( 2.5 );
+    box-shadow: 0 0 5px green;
+    border-radius: 5px;
 }
 
 #BetaDevHdrMain
 {
 	horizontal-align: left;
 	vertical-align: bottom;
-	margin-bottom: 230px;
-	margin-left: 45px;
+	margin-bottom: 68px;
+	margin-left: 15px;
 	flow-children: right;
 }
 
@@ -191,4 +242,14 @@
 	position: 430px 870px 0px;   
     width: 950px;
     height: 85px;
+}
+
+.BetaMovTitle
+{
+	horizontal-align: left;   
+    width: 53.8%;
+    height: 100%;
+    overflow: clip;
+	box-shadow: 0 0 3px black;
+	opacity: 0.8;
 }

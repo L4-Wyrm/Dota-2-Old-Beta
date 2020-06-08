@@ -959,7 +959,81 @@
 							m_flLoop = 0.0
 						},
 					]
-					m_boneMaskArray = [  ]
+					m_boneMaskArray = 
+					[
+						{
+							m_sName = "body_no_wings"
+							m_boneArray = 
+							[
+								{
+									m_sName = "wing_r2a"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "wing_l2a"
+									m_flWeight = 0.0
+								},								
+								{
+									m_sName = "wing_r0a"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "wing_r1a"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "wing_l1a"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "wing_l0a"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "root"
+									m_flWeight = 1.0
+								},
+							]
+							m_morphArray = [  ]
+							m_userArray = [  ]
+						},
+						{
+							m_sName = "wings"
+							m_boneArray = 
+							[
+								{
+									m_sName = "root"
+									m_flWeight = 0.0
+								},
+								{
+									m_sName = "wing_r2a"
+									m_flWeight = 1.0
+								},								
+								{
+									m_sName = "wing_l0a"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "wing_r0a"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "wing_l2a"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "wing_l1a"
+									m_flWeight = 1.0
+								},
+								{
+									m_sName = "wing_r1a"
+									m_flWeight = 1.0
+								},
+							]
+							m_morphArray = [  ]
+							m_userArray = [  ]
+						},
+					]
 					m_syntheticAnimationArray = [  ]
 					m_cmdSequenceArray = [  ]
 					m_multiSequenceArray = [  ]

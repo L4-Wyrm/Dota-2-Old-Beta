@@ -9,20 +9,24 @@
 --
 --=============================================================================
 
+
+--[[
 model:CreateWeightlist(
 	"icehead",
 	{
 		{ "neck11", 1 }
 	}
 )
+]]
 
+--[[
 model:CreateWeightlist(
 	"firehead",
 	{
 		{ "neck1", 1 }
 	}
 )
-
+]]
 
 
 -- AsLookLayer
