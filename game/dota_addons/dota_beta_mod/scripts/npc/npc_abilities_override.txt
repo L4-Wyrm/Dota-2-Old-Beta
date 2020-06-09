@@ -1463,6 +1463,8 @@
 		"item_recipe_tranquil_boots"					"REMOVE"
 		"item_tpscroll"                             "REMOVED"
 		"item_lifesteal"                             "REMOVED"
+		"item_courier"                             "REMOVED"
+		"item_flying_courier"                             "REMOVED"
 		
 		//New Dota 2 Items
 		"item_glimmer_cape"						"REMOVE"
@@ -3290,6 +3292,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 		"ItemDeclaresPurchase"			"1"
 		"AbilityTextureName" 			"item_courier_old"
+		"ItemAliases"					"donkey;chicken;animal courier"
 		
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -3299,6 +3302,13 @@
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemStockMax"					"1"
 		"ItemStockTime"					"36000.0"
+		"ItemSupport"					"1"
+		"ItemKillable"					"1"
+		"ItemSellable"					"0"
+		"IsTempestDoubleClonable"		"0"
+		"ShouldBeInitiallySuggested"	"1"
+		"ItemPurchasable"				"1"
+		// Not sellable, but handled in code.
 	}
 	
 	//=================================================================================================================
@@ -4634,6 +4644,10 @@
 		"ItemShopTags"					"consumable"
 		"ItemQuality"					"rare"
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemStockTime"					"1"			  
+		"ItemSupport"					"1"
+		"IsTempestDoubleClonable"		"0"
+		"ItemPurchasable"				"1"
 	}
 	
 	//=================================================================================================================

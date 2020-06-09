@@ -8,8 +8,8 @@
 -- Sets gold for those players who random the hero (Meaning they random hero theyself's by pressing the button, not when game select random hero for players)
 RANDOMED_GOLD = 852
 
--- Bots difficulty. (passive,easy,normal,hard,unfair) Default: hard
-BOTS_DIFFICULTY = "hard"
+-- Bots difficulty. (passive,easy,normal,hard,unfair) Default: normal
+BOTS_DIFFICULTY = "normal"
 
 -- Enable bots in developer workshop tools mode? Default: false
 TOOLSBOTS = false

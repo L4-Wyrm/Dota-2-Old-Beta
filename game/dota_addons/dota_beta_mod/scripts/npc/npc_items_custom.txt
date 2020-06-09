@@ -383,10 +383,11 @@
 		}
 	}
 	//=================================================================================================================
-	// Teleport Scroll
 	// Written by: Wyrm
 	// Date: 07.06.2020
 	// For gamemode: Dota 2 Old Beta 
+	//=================================================================================================================
+	// Teleport Scroll
 	//=================================================================================================================
 	"item_tpscroll_old"
 	{
@@ -397,7 +398,7 @@
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_BUILDING"
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
-		"Model"							"models/props_gameplay/tpscroll01.mdl"
+		"Model"							"models/props_gameplay/tpscroll01.vmdl"
 		"AbilityTextureName"			"item_tpscroll_old"
 
 		// Stats
@@ -447,4 +448,122 @@
 			}
 		}
 	}
+	//=================================================================================================================
+	// Written by: Wyrm
+	// Date: 10.06.2020
+	// For gamemode: Dota 2 Old Beta 
+	//=================================================================================================================
+	// Courier
+	//=================================================================================================================
+	"item_courier_datadriven"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"9045"								// Valve's version of this item uses the ID "45".
+		"BaseClass"						"item_datadriven"		
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"			"item_courier_datadriven"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.0"
+		"AbilityCastAnimation"   "ACT_DOTA_IDLE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"170"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemAliases"					"donkey;chicken;animal courier"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"36000.0"	  
+		"ItemSupport"					"1"
+		"ItemKillable"					"0"
+		"ItemSellable"					"0"
+		"ShouldBeInitiallySuggested"	"1"
+		"ItemPurchasable"				"1"
+		// Extra ones
+		"ItemDroppable" 				"0"
+		"ItemInitialCharges"			"1"
+		"ItemStockInitial" 				"1"
+		"ItemStackable" 				"0"
+		"ItemPermanent" 				"0"
+		"ItemDisplayCharges"			"0"
+		// Not sellable, but handled in code.
+		
+		"OnSpellStart"
+		{
+			"SpawnUnit"
+			{
+				"UnitName"		"npc_dota_courier"
+				"Target"		"CASTER"
+			}
+		
+			"SpendCharge"
+			{
+			}
+		}
+	}
+	//=================================================================================================================
+	// Written by: Wyrm
+	// Date: 10.06.2020
+	// For gamemode: Dota 2 Old Beta 
+	// NOTE: Early W.I.P. Not work in game. 
+	//=================================================================================================================
+	// Flying Courier
+	//=================================================================================================================
+//	"item_flying_courier_datadriven"
+//	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+//		"ID"							"10286"								// Valve's version of this item uses the ID "286".
+//		"BaseClass"						"item_datadriven"		
+//		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+//		"AbilityTextureName"			"item_flying_courier_datadriven"
+//		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+//		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+//		"AbilityCastPoint"				"0.0"
+//		"AbilityCastAnimation"   "ACT_DOTA_IDLE"
+//		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+//		"ItemCost"						"220"
+//		"ItemShopTags"					"consumable"
+//		"ItemQuality"					"consumable"
+//		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+//		"ItemAliases"					"crow;flying courier"
+//		"ItemStockMax"					"1"
+//		"ItemStockTime"					"36000.0"	  
+//		"ItemSupport"					"1"
+//		"ItemKillable"					"0"
+//		"ItemSellable"					"0"
+//		"ShouldBeInitiallySuggested"	"1"
+//		"ItemPurchasable"				"1"
+		// Extra ones
+//		"ItemDroppable" 				"0"
+//		"ItemInitialCharges"			"1"
+//		"ItemStockInitial" 				"1"
+//		"ItemStackable" 				"0"
+//		"ItemPermanent" 				"0"
+//		"ItemDisplayCharges"			"0"
+//		"ItemInitialStockTime"			"270.0"
+		// Not sellable, but handled in code.
+//		
+//		"OnSpellStart"
+//		{
+//			"SpawnUnit"
+//			{
+//				"UnitName"		"npc_dota_courier"
+//				"Target"		"CASTER"
+//			}
+//		
+//			"SpendCharge"
+//			{
+//			}
+//		}
+//	}
 }

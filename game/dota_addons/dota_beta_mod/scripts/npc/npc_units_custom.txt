@@ -1021,6 +1021,43 @@
 		"ModelScale"	"1"
 	}
 	
+	///////////////////////////////////////////////////////////
+	// Author: Valve										 //
+	//														 //
+	// Added by: Wyrm						 				 //
+	// Date: 09.06.2020.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_gold_granter"
+	{
+		"BaseClass"	"npc_dota_creature"
+		"Model"	"models/development/invisiblebox.vmdl"
+		"Ability1"	"dota_ability_gold_global"
+		"AttackCapabilities"	"DOTA_UNIT_CAP_NO_ATTACK"
+		"BountyXP"	"0"
+		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_NONE"
+		"StatusHealth"	"5000"
+		"TeamName"	"DOTA_TEAM_NEUTRALS"
+		"IsNeutralUnitType"	"1"
+		"StatusStartingMana"	"0"
+	}
+	
+	///////////////////////////////////////////////////////////
+	// Written by: Wyrm						 				 //
+	// Date: 10.06.2020.					 				 //
+	// For gamemode: Dota 2 Old Beta.						 //
+	///////////////////////////////////////////////////////////
+	"npc_dota_courier"
+	{
+		// Abilities
+		//----------------------------------------------------------------		
+		"Ability1"					"courier_return_to_base"
+		"Ability2"					"courier_go_to_secretshop"		
+		"Ability3"					"courier_return_stash_items"
+		"Ability4"					"courier_take_stash_items"	
+		"Ability5"					"courier_transfer_items"	
+		"Ability6"					"courier_burst"
+	}
 ///////////////////////////////////////////////////////////////
 //////////////////////// Seasonal /////////////////////////////
 ///////////////////////////////////////////////////////////////

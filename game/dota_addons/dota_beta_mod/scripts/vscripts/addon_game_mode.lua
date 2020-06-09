@@ -305,6 +305,7 @@ function BetaDota:InitGameMode()
 	GameRules:GetGameModeEntity():SetThink( "OnThink", self, "GlobalThink", 5 )
 	GameRules:GetGameModeEntity():SetRuneEnabled( DOTA_RUNE_BOUNTY , false )
 	GameRules:GetGameModeEntity():SetRuneEnabled( DOTA_RUNE_ARCANE , false )
+	GameRules:GetGameModeEntity():SetFreeCourierModeEnabled( false )
 
 	
 	-- Remove bonus armor and tower armor bonus modifiers from all towers
@@ -442,6 +443,12 @@ function BetaDota:OnThink()
 				end
 			end)
 		end
+		
+		local delay = 50.0
+		Timers:CreateTimer(delay, function()
+			SpawnGoldGranter()
+		end)
+	
 	elseif GameRules:State_Get() >= DOTA_GAMERULES_STATE_POST_GAME then
 		return nil
 	end
@@ -481,3 +488,13 @@ XP_PER_LEVEL_TABLE = {
     29900,-- 24
     32400 -- 25
 }
+
+function SpawnGoldGranter()
+    local point = Entities:FindByName( nil, "gold_granter_target"):GetAbsOrigin()
+    local unit = CreateUnitByName("npc_dota_gold_granter", point, true, nil, nil, DOTA_TEAM_NEUTRALS)
+	local delay = 0.7
+	
+	Timers:CreateTimer(delay, function()
+		unit:RemoveSelf()
+    end)
+end

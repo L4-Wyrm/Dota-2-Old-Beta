@@ -5,6 +5,7 @@ g_ItemPrecache =
 	"item_recipe_poor_mans_shield",
 	"item_poor_mans_shield_datadriven",
 	"item_lifesteal_datadriven",
+	"item_tpscroll_old",
 }
 
 g_UnitPrecache =
@@ -48,6 +49,7 @@ g_UnitPrecache =
 	"npc_dota_roshan_halloween",
 	"npc_dota_roshan_halloween_background_halloween",
 	"npc_dota_drow_ranger_background",
+	"npc_dota_gold_granter",
 
 	-- dota assets
 	"npc_dota_hero_undying",

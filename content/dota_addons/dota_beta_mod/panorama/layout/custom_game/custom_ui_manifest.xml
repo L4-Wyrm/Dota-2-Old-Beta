@@ -38,28 +38,22 @@
 	
 	// Disabling scanner button on ui	
 		newUI.FindChildTraverse('RadarButton').style.visibility = 'collapse';		
+		newUI.FindChildTraverse('RadiantRadarIcon').style.visibility = 'collapse';		
+		newUI.FindChildTraverse('DireRadarIcon').style.visibility = 'collapse';		
 		
-	// Disabling backpack inventory part
-	// Doesn't work (broken)
-	//	newUI.FindChildTraverse("lower_hud").FindChildTraverse("InventoryContainer").FindChildTraverse("inventory_backpack_list").style.visibility = "collapse";
-	//	newUI.FindChildTraverse("inventory_backpack_list").AddClass("NonHero");
-	//	newUI.FindChildTraverse("inventory_backpack_list").SetPanelEvent("onmouseover", function(){});
-    //    newUI.FindChildTraverse("inventory_backpack_list").SetPanelEvent("onactivate", function(){});
+	// Disabling vanilla tpscroll slot on ui
+		newUI.FindChildTraverse('inventory_tpscroll_slot').style.visibility = 'collapse';	
 		
-	// Doesn't work (broken)
-	//	newUI.FindChildTraverse("PreGame").FindChildTraverse("StartingItemsInventory").FindChildTraverse("StartingItemsBackpackRowContents").style.visibility = "collapse";
-    //    newUI.FindChildTraverse("StartingItemsBackpackRowContents").AddClass("NonHero");
-	//	newUI.FindChildTraverse("StartingItemsBackpackRowContents").SetPanelEvent("onmouseover", function(){});
-    //    newUI.FindChildTraverse("StartingItemsBackpackRowContents").SetPanelEvent("onactivate", function(){});
+	// Disabling vanilla neutral slot on ui
+		newUI.FindChildTraverse('inventory_neutral_slot_container').style.visibility = 'collapse';
+	
+	// Disabling sticky tpscroll slot on ui
+		newUI.FindChildTraverse('StickyItemSlotContainer').style.visibility = 'collapse';			
 		
-	// Disabling upgrate courier timer
-//		newUI.FindChildTraverse("lower_hud").FindChildTraverse("CourierControls").FindChildTraverse("UpgradeCooldownLabel").style.visibility = "collapse";
-		newUI.FindChildTraverse("UpgradeCooldownLabel").SetPanelEvent("onmouseover", function(){});
-        newUI.FindChildTraverse("UpgradeCooldownLabel").SetPanelEvent("onactivate", function(){});
-		
-		// Disabling stat branch on hero selection on ui	
-		newUI.FindChildTraverse('.StatBranch').style.visibility = 'collapse';	
-		
+	// Disabling talent tree on hero selection on ui
+//		newUI.FindChildTraverse("StatBranch").FindChildTraverse("HeroAbilities").FindChildTraverse("HeroInspect").style.visibility = "collapse";	
+//		newUI.FindChildTraverse("StatBranch").SetPanelEvent("onmouseover", function(){});
+//		newUI.FindChildTraverse("StatBranch").SetPanelEvent("onactivate", function(){});
 	</script>
   <Panel>
     <!-- CustomUIElements go here.-->
