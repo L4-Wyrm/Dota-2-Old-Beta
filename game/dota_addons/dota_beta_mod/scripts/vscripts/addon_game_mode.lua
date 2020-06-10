@@ -492,9 +492,4 @@ XP_PER_LEVEL_TABLE = {
 function SpawnGoldGranter()
     local point = Entities:FindByName( nil, "gold_granter_target"):GetAbsOrigin()
     local unit = CreateUnitByName("npc_dota_gold_granter", point, true, nil, nil, DOTA_TEAM_NEUTRALS)
-	local delay = 0.7
-	
-	Timers:CreateTimer(delay, function()
-		unit:RemoveSelf()
-    end)
 end

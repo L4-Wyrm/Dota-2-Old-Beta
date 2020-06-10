@@ -139,9 +139,9 @@
 		<Image src="file://{images}/items/stout_shield_old.png" />
 		<Image src="file://{images}/items/talisman_of_evasion_old.png" />
 		<Image src="file://{images}/items/tango_old.png" />
-		<Image src="file://{images}/items/tpscroll_old.png" />
-		<Image src="file://{images}/items/tranquil_boots_old.png" />
-		<Image src="file://{images}/items/tranquil_boots_old_active.png" />
+		<Image src="file://{images}/items/tpscroll_datadriven.png" />
+		<Image src="file://{images}/items/tranquil_boots_datadriven.png" />
+		<Image src="file://{images}/items/tranquil_boots_datadriven_active.png" />
 		<Image src="file://{images}/items/travel_boots_old.png" />
 		<Image src="file://{images}/items/ultimate_orb_old.png" />
 		<Image src="file://{images}/items/ultimate_scepter_old.png" />

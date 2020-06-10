@@ -101,6 +101,7 @@
 		"item"		"item_vladmir"	
 		"item"		"item_mekansm"					
 		"item"		"item_pipe"			
+		"item"		"item_tranquil_boots_datadriven"		
 	}
 				
 	"magics"			

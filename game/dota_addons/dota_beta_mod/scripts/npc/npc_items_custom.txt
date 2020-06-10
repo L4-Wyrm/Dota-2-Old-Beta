@@ -296,15 +296,15 @@
 			}
 		}
 	}
-	///////////////////////////////////////////
-	// Rewrite of Morbid Mask				 //
-	// Author: Rook							 //
-	// Date: January 25, 2015				 //
-	//										 //
-	// Rework by: Wyrm						 //
-	// Date: 09.02.2020.					 //
-	// For gamemode: Dota 2 Old Beta		 //
-	///////////////////////////////////////////
+	//=================================================================================================================
+	// Rewrite of Morbid Mask				 
+	// Author: Rook							 
+	// Date: January 25, 2015				 
+	//										 
+	// Rework by: Wyrm						 
+	// Date: 09.02.2020.					 
+	// For gamemode: Dota 2 Old Beta		 
+	//=================================================================================================================
 	"item_lifesteal_datadriven"
 	{
 		// General
@@ -383,11 +383,11 @@
 		}
 	}
 	//=================================================================================================================
-	// Written by: Wyrm
-	// Date: 07.06.2020
-	// For gamemode: Dota 2 Old Beta 
+	// Written by: Wyrm		
+	// Date: 07.06.2020					
+	// For gamemode: Dota 2 Old Beta 	
 	//=================================================================================================================
-	// Teleport Scroll
+	// Teleport Scroll					
 	//=================================================================================================================
 	"item_tpscroll_old"
 	{
@@ -566,4 +566,260 @@
 //			}
 //		}
 //	}
+	
+	//=================================================================================================================
+	// Author: Valve										 
+	//														 
+	// Rework by: Wyrm						 				 
+	// Date: 10.06.2020.					 				 
+	// For gamemode: Dota 2 Old Beta						 
+	//=================================================================================================================
+	// Recipe: Tranquil Boots								 
+	//=================================================================================================================
+	"item_recipe_tranquil_boots_datadriven"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"10213"														// Valve's version of this item uses the ID "213".
+	    "BaseClass"           "item_datadriven"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_tranquil_boots_datadriven"
+		"ItemRequirements"
+		{
+			"01"						"item_boots;item_ring_of_protection;item_ring_of_regen"
+		}
+	}
+	
+	//=================================================================================================================
+	// Written by: Wyrm
+	// Date: 11.06.2020
+	// For gamemode: Dota 2 Old Beta 
+	//=================================================================================================================
+	// Tranquil Boots
+	//=================================================================================================================
+	"item_tranquil_boots_datadriven"
+	{
+		"ID"							"10214"								// Valve's version of this item uses the ID "214".
+
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName"			"item_tranquil_boots_datadriven"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+		// Stats		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"60.0"
+		"AbilityManaCost"				"25"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"975"
+		"ItemShopTags"					"move_speed;regen_health;armor"
+		"ItemQuality"					"rare"
+		"ItemDisassemblable"			"1"
+		"ItemHideCharges"		     	"1"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+	
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_movement_speed"	"75"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"			"3"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health_regen"	"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"heal_duration"			"20.0"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"heal_amount"			"250"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"heal_interval"			"0.334"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"break_time"			"10"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"break_count"			"3"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"break_threshold"		"20"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"broken_movement_speed"	"25"
+			}
+			// Extra
+			"11"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"heal_per_tick"			"1.25"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"heal_duration_per_tick"			"0.1"
+			}
+		}
+	
+		"OnSpellStart"
+		{
+			"ApplyModifier"
+			{
+				"Target" "CASTER"
+				"ModifierName" "modifier_tranquil_boots_rejuvenate_datadriven"
+				"Duration"	"%heal_duration"
+			}
+			"FireSound"
+			{
+				"EffectName"			"DOTA_Item.HealingSalve.Activate"
+				"Target"				"CASTER"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_tranquil_boots_rejuvenate_datadriven"
+			{
+				"Passive"	 "0"
+				"IsHidden"	 "0"
+				
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_rejuvenate_buff_datadriven"
+					}
+				}
+				"OnTakeDamage"
+				{
+					"ApplyModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_rejuvenate_break_datadriven"
+						"Duration"	 "%break_time"
+					}
+					"RemoveModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_rejuvenate_caster_datadriven"
+					}
+					"RemoveModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_rejuvenate_buff_datadriven"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_rejuvenate_caster_datadriven"
+					}
+					"RemoveModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_rejuvenate_buff_datadriven"
+					}
+				}
+			}
+			"modifier_tranquil_boots_rejuvenate_buff_datadriven"
+			{
+				"Passive"	 "0"
+				"IsHidden"	 "1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"  "%bonus_movement_speed"
+					"MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE"			 "%bonus_health_regen"
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"	"%bonus_armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_rejuvenate_caster_datadriven"
+					}
+				}
+			}
+			"modifier_tranquil_boots_rejuvenate_caster_datadriven"
+			{
+				"IsHidden"	 "1"
+				"ThinkInterval"		"%heal_duration_per_tick"
+				"OnIntervalThink"
+				{
+					"Heal"
+					{
+						"Target"	"CASTER"
+						"HealAmount"   "%heal_per_tick"
+					}
+					"AttachEffect"
+					{
+						"Target"	"CASTER"
+						"EffectName"		"particles/neutral_fx/troll_heal.vpcf"
+						"EffectAttachType"	"follow_origin"
+					}
+				}
+			}
+			"modifier_tranquil_boots_rejuvenate_break_datadriven"
+			{
+				"IsHidden"	 "1"
+				"IsDebuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"  "%broken_movement_speed"
+				}
+				"OnCreated"
+				{
+					"RemoveModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_rejuvenate_datadriven"
+					}
+					"RemoveModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_rejuvenate_buff_datadriven"
+					}
+				}
+			}
+		}
+	}
 }
