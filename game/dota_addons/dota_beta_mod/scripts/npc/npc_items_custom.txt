@@ -714,7 +714,7 @@
 
 		"Modifiers"
 		{
-			"modifier_tranquil_boots_rejuvenate_datadriven"
+			"modifier_tranquil_boots_datadriven"
 			{
 				"Passive"	 "0"
 				"IsHidden"	 "0"
@@ -724,7 +724,7 @@
 					"ApplyModifier"
 					{
 						"Target" "CASTER"
-						"ModifierName" "modifier_tranquil_boots_rejuvenate_buff_datadriven"
+						"ModifierName" "modifier_tranquil_boots_buff_datadriven"
 					}
 				}
 				"OnTakeDamage"
@@ -732,18 +732,18 @@
 					"ApplyModifier"
 					{
 						"Target" "CASTER"
-						"ModifierName" "modifier_tranquil_boots_rejuvenate_break_datadriven"
+						"ModifierName" "modifier_tranquil_boots_break_datadriven"
 						"Duration"	 "%break_time"
 					}
 					"RemoveModifier"
 					{
 						"Target" "CASTER"
-						"ModifierName" "modifier_tranquil_boots_rejuvenate_caster_datadriven"
+						"ModifierName" "modifier_tranquil_boots_caster_datadriven"
 					}
 					"RemoveModifier"
 					{
 						"Target" "CASTER"
-						"ModifierName" "modifier_tranquil_boots_rejuvenate_buff_datadriven"
+						"ModifierName" "modifier_tranquil_boots_buff_datadriven"
 					}
 				}
 				"OnDestroy"
@@ -751,16 +751,16 @@
 					"RemoveModifier"
 					{
 						"Target" "CASTER"
-						"ModifierName" "modifier_tranquil_boots_rejuvenate_caster_datadriven"
+						"ModifierName" "modifier_tranquil_boots_caster_datadriven"
 					}
 					"RemoveModifier"
 					{
 						"Target" "CASTER"
-						"ModifierName" "modifier_tranquil_boots_rejuvenate_buff_datadriven"
+						"ModifierName" "modifier_tranquil_boots_buff_datadriven"
 					}
 				}
 			}
-			"modifier_tranquil_boots_rejuvenate_buff_datadriven"
+			"modifier_tranquil_boots_buff_datadriven"
 			{
 				"Passive"	 "0"
 				"IsHidden"	 "1"
@@ -775,11 +775,11 @@
 					"ApplyModifier"
 					{
 						"Target" "CASTER"
-						"ModifierName" "modifier_tranquil_boots_rejuvenate_caster_datadriven"
+						"ModifierName" "modifier_tranquil_boots_caster_datadriven"
 					}
 				}
 			}
-			"modifier_tranquil_boots_rejuvenate_caster_datadriven"
+			"modifier_tranquil_boots_caster_datadriven"
 			{
 				"IsHidden"	 "1"
 				"ThinkInterval"		"%heal_duration_per_tick"
@@ -793,12 +793,12 @@
 					"AttachEffect"
 					{
 						"Target"	"CASTER"
-						"EffectName"		"particles/neutral_fx/troll_heal.vpcf"
+						"EffectName"		"particles/items_fx/healing_flask.vpcf"
 						"EffectAttachType"	"follow_origin"
 					}
 				}
 			}
-			"modifier_tranquil_boots_rejuvenate_break_datadriven"
+			"modifier_tranquil_boots_break_datadriven"
 			{
 				"IsHidden"	 "1"
 				"IsDebuff"	"1"
@@ -811,12 +811,17 @@
 					"RemoveModifier"
 					{
 						"Target" "CASTER"
-						"ModifierName" "modifier_tranquil_boots_rejuvenate_datadriven"
+						"ModifierName" "modifier_tranquil_boots_caster_datadriven"
 					}
 					"RemoveModifier"
 					{
 						"Target" "CASTER"
-						"ModifierName" "modifier_tranquil_boots_rejuvenate_buff_datadriven"
+						"ModifierName" "modifier_tranquil_boots_buff_datadriven"
+					}
+					"RemoveModifier"
+					{
+						"Target" "CASTER"
+						"ModifierName" "modifier_tranquil_boots_datadriven"
 					}
 				}
 			}

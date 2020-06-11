@@ -231,6 +231,13 @@ function BetaDota:OnGameStateChanged( keys )
             end
         end
 	end
+	if newState == DOTA_GAMERULES_STATE_PRE_GAME then
+		local spawn_delay = 60.0
+		
+		Timers:CreateTimer(delay, function()
+			SpawnGoldGranter()
+		end)
+	end
 end
 --------------------------------------------------------------------------------
 -- PRECACHE
@@ -443,11 +450,6 @@ function BetaDota:OnThink()
 				end
 			end)
 		end
-		
-		local delay = 50.0
-		Timers:CreateTimer(delay, function()
-			SpawnGoldGranter()
-		end)
 	
 	elseif GameRules:State_Get() >= DOTA_GAMERULES_STATE_POST_GAME then
 		return nil

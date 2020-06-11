@@ -1464,7 +1464,6 @@
 		"item_tpscroll"                             "REMOVED"
 		"item_lifesteal"                             "REMOVED"
 		"item_courier"                             "REMOVED"
-		"item_flying_courier"                             "REMOVED"
 		
 		//New Dota 2 Items
 		"item_glimmer_cape"						"REMOVE"
