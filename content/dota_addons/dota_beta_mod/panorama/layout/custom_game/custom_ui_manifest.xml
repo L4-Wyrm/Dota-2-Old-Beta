@@ -19,8 +19,8 @@
     //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_HERO_SELECTION_CLOCK, false );     //Hero selection clock.
     //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_MENU_BUTTONS, false );     //Top-left menu buttons in the HUD.
     //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ENDGAME, false );      //Endgame scoreboard.  
-
-	// Disabling talent tree button on ui
+	
+		// Disabling talent tree button on ui
         var newUI = $.GetContextPanel().GetParent().GetParent().FindChildTraverse("HUDElements");
     
         newUI.FindChildTraverse("StatBranch").AddClass("NonHero");
@@ -51,9 +51,20 @@
 		newUI.FindChildTraverse('StickyItemSlotContainer').style.visibility = 'collapse';			
 		
 	// Disabling talent tree on hero selection on ui
-//		newUI.FindChildTraverse("StatBranch").FindChildTraverse("HeroAbilities").FindChildTraverse("HeroInspect").style.visibility = "collapse";	
+//		newUI.FindChildTraverse("StatBranch").FindChildTraverse("HeroAbilities").FindChildTraverse("HeroInspect").visible = false;	
 //		newUI.FindChildTraverse("StatBranch").SetPanelEvent("onmouseover", function(){});
 //		newUI.FindChildTraverse("StatBranch").SetPanelEvent("onactivate", function(){});
+		
+	// Disabled not work
+//		function DisableScoreboardTalentTree ()	{
+//			newUI.FindChildTraverse("RadiantTeamContainer").FindChildTraverse("RadiantPlayer0");
+//			$.Schedule(60.0, DisableScoreboardTalentTree)
+//			newUI.FindChildTraverse("TalentTree").AddClass("NonHero");
+//			newUI.FindChildTraverse("TalentTree").FindChildTraverse("StatBranchBG").FindChildTraverse("StatBranchGraphics").style.visibility = "collapse";
+//			newUI.FindChildTraverse("TalentTree").SetPanelEvent("onmouseover", function(){});
+//			newUI.FindChildTraverse("TalentTree").SetPanelEvent("onactivate", function(){});
+//			newUI.FindChildTraverse("TalentTree").style.visibility = "collapse";
+//		}
 	</script>
   <Panel>
     <!-- CustomUIElements go here.-->

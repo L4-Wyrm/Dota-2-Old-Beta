@@ -6,6 +6,8 @@ g_ItemPrecache =
 	"item_poor_mans_shield_datadriven",
 	"item_lifesteal_datadriven",
 	"item_tpscroll_old",
+	"item_tranquil_boots_datadriven",
+	"item_courier_datadriven",
 }
 
 g_UnitPrecache =

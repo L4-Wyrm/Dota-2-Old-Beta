@@ -9,7 +9,7 @@
 	<Panel class="BetaBckRoot">
 		
 		<Image class="BetaBckTitle" src="file://{images}/beta/screen/beta_screen.tga" />
-		<MoviePanel class="BetaMovTitle" src="s2r://panorama/videos/beta/main_menu/dota2_teaser_intro.webm" repeat="true" autoplay="onload" />
+		<MoviePanel class="BetaMovTitle" src="s2r://panorama/videos/beta/main_menu/mainmenu.webm" repeat="true" autoplay="onload" />
 	 
 	 <!-- Seasons -->
 		<!-- New Year -->
