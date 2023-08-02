@@ -26,7 +26,7 @@
 	TeamCount = 2
 	HeroGuidesSupported = 1
 	CheckAFKPlayers = 1
-	PenaltiesEnabled = 1
+	PenaltiesEnabled = false
 	hero_picker = 
 	{
 		background_map = "backgrounds/dashboard_dota_old_beta_selection"
